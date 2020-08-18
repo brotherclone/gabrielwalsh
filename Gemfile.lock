@@ -108,6 +108,12 @@ GEM
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
+    haml-rails (2.0.1)
+      actionpack (>= 5.1)
+      activesupport (>= 5.1)
+      haml (>= 4.0.6, < 6.0)
+      html2haml (>= 1.0.1)
+      railties (>= 5.1)
     highline (1.7.10)
     html2haml (2.2.0)
       erubis (~> 2.7.0)
@@ -285,6 +291,8 @@ DEPENDENCIES
   erb2haml
   factory_bot_rails
   faker
+  haml
+  haml-rails
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg
