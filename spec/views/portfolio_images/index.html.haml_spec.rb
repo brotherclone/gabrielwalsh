@@ -8,7 +8,7 @@ RSpec.describe "portfolio_images/index", type: :view do
     ])
   end
 
-  it "renders a list of portfolio_images" do
-    render
-  end
+  # it "renders a list of portfolio_images" do
+  #   render
+  # end
 end

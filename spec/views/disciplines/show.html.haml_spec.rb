@@ -5,7 +5,7 @@ RSpec.describe "disciplines/show", type: :view do
     @discipline = assign(:discipline, Discipline.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end

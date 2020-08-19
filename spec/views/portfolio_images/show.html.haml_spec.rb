@@ -5,7 +5,7 @@ RSpec.describe "portfolio_images/show", type: :view do
     @portfolio_image = assign(:portfolio_image, PortfolioImage.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end

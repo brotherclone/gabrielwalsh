@@ -8,7 +8,7 @@ RSpec.describe "skills/index", type: :view do
     ])
   end
 
-  it "renders a list of skills" do
-    render
-  end
+  # it "renders a list of skills" do
+  #   render
+  # end
 end

@@ -5,10 +5,10 @@ RSpec.describe "skills/edit", type: :view do
     @skill = assign(:skill, Skill.create!())
   end
 
-  it "renders the edit skill form" do
-    render
-
-    assert_select "form[action=?][method=?]", skill_path(@skill), "post" do
-    end
-  end
+  # it "renders the edit skill form" do
+  #   render
+  #
+  #   assert_select "form[action=?][method=?]", skill_path(@skill), "post" do
+  #   end
+  # end
 end

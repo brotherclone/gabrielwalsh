@@ -5,7 +5,7 @@ RSpec.describe "awards/show", type: :view do
     @award = assign(:award, Award.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end

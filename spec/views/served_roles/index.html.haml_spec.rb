@@ -8,7 +8,7 @@ RSpec.describe "served_roles/index", type: :view do
     ])
   end
 
-  it "renders a list of served_roles" do
-    render
-  end
+  # it "renders a list of served_roles" do
+  #   render
+  # end
 end

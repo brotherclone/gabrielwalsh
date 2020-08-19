@@ -5,7 +5,7 @@ RSpec.describe "degrees/show", type: :view do
     @degree = assign(:degree, Degree.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end

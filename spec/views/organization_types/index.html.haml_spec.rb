@@ -8,7 +8,7 @@ RSpec.describe "organization_types/index", type: :view do
     ])
   end
 
-  it "renders a list of organization_types" do
-    render
-  end
+  # it "renders a list of organization_types" do
+  #   render
+  # end
 end

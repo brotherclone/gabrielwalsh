@@ -5,7 +5,7 @@ RSpec.describe "organizations/show", type: :view do
     @organization = assign(:organization, Organization.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end

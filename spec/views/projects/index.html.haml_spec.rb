@@ -8,7 +8,7 @@ RSpec.describe "projects/index", type: :view do
     ])
   end
 
-  it "renders a list of projects" do
-    render
-  end
+  # it "renders a list of projects" do
+  #   render
+  # end
 end

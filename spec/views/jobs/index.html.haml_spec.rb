@@ -8,7 +8,7 @@ RSpec.describe "jobs/index", type: :view do
     ])
   end
 
-  it "renders a list of jobs" do
-    render
-  end
+  # it "renders a list of jobs" do
+  #   render
+  # end
 end

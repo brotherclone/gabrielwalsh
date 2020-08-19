@@ -8,7 +8,7 @@ RSpec.describe "degrees/index", type: :view do
     ])
   end
 
-  it "renders a list of degrees" do
-    render
-  end
+  # it "renders a list of degrees" do
+  #   render
+  # end
 end

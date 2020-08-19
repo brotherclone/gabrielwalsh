@@ -8,7 +8,7 @@ RSpec.describe "industries/index", type: :view do
     ])
   end
 
-  it "renders a list of industries" do
-    render
-  end
+  # it "renders a list of industries" do
+  #   render
+  # end
 end

@@ -5,7 +5,7 @@ RSpec.describe "industries/show", type: :view do
     @industry = assign(:industry, Industry.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end

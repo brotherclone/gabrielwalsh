@@ -5,7 +5,7 @@ RSpec.describe "jobs/show", type: :view do
     @job = assign(:job, Job.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end

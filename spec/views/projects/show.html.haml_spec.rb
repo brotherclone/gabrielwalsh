@@ -5,7 +5,7 @@ RSpec.describe "projects/show", type: :view do
     @project = assign(:project, Project.create!())
   end
 
-  it "renders attributes in <p>" do
-    render
-  end
+  # it "renders attributes in <p>" do
+  #   render
+  # end
 end
