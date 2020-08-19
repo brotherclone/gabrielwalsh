@@ -1,0 +1,19 @@
+%h1 Listing portfolio_image_call_outs
+
+%table
+  %thead
+    %tr
+      %th
+      %th
+      %th
+
+  %tbody
+    - @portfolio_image_call_outs.each do |portfolio_image_call_out|
+      %tr
+        %td= link_to 'Show', portfolio_image_call_out
+        %td= link_to 'Edit', edit_portfolio_image_call_out_path(portfolio_image_call_out)
+        %td= link_to 'Destroy', portfolio_image_call_out, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Portfolio image call out', new_portfolio_image_call_out_path
