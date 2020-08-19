@@ -1,0 +1,10 @@
+= form_for @award do |f|
+  - if @award.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@award.errors.count, "error")} prohibited this award from being saved:"
+      %ul
+        - @award.errors.full_messages.each do |message|
+          %li= message
+
+  .actions
+    = f.submit 'Save'

@@ -1,0 +1,19 @@
+%h1 Listing served_roles
+
+%table
+  %thead
+    %tr
+      %th
+      %th
+      %th
+
+  %tbody
+    - @served_roles.each do |served_role|
+      %tr
+        %td= link_to 'Show', served_role
+        %td= link_to 'Edit', edit_served_role_path(served_role)
+        %td= link_to 'Destroy', served_role, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Served role', new_served_role_path

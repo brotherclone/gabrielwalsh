@@ -1,0 +1,1 @@
+json.partial! "portfolio_image_call_outs/portfolio_image_call_out", portfolio_image_call_out: @portfolio_image_call_out
