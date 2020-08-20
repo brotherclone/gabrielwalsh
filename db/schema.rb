@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 12) do
+ActiveRecord::Schema.define(version: 11) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -60,22 +60,15 @@ ActiveRecord::Schema.define(version: 12) do
     t.index ["skill_id"], name: "index_jobs_on_skill_id"
   end
 
-  create_table "organization_types", force: :cascade do |t|
-    t.integer "org_type", default: 0
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "organizations", force: :cascade do |t|
     t.string "name"
     t.string "description"
     t.string "logo_url"
+    t.integer "organization_type", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.bigint "organization_type_id"
     t.bigint "industry_id"
     t.index ["industry_id"], name: "index_organizations_on_industry_id"
-    t.index ["organization_type_id"], name: "index_organizations_on_organization_type_id"
   end
 
   create_table "portfolio_image_call_outs", force: :cascade do |t|

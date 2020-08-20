@@ -2,7 +2,8 @@ class Organization < ApplicationRecord
 
   enum organization_type: { employer: 0,
                             agency: 1,
-                            client: 2 }
+                            client: 2,
+                            educational: 3 }
 
   belongs_to :industry
   has_many :awards
