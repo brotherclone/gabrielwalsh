@@ -3,6 +3,6 @@ FactoryBot.define do
     name { Faker::Lorem.word }
     description { Faker::Lorem.paragraph }
     industry
-    organization_type
+    organization_type { 0 }
   end
 end
