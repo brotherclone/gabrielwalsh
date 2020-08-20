@@ -8,7 +8,6 @@ Rails.application.routes.draw do
   resources :skills
   resources :awards
   resources :degrees
-  resources :organization_types
   resources :organizations
   resources :projects
   root 'home#index'

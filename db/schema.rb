@@ -61,7 +61,7 @@ ActiveRecord::Schema.define(version: 12) do
   end
 
   create_table "organization_types", force: :cascade do |t|
-    t.integer "enum_index"
+    t.integer "org_type", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
