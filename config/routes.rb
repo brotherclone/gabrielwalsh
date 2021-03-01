@@ -1,3 +1,15 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :jobs
+  resources :served_roles
+  resources :portfolio_image_call_outs
+  resources :portfolio_images
+  resources :industries
+  resources :disciplines
+  resources :skills
+  resources :awards
+  resources :degrees
+  resources :organizations
+  resources :projects
+  root 'home#index'
+  get 'home' => 'home#index'
 end

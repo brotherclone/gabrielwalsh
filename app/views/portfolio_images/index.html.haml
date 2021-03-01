@@ -1,0 +1,19 @@
+%h1 Listing portfolio_images
+
+%table
+  %thead
+    %tr
+      %th
+      %th
+      %th
+
+  %tbody
+    - @portfolio_images.each do |portfolio_image|
+      %tr
+        %td= link_to 'Show', portfolio_image
+        %td= link_to 'Edit', edit_portfolio_image_path(portfolio_image)
+        %td= link_to 'Destroy', portfolio_image, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Portfolio image', new_portfolio_image_path
