@@ -1,4 +1,5 @@
 # Portfolio for Gabriel Walsh
 
-* Ruby Version 2.5.3
-* Postgresql
+## UX Design / Creative Technologist
+
+A resume and portfolio web site.
