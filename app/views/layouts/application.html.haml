@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Gabrielwalsh
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
+    %link{:rel=>"stylesheet", :href=>"https://use.typekit.net/aqt4ywr.css"}
+
+
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    = render :partial => "components/nav";
+    = yield
+    = render :partial => "components/footer";
