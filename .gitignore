@@ -42,3 +42,5 @@ yarn-debug.log*
 
 /.idea
 .env
+/DESIGN
+/DESIGN/**/*.*
