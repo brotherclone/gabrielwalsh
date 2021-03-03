@@ -19,6 +19,7 @@ gem 'devise'
 gem 'cloudinary'
 gem 'tinymce-rails'
 gem 'dotenv'
+gem "fastruby-styleguide", github: "fastruby/styleguide", branch: "gh-pages"
 
 group :development, :test do
   gem 'rspec-rails'
