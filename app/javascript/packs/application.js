@@ -7,7 +7,6 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-import "fastruby-io-styleguide"
 import "bootstrap"
 import "isotope-layout"
 require("custom/index")
