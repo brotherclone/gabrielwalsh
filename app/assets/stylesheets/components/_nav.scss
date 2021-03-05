@@ -1,0 +1,52 @@
+.skip-navigation{
+  position: absolute !important;
+  margin-top: -1000px !important;
+  height: 0 !important;
+  &:focus, :focus-within, :focus-visible{
+    position: relative !important;
+    margin: initial !important;
+    height: initial !important;
+  }
+}
+
+.gabriel-walsh-navigation{
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  .heading-alignment{
+    h1.name{
+      font-family: nobel, sans-serif;
+      font-size: 3rem;
+      font-weight: 200;
+      margin: 0;
+      padding: 0;
+    }
+    h2.occupation {
+      font-family: nobel-condensed, sans-serif;
+      font-size: 2rem;
+      font-weight: 600;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .navbar-nav{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    .nav-item{
+      font-family: nobel, sans-serif;
+      font-weight: 200;
+      font-size: 1.5rem;
+      margin-right: 2rem;
+      a:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  .portrait-alignment{
+    visibility: visible;
+    @media (max-width: 768px) {
+      visibility: hidden;
+    }
+  }
+}
