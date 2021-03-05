@@ -2,15 +2,14 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Gabrielwalsh
+    %title Gabriel Walsh
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
-    %link{:rel=>"stylesheet", :href=>"https://use.typekit.net/aqt4ywr.css"}
-
-
+    %link{:rel=>"stylesheet", :href=>"https://use.typekit.net/end4pnn.css"}
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     = render :partial => "components/nav";
+    %a{:name => "SkipNavigation"}
     = yield
     = render :partial => "components/footer";
