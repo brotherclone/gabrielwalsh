@@ -1,3 +1,5 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
 .skip-navigation{
   position: absolute !important;
   margin-top: -1000px !important;
@@ -15,6 +17,7 @@
   align-content: space-between;
   .heading-alignment{
     h1.name{
+      color: $blue;
       font-family: nobel, sans-serif;
       font-size: 3rem;
       font-weight: 200;
