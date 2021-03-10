@@ -1,19 +1,21 @@
-%a.skip-navigation.sr-only-focusable{ :tabindex => 0, :href=> "#skip"} Skip Navigation
-%nav.navbar.gabriel-walsh-navigation
-  .heading-alignment
-    %h1.name
+%a.skip-navigation{ :tabindex => 0, :href=> "#skip"} Skip Navigation
+
+%nav.meet-the{:vocab => 'https://schema.org/', :typeof=> 'person'}
+  .candidate
+    %h1.name{:property => 'name'}
       Gabriel Walsh
-    %h2.occupation
+    %h2.occupation{:property => 'hasOccupation'}
       UX Architect | Creative Technologist
-    %ul.navbar-nav
-      %li.nav-item
-        %a.nav-link{ :href=> '#',:tabindex => 0}
+    %span{ :property=> 'hasOfferCatalog'}
+    %ul.learn-about{:vocab=>'https://schema.org/', :typeof=>'Service'}
+      %li.his{:property=> 'serviceType', :content=> 'Prototyping'}
+        %a.prototyping{ :href=> '#',:tabindex => 0}
           Prototyping
-      %li.nav-item
-        %a.nav-link{ :href=> '#',:tabindex => 0}
+      %li.his{:property=> 'serviceType', :content=> 'User Centric Design'}
+        %a.portfolio{ :href=> '#',:tabindex => 0}
           Portfolio
-      %li.nav-item
-        %a.nav-link{ :href=> '#',:tabindex => 0}
+      %li.and-his{:property=> 'serviceType', :content=> 'Creative Technology'}
+        %a.resume{ :href=> '#',:tabindex => 0}
           Résumé
-  .portrait-alignment
+  .he-looks-like-this
     %img.portrait{:src=> 'https://via.placeholder.com/180.jpg?Portrait', :alt=> "Portrait of Gabriel Walsh."}

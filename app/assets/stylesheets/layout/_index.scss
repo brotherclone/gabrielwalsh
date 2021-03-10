@@ -1,0 +1,8 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+
+#main-content{
+  min-height: calc(100vh - 100px);
+  @include make-container();
+  @include make-row();
+}
