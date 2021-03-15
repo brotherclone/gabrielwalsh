@@ -1,6 +1,8 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 .skip-navigation{
+  @include sr-only();
+  @include sr-only-focusable();
   position: absolute !important;
   margin-top: -1000px !important;
   height: 0 !important;
@@ -10,14 +12,11 @@
     height: initial !important;
   }
 }
-
-.gabriel-walsh-navigation{
-  width: 100%;
-  display: flex;
-  align-content: space-between;
-  .heading-alignment{
+nav.meet-the{
+  @include make-row();
+  .candidate{
+    @include make-col(4);
     h1.name{
-      color: $blue;
       font-family: nobel, sans-serif;
       font-size: 3rem;
       font-weight: 200;
@@ -32,22 +31,31 @@
       padding: 0;
     }
   }
-  .navbar-nav{
+  .learn-about{
     display: flex;
     align-content: space-between;
     flex-direction: row;
-    .nav-item{
+    list-style: none;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    .his, .and-his{
       font-family: nobel, sans-serif;
       font-weight: 200;
       font-size: 1.5rem;
-      margin-right: 2rem;
+      margin: 0 2rem 0 0;
       a:hover{
         cursor: pointer;
       }
     }
   }
-  .portrait-alignment{
+  .he-looks-like-this{
+    text-align: right;
+    @include make-col(2);
+    @include make-col-offset(6);
     visibility: visible;
+    img{
+      @include img-fluid();
+    }
     @media (max-width: 768px) {
       visibility: hidden;
     }

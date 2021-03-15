@@ -10,6 +10,7 @@
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
     = render :partial => "components/nav";
-    %a{:name => "SkipNavigation"}
-    = yield
+    %div{:id=> "main-content"}
+      %a{:name => "SkipNavigation"}
+      = yield
     = render :partial => "components/footer";

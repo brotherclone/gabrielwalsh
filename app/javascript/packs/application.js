@@ -9,7 +9,9 @@ require("@rails/activestorage").start()
 require("channels")
 import "bootstrap"
 import "isotope-layout"
+import "@fortawesome/fontawesome-free/css/all"
 require("custom/index")
+
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
