@@ -1,0 +1,2 @@
+class CaseStudyItem < ApplicationRecord
+end
