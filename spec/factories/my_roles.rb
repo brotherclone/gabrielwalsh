@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :my_role do
-    name {Faker::Lorem.sentence}
+    role_name {Faker::Lorem.sentence}
     job
     project
     factory :my_role_with_icon do

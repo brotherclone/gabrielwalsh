@@ -6,10 +6,6 @@ RSpec.describe Organization, type: :model do
     expect(build(:organization)).to be_valid
   end
 
-  it 'has a valid Factory with a sector' do
-    expect(build(:organization_with_sector)).to be_valid
-  end
-
   it 'has a valid Factory with a job' do
     expect(build(:organization_with_job)).to be_valid
   end
@@ -23,11 +19,11 @@ RSpec.describe Organization, type: :model do
   end
 
   it{
-    should have_many(:sectors)
+    should belong_to(:sector)
     should have_many(:jobs)
     should have_many(:projects)
     should have_one(:icon)
-    should have_one(:copy_block)
+    should have_many(:copy_blocks)
   }
 
 end

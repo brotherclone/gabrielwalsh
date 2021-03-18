@@ -1,3 +1,3 @@
 class Sector < ApplicationRecord
-  belongs_to :organization
+  has_many :organizations
 end

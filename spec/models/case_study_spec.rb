@@ -10,8 +10,16 @@ RSpec.describe CaseStudy, type: :model do
     expect(build(:case_study_with_case_study_items)).to be_valid
   end
 
+  it 'has a valid Factory with a visual' do
+    expect(build(:case_study_with_visual)).to be_valid
+  end
+
+  it 'has a valid Factory with a copy block' do
+    expect(build(:case_study_with_copy_block)).to be_valid
+  end
+
   it{
-    should belong_to (:project)
+    should belong_to(:project)
   }
 
 end

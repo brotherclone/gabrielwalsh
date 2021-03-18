@@ -1,15 +1,16 @@
 FactoryBot.define do
   factory :organization do
-    name { Faker::Name.unique.name }
+    name { Faker::Lorem.word }
     location {Faker::Address.city + ", " + Faker::Address.country}
-    factory :organization_with_sector do
-      after(:create) do |organization|
-        create(:sector, organization: organization)
-      end
-    end
+    sector
     factory :organization_with_job do
       after(:create) do |organization|
         create(:job, organization: organization)
+      end
+    end
+    factory :organization_with_project do
+      after(:create) do |organization|
+        create(:project, organization: organization)
       end
     end
     factory :organization_with_icon do

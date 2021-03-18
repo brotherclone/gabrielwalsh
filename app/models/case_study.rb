@@ -1,6 +1,6 @@
 class CaseStudy < ApplicationRecord
-  belongs_to project
+  belongs_to :project
   has_many :case_study_items
-  has_one :visual
-  has_one :copy_block
+  has_many :visual
+  has_many :copy_block
 end

@@ -7,7 +7,7 @@ RSpec.describe Sector, type: :model do
   end
 
   it{
-    should belong_to(:organization)
+    should have_many(:organizations)
   }
 
 end

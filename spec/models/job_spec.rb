@@ -14,7 +14,6 @@ RSpec.describe Job, type: :model do
     expect(build(:job_with_role)).to be_valid
   end
 
-
   it{
     should belong_to(:organization)
   }

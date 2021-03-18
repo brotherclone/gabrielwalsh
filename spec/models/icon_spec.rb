@@ -9,7 +9,6 @@ RSpec.describe Icon, type: :model do
   it{
     should belong_to(:organization)
     should belong_to(:project_platform)
-    should belong_to(:organization)
     should belong_to(:my_role)
   }
 end

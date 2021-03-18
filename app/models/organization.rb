@@ -1,6 +1,8 @@
 class Organization < ApplicationRecord
-  has_many :sectors
+  belongs_to :sector
   has_one :icon
   has_many :project_platforms
-  has_one :copy_block
+  has_many :copy_blocks
+  has_many :projects
+  has_many :jobs
 end
