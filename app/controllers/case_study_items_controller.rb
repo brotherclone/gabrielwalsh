@@ -1,13 +1,20 @@
 class CaseStudyItemsController < ApplicationController
 
-  before_action :set_case_study_item
+  before_action :set_case_study_item, only: [:show, :edit, :update, :destroy]
 
   def index
-    @case_study_item_items = CaseStudyItem.all
+    @case_study_items = CaseStudyItem.all
+  end
+
+  def show
   end
 
   def new
     @case_study_item = CaseStudyItem.new
+  end
+
+  def edit
+
   end
 
   def create
@@ -21,16 +28,15 @@ class CaseStudyItemsController < ApplicationController
   def destroy
     @case_study_item.destroy
   end
-  
-  
+
   private
 
   def set_case_study_item
-    @case_study_item_item = CaseStudyItem.find(params[:id])
+    @case_study_item = CaseStudyItem.find(params[:id])
   end
 
   def case_study_item_params
-    params.require(:case_study_item_item).permit(:case_study_id)
+    params.require(:case_study_item).permit(:case_study_id)
   end
 
 end
