@@ -9,13 +9,13 @@
     %span{ :property=> 'hasOfferCatalog'}
     %ul.learn-about{:vocab=>'https://schema.org/', :typeof=>'Service'}
       %li.his{:property=> 'serviceType', :content=> 'Prototyping'}
-        %a.prototyping{ :href=> '#',:tabindex => 0}
+        %a.prototyping{ :href=> prototyping_path,:tabindex => 0}
           Prototyping
       %li.his{:property=> 'serviceType', :content=> 'User Centric Design'}
-        %a.portfolio{ :href=> '#',:tabindex => 0}
+        %a.portfolio{ :href=> portfolio_path,:tabindex => 0}
           Portfolio
       %li.and-his{:property=> 'serviceType', :content=> 'Creative Technology'}
-        %a.resume{ :href=> '#',:tabindex => 0}
+        %a.resume{ :href=> resume_path,:tabindex => 0}
           Résumé
   .he-looks-like-this
     %img.portrait{:src=> 'https://via.placeholder.com/180.jpg?Portrait', :alt=> "Portrait of Gabriel Walsh."}

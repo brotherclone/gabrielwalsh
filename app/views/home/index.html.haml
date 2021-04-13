@@ -1,1 +1,11 @@
-
+.main-section
+  .img-fluid
+    %img{ :src=>'https://via.placeholder.com/1200x400.jpg?Main', :alt=>'ToDo'}
+.container
+  %h2
+    Latest Projects
+  %hr
+  %a{:href=> portfolio_path }
+    See All
+  - @case_study_cards.each do |card|
+    = render :partial => "components/case-study-card", :locals => {:card => card}

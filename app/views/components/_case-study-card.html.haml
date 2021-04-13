@@ -1,0 +1,10 @@
+- @card = card
+
+.card-container
+  %img{:src => @card.img, :alt=> @card.title}
+  %h3
+    =@card.title
+  %h4
+    Case Study
+  %p
+    = @card.description
