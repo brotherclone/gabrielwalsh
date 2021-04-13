@@ -14,6 +14,10 @@ Rails.application.routes.draw do
   resources :skills
   resources :visuals
 
-  root 'home#index'
+  root 'coming_soon#index'
   get 'home' => 'home#index'
+  get 'soon' => 'coming_soon#index'
+  get 'resume' => 'resume#index'
+  get 'prototyping' => 'prototyping#index'
+  get 'portfolio' => 'portfolio#index'
 end
