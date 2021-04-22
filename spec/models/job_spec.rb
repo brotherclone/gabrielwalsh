@@ -6,15 +6,12 @@ RSpec.describe Job, type: :model do
     expect(build(:job)).to be_valid
   end
 
-  it 'has a valid Factory with a copy block' do
-    expect(build(:job_with_copy_block)).to be_valid
+  it 'has many roles through my role during a job' do
+    should have_many(:my_role_during_jobs)
+    should have_many(:my_roles).through(:my_role_during_jobs)
   end
 
-  it 'has a valid Factory with a role' do
-    expect(build(:job_with_role)).to be_valid
-  end
-
-  it{
+  it 'belongs to an organization' do
     should belong_to(:organization)
-  }
+  end
 end

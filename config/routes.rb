@@ -3,8 +3,6 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   resources :case_studies
   resources :case_study_items
-  resources :copy_blocks
-  resources :icons
   resources :jobs
   resources :my_roles
   resources :organizations
@@ -12,7 +10,6 @@ Rails.application.routes.draw do
   resources :projects
   resources :sectors
   resources :skills
-  resources :visuals
 
   root 'coming_soon#index'
   get 'home' => 'home#index'

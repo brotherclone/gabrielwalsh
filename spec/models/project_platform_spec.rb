@@ -6,16 +6,8 @@ RSpec.describe ProjectPlatform, type: :model do
     expect(build(:project_platform)).to be_valid
   end
 
-  it 'has a valid Factory with a copy block' do
-    expect(build(:project_platform_with_copy_block)).to be_valid
-  end
-
-  it 'has a valid Factory with an icon' do
-    expect(build(:project_platform_with_icon)).to be_valid
-  end
-
-  it{
+  it 'belongs to a project' do
     should belong_to(:project)
-  }
+  end
 
 end

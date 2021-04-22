@@ -182,6 +182,9 @@ GEM
       has_scope (~> 0.6)
       railties (>= 5.2, < 6.2)
       responders (>= 2, < 4)
+    inline_svg (1.7.2)
+      activesupport (>= 3.0)
+      nokogiri (>= 1.6)
     jbuilder (2.11.2)
       activesupport (>= 5.0.0)
     jquery-rails (4.4.0)
@@ -395,6 +398,7 @@ DEPENDENCIES
   faker
   fastruby-styleguide!
   haml-rails
+  inline_svg
   jbuilder
   listen
   pg

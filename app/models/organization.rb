@@ -1,8 +1,8 @@
 class Organization < ApplicationRecord
-  belongs_to :sector
-  has_one :icon
+  has_many :organization_categories
+  has_many :sectors, through: :organization_categories
+  accepts_nested_attributes_for :organization_categories
   has_many :project_platforms
-  has_many :copy_blocks
   has_many :projects
   has_many :jobs
 end

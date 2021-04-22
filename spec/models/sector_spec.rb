@@ -6,8 +6,4 @@ RSpec.describe Sector, type: :model do
     expect(build(:sector)).to be_valid
   end
 
-  it{
-    should have_many(:organizations)
-  }
-
 end

@@ -6,8 +6,8 @@ RSpec.describe Skill, type: :model do
     expect(build(:skill)).to be_valid
   end
 
-  it{
+  it 'belongs to a role' do
     should belong_to(:my_role)
-  }
+  end
 
 end

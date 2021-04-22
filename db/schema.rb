@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_17_105707) do
+ActiveRecord::Schema.define(version: 15) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -44,80 +44,87 @@ ActiveRecord::Schema.define(version: 2021_03_17_105707) do
   create_table "case_studies", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "description"
+    t.string "sub_title"
+    t.string "large_visual"
     t.bigint "project_id"
     t.index ["project_id"], name: "index_case_studies_on_project_id"
   end
 
   create_table "case_study_items", force: :cascade do |t|
     t.integer "case_study_type"
+    t.string "head_line"
+    t.string "sub_head"
+    t.string "text_1"
+    t.string "text_2"
+    t.string "text_3"
+    t.string "image_1"
+    t.string "image_2"
+    t.string "image_3"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "case_study_id"
     t.index ["case_study_id"], name: "index_case_study_items_on_case_study_id"
   end
 
-  create_table "copy_blocks", force: :cascade do |t|
-    t.text "text"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.bigint "case_study_item_id"
-    t.bigint "project_id"
-    t.bigint "project_platform_id"
-    t.bigint "organization_id"
-    t.bigint "job_id"
-    t.bigint "visual_id"
-    t.bigint "skill_id"
-    t.index ["case_study_item_id"], name: "index_copy_blocks_on_case_study_item_id"
-    t.index ["job_id"], name: "index_copy_blocks_on_job_id"
-    t.index ["organization_id"], name: "index_copy_blocks_on_organization_id"
-    t.index ["project_id"], name: "index_copy_blocks_on_project_id"
-    t.index ["project_platform_id"], name: "index_copy_blocks_on_project_platform_id"
-    t.index ["skill_id"], name: "index_copy_blocks_on_skill_id"
-    t.index ["visual_id"], name: "index_copy_blocks_on_visual_id"
-  end
-
-  create_table "icons", force: :cascade do |t|
-    t.string "asset_url"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.bigint "project_platform_id"
-    t.bigint "organization_id"
-    t.bigint "my_role_id"
-    t.index ["my_role_id"], name: "index_icons_on_my_role_id"
-    t.index ["organization_id"], name: "index_icons_on_organization_id"
-    t.index ["project_platform_id"], name: "index_icons_on_project_platform_id"
-  end
-
   create_table "jobs", force: :cascade do |t|
     t.date "start_date"
     t.date "end_date"
+    t.string "title"
+    t.string "responsibilities"
+    t.string "accomplishments"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "organization_id"
     t.index ["organization_id"], name: "index_jobs_on_organization_id"
   end
 
+  create_table "my_role_during_jobs", force: :cascade do |t|
+    t.bigint "my_role_id"
+    t.bigint "job_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["job_id"], name: "index_my_role_during_jobs_on_job_id"
+    t.index ["my_role_id"], name: "index_my_role_during_jobs_on_my_role_id"
+  end
+
+  create_table "my_role_on_projects", force: :cascade do |t|
+    t.bigint "my_role_id"
+    t.bigint "project_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["my_role_id"], name: "index_my_role_on_projects_on_my_role_id"
+    t.index ["project_id"], name: "index_my_role_on_projects_on_project_id"
+  end
+
   create_table "my_roles", force: :cascade do |t|
     t.string "role_name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.bigint "job_id"
-    t.bigint "project_id"
-    t.index ["job_id"], name: "index_my_roles_on_job_id"
-    t.index ["project_id"], name: "index_my_roles_on_project_id"
+  end
+
+  create_table "organization_categories", force: :cascade do |t|
+    t.bigint "organization_id"
+    t.bigint "sector_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["organization_id"], name: "index_organization_categories_on_organization_id"
+    t.index ["sector_id"], name: "index_organization_categories_on_sector_id"
   end
 
   create_table "organizations", force: :cascade do |t|
     t.string "location"
     t.string "name"
+    t.string "description"
+    t.string "logo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.bigint "sector_id"
-    t.index ["sector_id"], name: "index_organizations_on_sector_id"
   end
 
   create_table "project_platforms", force: :cascade do |t|
     t.string "platform_name"
+    t.string "description"
+    t.string "logo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "project_id"
@@ -128,6 +135,9 @@ ActiveRecord::Schema.define(version: 2021_03_17_105707) do
     t.string "title"
     t.date "working_date"
     t.date "publish_date"
+    t.string "description"
+    t.string "large_image"
+    t.string "small_image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "organization_id"
@@ -138,26 +148,18 @@ ActiveRecord::Schema.define(version: 2021_03_17_105707) do
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "description"
+    t.string "icon"
   end
 
   create_table "skills", force: :cascade do |t|
     t.string "name"
+    t.string "description"
+    t.string "icon"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "my_role_id"
     t.index ["my_role_id"], name: "index_skills_on_my_role_id"
-  end
-
-  create_table "visuals", force: :cascade do |t|
-    t.string "asset_url"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.bigint "case_study_item_id"
-    t.bigint "project_id"
-    t.bigint "case_study_id"
-    t.index ["case_study_id"], name: "index_visuals_on_case_study_id"
-    t.index ["case_study_item_id"], name: "index_visuals_on_case_study_item_id"
-    t.index ["project_id"], name: "index_visuals_on_project_id"
   end
 
 end

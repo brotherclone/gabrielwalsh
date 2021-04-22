@@ -1,15 +1,14 @@
 FactoryBot.define do
   factory :case_study_item do
     case_study
-    factory :case_study_item_with_visual do
-      after(:create) do |case_study_item|
-        create(:visual, case_study_item: case_study_item)
-      end
-    end
-    factory :case_study_item_with_copy_block do
-      after(:create) do |case_study_item|
-        create(:copy_block, case_study_item: case_study_item)
-      end
-    end
+    case_study_type { 1 }
+    head_line { Faker::Lorem.word }
+    sub_head { Faker::Lorem.paragraph.to_s }
+    text_1 { Faker::Lorem.paragraph.to_s }
+    text_2 { Faker::Lorem.paragraph.to_s }
+    text_3 { Faker::Lorem.paragraph.to_s }
+    image_1 { Faker::Internet.url }
+    image_2 { Faker::Internet.url }
+    image_3 { Faker::Internet.url }
   end
 end
