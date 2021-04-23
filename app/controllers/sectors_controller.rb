@@ -29,7 +29,7 @@ class SectorsController < ApplicationController
   end
 
   def sector_params
-    params.require(:sector).permit(:name, :organization_category_id)
+    params.require(:sector).permit(:name, :description, :icon)
   end
 
 end

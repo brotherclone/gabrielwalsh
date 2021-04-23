@@ -29,7 +29,7 @@ class OrganizationsController < ApplicationController
   end
 
   def organization_params
-    params.require(:organization).permit(:name, :location, :organization_category_id)
+    params.require(:organization).permit(:name, :location, :description, :logo)
   end
 
 end

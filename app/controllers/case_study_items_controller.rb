@@ -36,7 +36,8 @@ class CaseStudyItemsController < ApplicationController
   end
 
   def case_study_item_params
-    params.require(:case_study_item).permit(:case_study_id)
+    params.require(:case_study_item).permit(:case_study_id, :case_study_type, :head_line, :sub_head,
+                                            :text_1, :text_2, :text_3, :image_1, :image_2, :image_3)
   end
 
 end

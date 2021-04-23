@@ -30,7 +30,8 @@ class JobsController < ApplicationController
   end
 
   def job_params
-    params.require(:job).permit(:organization_id, :start_date, :end_date)
+    params.require(:job).permit(:organization_id, :start_date,
+                                :end_date, :responsibilities, :accomplishments, :title)
   end
 
 end
