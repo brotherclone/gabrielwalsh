@@ -5,7 +5,7 @@ ActiveAdmin.register Job do
 
   form do |f|
     f.inputs do
-      # ToDo: Reference
+      f.input :organization_id, :label => 'Organization', :as => :select, :collection => Organization.all.map{|a| ["#{a.name}", a.id]}
       # ToDo: Calendar
       # ToDo: Calendar
       # ToDo: HTML Editor

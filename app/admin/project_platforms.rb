@@ -4,7 +4,7 @@ ActiveAdmin.register ProjectPlatform do
 
   form do |f|
     f.inputs do
-      # ToDo: Reference
+      f.input :project_id, :label => 'Project', :as => :select, :collection => Project.all.map{|a| ["#{a.title}", a.id]}
       f.input :platform_name
       # ToDo: HTML Editor
       f.input :logo, :as => :file

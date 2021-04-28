@@ -4,7 +4,7 @@ ActiveAdmin.register CaseStudy do
 
   form do |f|
     f.inputs do
-      # ToDo: Reference
+      f.input :project_id, :label => 'Project', :as => :select, :collection => Project.all.map{|a| ["#{a.title}", a.id]}
       f.input :sub_title
       # ToDo: HTML Editor
       f.input :large_visual, :as => :file

@@ -5,7 +5,8 @@ ActiveAdmin.register CaseStudyItem do
 
   form do |f|
     f.inputs do
-      # ToDo: Reference
+      # ToDo: Return Case Study Project Title as attr
+      f.input :case_study_id, :label => 'Case Study', :as => :select, :collection => CaseStudy.all.map{|a| ["#{a.sub_title}", a.id]}
       # ToDo: Enum
       f.input :head_line
       f.input :sub_head
