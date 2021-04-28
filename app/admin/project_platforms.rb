@@ -1,11 +1,11 @@
-ActiveAdmin.register CaseStudy do
+ActiveAdmin.register ProjectPlatform do
 
-  permit_params :project_id, :sub_title, :description, :large_visual
+  permit_params :project_id, :platform_name, :description, :logo
 
   form do |f|
     f.inputs do
       # ToDo: Reference
-      f.input :sub_title
+      f.input :platform_name
       # ToDo: HTML Editor
       # ToDo: Upload
     end

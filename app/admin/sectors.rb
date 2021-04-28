@@ -1,12 +1,14 @@
 ActiveAdmin.register Sector do
 
-  permit_params :name
+  permit_params :name, :description, :icon
 
-  form(:html => {:multipart => true}) do |f|
+  form do |f|
     f.inputs do
       f.input :name
+      # ToDo: HTML Editor
+      # ToDo: Upload
     end
     f.actions
   end
-end
 
+end

@@ -1,15 +1,19 @@
 ActiveAdmin.register Project do
 
-  permit_params :organization_id, :working_date, :publish_date, :title
+  permit_params :organization_id, :title, :working_date, :publish_date,
+                :description, :small_image, :large_image
 
-  form(:html => {:multipart => true}) do |f|
+  form do |f|
     f.inputs do
+      # ToDo: Reference
       f.input :title
-      f.input :working_date
-      f.input :publish_date
-      f.input :organization_id, :label => 'Organization', :as => :select, :collection => Organization.all.map{|a| ["#{a.name}", a.id]}
+      # ToDo: Calendar
+      # ToDo: Calendar
+      # ToDo: HTML Editor
+      # ToDo: Upload
+      # ToDo: Upload
     end
     f.actions
   end
-end
 
+end
