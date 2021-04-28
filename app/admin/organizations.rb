@@ -6,7 +6,7 @@ ActiveAdmin.register Organization do
     f.inputs do
       f.input :name
       f.input :location
-      # ToDo: HTML Editor
+      f.input :description, :input_html => { :class => 'tinymce' }
       f.input :logo, :as => :file
       f.input :logo_cache, :as => :hidden
     end

@@ -8,8 +8,8 @@ ActiveAdmin.register Job do
       f.input :organization_id, :label => 'Organization', :as => :select, :collection => Organization.all.map{|a| ["#{a.name}", a.id]}
       # ToDo: Calendar
       # ToDo: Calendar
-      # ToDo: HTML Editor
-      # ToDo: HTML Editor
+      f.input :responsibilities, :input_html => { :class => 'tinymce' }
+      f.input :accomplishments, :input_html => { :class => 'tinymce' }
       f.input :title
     end
     f.actions

@@ -9,7 +9,7 @@ ActiveAdmin.register Project do
       f.input :title
       # ToDo: Calendar
       # ToDo: Calendar
-      # ToDo: HTML Editor
+      f.input :description, :input_html => { :class => 'tinymce' }
       f.input :large_image, :as => :file
       f.input :large_image_cache, :as => :hidden
       f.input :small_image, :as => :file

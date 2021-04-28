@@ -5,7 +5,7 @@ ActiveAdmin.register Sector do
   form do |f|
     f.inputs do
       f.input :name
-      # ToDo: HTML Editor
+      f.input :description, :input_html => { :class => 'tinymce' }
       f.input :icon, :as => :file
       f.input :icon_cache, :as => :hidden
     end
