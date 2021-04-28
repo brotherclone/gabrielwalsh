@@ -1,4 +1,6 @@
 class Project < ApplicationRecord
+  mount_uploader :small_image, PhotosUploader
+  mount_uploader :large_image, PhotosUploader
   belongs_to :organization
   has_many :case_studies
   has_many :project_platforms

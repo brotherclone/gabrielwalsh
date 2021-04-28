@@ -7,7 +7,8 @@ ActiveAdmin.register Skill do
       # ToDo: Reference
       f.input :name
       # ToDo: HTML Editor
-      # ToDo: Upload
+      f.input :icon, :as => :file
+      f.input :icon_cache, :as => :hidden
     end
     f.actions
   end

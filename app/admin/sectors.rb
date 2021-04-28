@@ -6,7 +6,8 @@ ActiveAdmin.register Sector do
     f.inputs do
       f.input :name
       # ToDo: HTML Editor
-      # ToDo: Upload
+      f.input :icon, :as => :file
+      f.input :icon_cache, :as => :hidden
     end
     f.actions
   end

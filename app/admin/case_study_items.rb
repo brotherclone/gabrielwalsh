@@ -12,9 +12,12 @@ ActiveAdmin.register CaseStudyItem do
       # ToDo: HTML Editor
       # ToDo: HTML Editor
       # ToDo: HTML Editor
-      # ToDo: Upload
-      # ToDo: Upload
-      # ToDo: Upload
+      f.input :image_1, :as => :file
+      f.input :image_1_cache, :as => :hidden
+      f.input :image_2, :as => :file
+      f.input :image_2_cache, :as => :hidden
+      f.input :image_3, :as => :file
+      f.input :image_3_cache, :as => :hidden
     end
     f.actions
   end

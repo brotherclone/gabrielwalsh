@@ -1,4 +1,5 @@
 class Organization < ApplicationRecord
+  mount_uploader :logo, PhotosUploader
   has_many :organization_categories
   has_many :sectors, through: :organization_categories
   accepts_nested_attributes_for :organization_categories

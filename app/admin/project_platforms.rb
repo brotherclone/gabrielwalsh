@@ -7,7 +7,8 @@ ActiveAdmin.register ProjectPlatform do
       # ToDo: Reference
       f.input :platform_name
       # ToDo: HTML Editor
-      # ToDo: Upload
+      f.input :logo, :as => :file
+      f.input :logo_cache, :as => :hidden
     end
     f.actions
   end

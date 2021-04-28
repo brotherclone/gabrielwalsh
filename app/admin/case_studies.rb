@@ -7,7 +7,8 @@ ActiveAdmin.register CaseStudy do
       # ToDo: Reference
       f.input :sub_title
       # ToDo: HTML Editor
-      # ToDo: Upload
+      f.input :large_visual, :as => :file
+      f.input :large_visual_cache, :as => :hidden
     end
     f.actions
   end

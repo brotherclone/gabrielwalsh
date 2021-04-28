@@ -10,8 +10,10 @@ ActiveAdmin.register Project do
       # ToDo: Calendar
       # ToDo: Calendar
       # ToDo: HTML Editor
-      # ToDo: Upload
-      # ToDo: Upload
+      f.input :large_image, :as => :file
+      f.input :large_image_cache, :as => :hidden
+      f.input :small_image, :as => :file
+      f.input :small_image_cache, :as => :hidden
     end
     f.actions
   end

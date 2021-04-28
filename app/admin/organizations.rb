@@ -7,7 +7,8 @@ ActiveAdmin.register Organization do
       f.input :name
       f.input :location
       # ToDo: HTML Editor
-      # ToDo: Upload
+      f.input :logo, :as => :file
+      f.input :logo_cache, :as => :hidden
     end
     f.actions
   end
