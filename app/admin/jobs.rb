@@ -8,8 +8,8 @@ ActiveAdmin.register Job do
       f.input :organization_id, :label => 'Organization', :as => :select, :collection => Organization.all.map{|a| ["#{a.name}", a.id]}
       f.input :start_date, as: :datepicker
       f.input :end_date, as: :datepicker
-      f.input :responsibilities
-      f.input :accomplishments
+      f.input :responsibilities, as: :froala_editor
+      f.input :accomplishments, as: :froala_editor
       f.input :title
     end
     f.actions

@@ -5,7 +5,7 @@ ActiveAdmin.register Sector do
   form do |f|
     f.inputs do
       f.input :name
-      f.input :description
+      f.input :description, as: :froala_editor
       f.input :icon, :as => :file
       f.input :icon_cache, :as => :hidden
     end

@@ -6,7 +6,7 @@ ActiveAdmin.register Organization do
     f.inputs do
       f.input :name
       f.input :location
-      f.input :description
+      f.input :description, as: :froala_editor
       f.input :logo, :as => :file
       f.input :logo_cache, :as => :hidden
     end

@@ -6,7 +6,7 @@ ActiveAdmin.register Skill do
     f.inputs do
       f.input :my_role_id, :label => 'My Role', :as => :select, :collection => MyRole.all.map{|a| ["#{a.role_name}", a.id]}
       f.input :name
-      f.input :description
+      f.input :description, as: :froala_editor
       f.input :icon, :as => :file
       f.input :icon_cache, :as => :hidden
     end

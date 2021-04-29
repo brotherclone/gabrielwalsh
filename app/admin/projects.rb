@@ -9,7 +9,7 @@ ActiveAdmin.register Project do
       f.input :title
       f.input :working_date, as: :datepicker
       f.input :publish_date, as: :datepicker
-      f.input :description, :input_html => { :class => 'tinymce' }
+      f.input :description, as: :froala_editor
       f.input :large_image, :as => :file
       f.input :large_image_cache, :as => :hidden
       f.input :small_image, :as => :file

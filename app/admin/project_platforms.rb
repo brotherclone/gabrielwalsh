@@ -6,7 +6,7 @@ ActiveAdmin.register ProjectPlatform do
     f.inputs do
       f.input :project_id, :label => 'Project', :as => :select, :collection => Project.all.map{|a| ["#{a.title}", a.id]}
       f.input :platform_name
-      f.input :description
+      f.input :description, as: :froala_editor
       f.input :logo, :as => :file
       f.input :logo_cache, :as => :hidden
     end
