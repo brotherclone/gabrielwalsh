@@ -10,9 +10,9 @@ ActiveAdmin.register CaseStudyItem do
       # ToDo: Enum
       f.input :head_line
       f.input :sub_head
-      f.input :text_1, :input_html => { :class => 'tinymce' }
-      f.input :text_2, :input_html => { :class => 'tinymce' }
-      f.input :text_3, :input_html => { :class => 'tinymce' }
+      f.input :text_1
+      f.input :text_2
+      f.input :text_3
       f.input :image_1, :as => :file
       f.input :image_1_cache, :as => :hidden
       f.input :image_2, :as => :file

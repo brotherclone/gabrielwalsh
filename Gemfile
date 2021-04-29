@@ -17,7 +17,6 @@ gem 'carrierwave'
 gem 'activeadmin'
 gem 'devise'
 gem 'cloudinary'
-gem 'tinymce-rails'
 gem 'dotenv'
 gem "fastruby-styleguide", github: "fastruby/styleguide", branch: "gh-pages"
 gem 'shoulda-matchers'

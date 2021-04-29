@@ -5,10 +5,10 @@ ActiveAdmin.register Project do
 
   form do |f|
     f.inputs do
-      # ToDo: Reference
+      f.input :organization_id, :label => 'Organization', :as => :select, :collection => Organization.all.map{|a| ["#{a.name}", a.id]}
       f.input :title
-      # ToDo: Calendar
-      # ToDo: Calendar
+      f.input :working_date, as: :datepicker
+      f.input :publish_date, as: :datepicker
       f.input :description, :input_html => { :class => 'tinymce' }
       f.input :large_image, :as => :file
       f.input :large_image_cache, :as => :hidden
