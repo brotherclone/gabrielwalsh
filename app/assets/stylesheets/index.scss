@@ -1,5 +1,6 @@
 //Layout
 @import "layout/index";
+@import "layout/home";
 
 // Typography
 @import "typography/default";
@@ -8,6 +9,7 @@
 @import "utility/svg-helper";
 
 // Components
+@import "components/case_study_promo_card";
 @import "components/footer";
 @import "components/nav";
 @import "components/prototyping";
