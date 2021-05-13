@@ -9,11 +9,10 @@
     %link{:rel=>"stylesheet", :href=>"https://use.typekit.net/end4pnn.css"}
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    - if @show_nav
-      = render :partial => "components/nav";
-      %div{:id=> "main-content"}
-        %a{:name => "SkipNavigation"}
+    %main
+      - if @show_nav
+        = render :partial => "components/nav";
         = yield
-      = render :partial => "components/footer";
-    - else
-      = yield
+        = render :partial => "components/footer";
+      - else
+        = yield

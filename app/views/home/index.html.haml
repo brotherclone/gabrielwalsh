@@ -1,10 +1,14 @@
-.main-section
+%section.home
   = render :partial => "components/home-visual"
-.container
-  %h2
-    Latest Projects
-  %hr
-  %a{:href=> portfolio_path }
-    See All
-  - @case_study_cards.each do |card|
-    = render :partial => "components/case-study-card", :locals => {:card => card}
+  .latest-projects-heading
+    .latest-projects
+      .title
+        %h2
+          Latest Projects
+      .see-more
+        %a{:href=> portfolio_path }
+          See All
+    %hr
+  .case-study-promo-cards
+    - @case_study_cards.each do |card|
+      = render :partial => "components/case-study-card", :locals => {:card => card}
