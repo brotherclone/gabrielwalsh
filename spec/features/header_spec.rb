@@ -10,7 +10,7 @@ describe 'Validating the global navigation' do
     expect(page).to have_content('Prototyping')
     expect(page).to have_content('Portfolio')
     expect(page).to have_content('Résumé')
-    expect(page).to have_css('img.portrait')
+    expect(page).to have_css('.portrait')
   end
 
   it 'checks for accessibility issues in the header', :js => true do

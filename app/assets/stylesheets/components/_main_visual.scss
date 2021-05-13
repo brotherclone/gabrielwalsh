@@ -1,0 +1,13 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+.main-visual{
+  @include make-container();
+  img{
+    //ToDo: Add image set etc
+    @include media-breakpoint-up(lg) {
+      min-height: 600px;
+      padding: 0;
+    }
+    @include img-fluid();
+  }
+}
