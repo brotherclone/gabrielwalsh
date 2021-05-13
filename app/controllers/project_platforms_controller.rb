@@ -29,7 +29,7 @@ class ProjectPlatformsController < ApplicationController
   end
 
   def project_platform_params
-    params.require(:project_platform).permit(:project_id, :platform_name)
+    params.require(:project_platform).permit(:project_id, :platform_name, :description, :logo)
   end
 
 end

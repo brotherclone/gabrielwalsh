@@ -6,23 +6,18 @@ RSpec.describe Project, type: :model do
     expect(build(:project)).to be_valid
   end
 
-  it 'has a valid Factory with a copy block' do
-    expect(build(:project_with_copy_block)).to be_valid
-  end
 
   it 'has a valid Factory with a project platform' do
     expect(build(:project_with_project_platform)).to be_valid
   end
 
-  it 'has a valid Factory with my role' do
-    expect(build(:project_with_my_role)).to be_valid
+  it 'has many roles through my role on a project' do
+    should have_many(:my_role_on_projects)
+    should have_many(:my_roles).through(:my_role_on_projects)
   end
 
-  it 'has a valid Factory with a visual' do
-    expect(build(:project)).to be_valid
-  end
-
-  it{
+  it 'belongs to an organization' do
     should belong_to(:organization)
-  }
+  end
+
 end

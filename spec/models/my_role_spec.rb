@@ -6,16 +6,18 @@ RSpec.describe MyRole, type: :model do
     expect(build(:my_role)).to be_valid
   end
 
-  it 'has a valid Factory with an icon' do
-    expect(build(:my_role_with_icon)).to be_valid
-  end
-
   it 'has a valid Factory with a skill' do
     expect(build(:my_role_with_skill)).to be_valid
   end
 
-  it{
-    should belong_to(:job)
-    should belong_to(:project)
-  }
+  it 'has many jobs through my role during a job' do
+    should have_many(:my_role_during_jobs)
+    should have_many(:jobs).through(:my_role_during_jobs)
+  end
+
+  it 'has many projects through my role on a project' do
+    should have_many(:my_role_on_projects)
+    should have_many(:projects).through(:my_role_on_projects)
+  end
+
 end

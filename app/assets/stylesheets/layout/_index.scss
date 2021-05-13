@@ -1,8 +1,9 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
-
-#main-content{
-  min-height: calc(100vh - 100px);
+main{
   @include make-container();
-  @include make-row();
+  @include media-breakpoint-up(md) {
+    padding: 5rem;
+  }
+  padding: .05rem;
 }

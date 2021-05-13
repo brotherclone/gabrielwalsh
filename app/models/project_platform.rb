@@ -1,5 +1,4 @@
 class ProjectPlatform < ApplicationRecord
-  has_one :icon
-  has_one :copy_block
+  mount_uploader :logo, PhotosUploader
   belongs_to :project
 end

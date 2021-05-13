@@ -29,7 +29,7 @@ class CaseStudiesController < ApplicationController
   end
 
   def case_study_params
-    params.require(:case_study).permit(:project_id)
+    params.require(:case_study).permit(:project_id, :sub_title, :description, :large_visual)
   end
 
 end
