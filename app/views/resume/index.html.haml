@@ -1,16 +1,52 @@
 %h1
   Resume
+%h2
+  Experience
+  - @jobs.each do |job|
+    .job{:itemscope=>true, :itemtype=>'https://schema.org/Organization'}
+      %h3{:itemprop=> "member", :itemscope=> true, :itemtype=>"https://schema.org/OrganizationRole"}
+        %span{:itemprop=> "roleName"}
+          =job.title
+        %span{:itemprop=> "name"}
+          =job.organization.name
+      %h3
+        %span{:itemprop=> "location"}
+          =job.organization.location
+        %span{:itemprop=> "startDate"}
+          =job.start_date
+        %span{:itemprop=> "endDate"}
+          =job.end_date
+      %p
+        %span{:itemprop=> "potentialAction"}
+          =job.responsibilities.html_safe
+        %span{:itemprop=> "description"}
+          =job.accomplishments.html_safe
+%section{:itemscope=> true, :itemtype=> "https://schema.org/JobPosting"}
   %h2
-    %span
-      Sr. UX Architect
-    %span
-      Moleskine
-  %h3
-    %span
-      Milan, Italy
-    %span
-      2017
-    %span
-      Present
-  %p
-    UX Design and Product Development on Digital-Physical consumer products with a focus on bringing cognitive computing into the creative process.
+    Skills
+    %ul{:itemprop=> "qualifications"}
+    - @skills.each do |skill|
+      %li{:itemprop => "skill"}
+        = skill.name
+
+%section{:itemscope=> true, :itemtype=> "https://schema.org/EducationalOccupationalCredential"}
+  %h2
+    Education
+  %h3{:itemprop=>"educationalLevel", :itemscope=>true, :itemtype=> "https://schema.org/DefinedTerm"}
+    %span{:itemprop=>"name"}
+      State University of New York at Purchase
+  %h4
+    %span{:itemprop=>"degree"}
+      BFA,
+    %span{:itemprop=>"department"}
+      Film Summa Cum Laude
+  %h5 1993-1997
+  %ul
+    %li{:itemprop=>"award"}
+      King Scholarship for Film Studies
+    %li{:itemprop=>"award"}
+      Tara Wyme Technicolor Award
+    %li{:itemprop=>"award"}
+      Torrell Post-Production Award
+    %li{:itemprop=>"award"}
+      Film Department Achievement Award
