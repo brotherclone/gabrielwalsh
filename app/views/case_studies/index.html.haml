@@ -1,0 +1,7 @@
+.filters
+  %a
+    Sort / Filter
+.case-studies
+  - @case_studies.each do |case_study|
+    %a{:href=> case_study_path(case_study.id)}
+      = case_study.sub_title

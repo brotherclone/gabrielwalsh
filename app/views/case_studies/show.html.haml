@@ -1,0 +1,58 @@
+%section
+  .case-study-header
+    %h1
+      = @case_study.project.title
+    %h2
+      = @case_study.sub_title
+    %img{:src => @case_study.large_visual, :alt=> @case_study.project.title}
+    %p
+      =@case_study.description.html_safe
+  -#ToDo: Clean up with enum strings for legibility
+  -@case_study.case_study_items.each do |case_study_item|
+    = case_study_item.case_study_type.to_s
+    - case case_study_item.case_study_type
+      - when 0
+        .case-study-item.large-image
+          %img{:src=>  case_study_item.image_1, :alt=> case_study_item.head_line}
+      - when 1
+        .case-study-item.side-by-sides
+          - if case_study_item.image_1
+            .side-by-side
+              .visual
+                %img{:src=>  case_study_item.image_1, :alt=> case_study_item.head_line}
+              .information
+                = case_study_item.text_1.html_safe
+          - if case_study_item.image_2
+            .side-by-side
+              .visual
+                %img{:src=>  case_study_item.image_2, :alt=> case_study_item.head_line}
+              .information
+                = case_study_item.text_2.html_safe
+          - if case_study_item.image_3
+            .side-by-side
+              .visual
+                %img{:src=>  case_study_item.image_3, :alt=> case_study_item.head_line}
+              .information
+                = case_study_item.text_3.html_safe
+      - when 2
+        .case-study-item.just-large-text
+          %h2
+          = case_study_item.text_1.html_safe
+      - when 3
+        .case-study-item.diagram
+          .diagrammed-image
+            %img{:src=>  case_study_item.image_1, :alt=> case_study_item.head_line}
+          .diagrammed-terms
+            .diagram-term
+              = case_study_item.text_1.html_safe
+            .diagram-term
+              = case_study_item.text_2.html_safe
+            .diagram-term
+              = case_study_item.text_3.html_safe
+      - when 4
+        .case-study-item.editorial
+          %h2
+            = case_study_item.text_1.html_safe
+          %p
+            = case_study_item.text_2.html_safe
+

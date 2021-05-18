@@ -7,7 +7,7 @@ ActiveAdmin.register CaseStudyItem do
     f.inputs do
       # ToDo: Return Case Study Project Title as attr
       f.input :case_study_id, :label => 'Case Study', :as => :select, :collection => CaseStudy.all.map{|a| ["#{a.sub_title}", a.id]}
-      # ToDo: Enum
+      f.input :case_study_type
       f.input :head_line
       f.input :sub_head
       f.input :text_1, as: :froala_editor
