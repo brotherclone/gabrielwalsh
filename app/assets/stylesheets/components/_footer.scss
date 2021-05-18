@@ -1,4 +1,4 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
 
 footer.also-have-a-look-at{
   height: 100px;
@@ -11,7 +11,6 @@ footer.also-have-a-look-at{
     @include make-col(1);
     h3{
       text-align: right;
-      font-family: nobel-condensed, sans-serif;
       font-size: 1rem;
       font-weight: 600;
     }

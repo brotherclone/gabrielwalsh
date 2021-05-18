@@ -1,4 +1,6 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
+@import "../../../node_modules/bootstrap/scss/mixins/screen-reader";
+@import "../../../node_modules/bootstrap/scss/mixins/image";
 
 .skip-navigation{
   @include sr-only();
@@ -20,14 +22,12 @@ nav{
     .candidate{
       @include make-col(10);
       h1.name{
-        font-family: nobel, sans-serif;
         font-size: 3rem;
         font-weight: 200;
         margin: 0;
         padding: 0;
       }
       h2.occupation {
-        font-family: nobel-condensed, sans-serif;
         font-size: 2rem;
         font-weight: 600;
         margin: 0;
@@ -42,7 +42,6 @@ nav{
       margin: 0.5rem 0 0 0;
       padding: 0;
       li{
-        font-family: nobel, sans-serif;
         font-weight: 200;
         font-size: 1.5rem;
         margin: 0 2rem 0 0;

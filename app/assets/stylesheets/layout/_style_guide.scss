@@ -1,22 +1,45 @@
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid";
 @import "../common/palette";
 
-.style-guide{
+.style-guide {
   @include make-container();
   @include make-row();
-  nav{
+
+  .style-guide-menu {
     @include make-col(2);
+    height: 100vh;
+
+    nav {
+      position: sticky;
+      top: 0;
+    }
   }
-  section{
+
+  section {
     @include make-col-offset(1);
     @include make-col(9);
-    .colors{
-      @include make-row();
-      .color-cards{
+    .color-cards {
+      @include make-container();
+      .color-card {
         @include make-col(3);
-        .color-area{
-          &.black{
-            background-color: $palette-black;
+        .color-area {
+          &.midnite {
+            background-color: $midnite;
+          }
+          &.faded-white {
+            background-color: $faded-white;
+          }
+          &.rock-tumble {
+            background-color: $rock-tumble;
+          }
+          &.wasabi {
+            background-color: $wasabi;
+          }
+          &.macha {
+            background-color: $macha;
+          }
+          &.faded-red {
+            background-color: $faded-red;
           }
           width: auto;
           height: 10rem;
