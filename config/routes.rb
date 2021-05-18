@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  resources :case_studies
+  resources :case_studies, path:'/portfolio'
   resources :case_study_items
   resources :jobs
   resources :my_roles
@@ -16,5 +16,5 @@ Rails.application.routes.draw do
   get 'soon' => 'coming_soon#index'
   get 'resume' => 'resume#index'
   get 'prototyping' => 'prototyping#index'
-  get 'portfolio' => 'portfolio#index'
+  get 'portfolio' => 'case_studies#index'
 end

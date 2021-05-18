@@ -1,0 +1,6 @@
+.filters
+  %a
+    Sort / Filter
+.case-studies
+  - @case_study_cards.each do |card|
+    = render :partial => "components/case-study-card", :locals => {:card => card}
