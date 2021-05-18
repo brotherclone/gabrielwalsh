@@ -1,0 +1,60 @@
+.style-guide
+  %nav{:id=>"style-guide-menu"}
+    .list-group-item-heading
+      Style Guide Elements
+    %a{:class=>'list-group-item list-group-item-action', :href=>"#colors"}
+      Colors
+    %a{:class=>'list-group-item list-group-item-action', :href=>"#typography"}
+      Typography
+    %a{:class=>'list-group-item list-group-item-action', :href=>"#buttons"}
+      Buttons
+    %a{:class=>'list-group-item list-group-item-action', :href=>"#icons"}
+      Icons
+    %a{:class=>'list-group-item list-group-item-action', :href=>"#forms"}
+      Forms
+  %section{:data=>{:bs=>{:spy=>"scrolls", :target=>"style-guide-menu", :offset=>"0"}}, :class=>"scrollspy", :tab=>{:index=>0}}
+    %h1
+      Style Guide
+    %h2{:id=> "colors"}
+      Colors
+      .colors
+        .color-cards
+          .color-card.card
+            .color-area.black.card-img-top
+            .card-body
+              %h4.card-title
+                Color Name
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  \#3d3d3d
+                %li.list-group-item
+                  \#3d3d3d
+    %h2{:id=> "typography"}
+      Typography
+      %hr
+      %h1.giant
+        H1 Giant
+      %h1.page-title
+        H1 Page title
+      %h2.secondary-title
+        H2 Secondary title
+      %h2.section-title
+        H2 Section title
+      %h3.sub-section-title
+        H3 Sub-Section title
+      %h4.emphasis-title
+        H4 Emphasis tile
+      %h4.emphasis-title-subtle
+        H4 Subtle Emphasis
+      %h5.diagrammatic-title
+        H5 Diagrammatic Title
+      %hr
+      Example Body
+      %p
+        This could be, or perhaps one cannot separate ghanas from clastic horses. Authors often misinterpret the broccoli as an unposed bedroom, when in actuality it feels more like a coarsest wall. They were lost without the pocky cod that composed their wing. A risk is a baseball's lightning.
+    %h2{:id=> "buttons"}
+      Buttons
+    %h2{:id=> "icons"}
+      Icons
+    %h2{:id=> "forms"}
+      Forms

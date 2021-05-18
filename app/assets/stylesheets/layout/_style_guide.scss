@@ -1,0 +1,28 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../common/palette";
+
+.style-guide{
+  @include make-container();
+  @include make-row();
+  nav{
+    @include make-col(2);
+  }
+  section{
+    @include make-col-offset(1);
+    @include make-col(9);
+    .colors{
+      @include make-row();
+      .color-cards{
+        @include make-col(3);
+        .color-area{
+          &.black{
+            background-color: $palette-black;
+          }
+          width: auto;
+          height: 10rem;
+        }
+      }
+    }
+  }
+}
+
