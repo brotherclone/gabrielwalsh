@@ -1,0 +1,50 @@
+@import "../common/palette";
+
+.style-guide {
+  @include make-container();
+  @include make-row();
+
+  .style-guide-menu {
+    @include make-col(2);
+    height: 100vh;
+
+    nav {
+      position: sticky;
+      top: 0;
+    }
+  }
+
+  section {
+    @include make-col-offset(1);
+    @include make-col(9);
+    .color-cards {
+      @include make-container();
+      .color-card {
+        @include make-col(3);
+        .color-area {
+          &.midnite {
+            background-color: $midnite;
+          }
+          &.faded-white {
+            background-color: $faded-white;
+          }
+          &.rock-tumble {
+            background-color: $rock-tumble;
+          }
+          &.wasabi {
+            background-color: $wasabi;
+          }
+          &.macha {
+            background-color: $macha;
+          }
+          &.faded-red {
+            background-color: $faded-red;
+          }
+          width: auto;
+          height: 10rem;
+        }
+      }
+    }
+  }
+}
+

@@ -1,5 +1,4 @@
 /*
- *= require bootstrap
- *= require_tree .
+ *= require_directory ./custom
  *= require_self
  */
