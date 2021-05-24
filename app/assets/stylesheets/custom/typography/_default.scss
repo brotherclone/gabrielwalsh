@@ -127,7 +127,17 @@ p, li, dd, dl{
   @include reading();
 }
 
-
+.form-label{
+  @include diagrammatic-title();
+}
+.form-text{
+  font-family: $noble;
+  font-weight: 200;
+  font-size: 1rem;
+  color: $gray-700;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
 
 .svg-inline--fa{
  @include icons();

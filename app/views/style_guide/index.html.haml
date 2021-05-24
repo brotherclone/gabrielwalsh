@@ -16,6 +16,7 @@
   %section{:data=>{:bs=>{:spy=>"scrolls", :target=>"style-guide-menu", :offset=>"0"}}, :class=>"scrollspy", :tab=>{:index=>0}}
     %h1
       Style Guide
+    %hr
     %h2{:id=> "colors"}
       Colors
       .color-cards
@@ -81,9 +82,20 @@
                   $faded-red
                 %li.list-group-item
                   \#FF4242
+        .row
+          .color-card.card
+            .color-area.faded-blue.card-img-top
+            .card-body
+              %h4.card-title
+                Faded Blue
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $faded-blue
+                %li.list-group-item
+                  \#34a0a4
+    %hr
     %h2{:id=> "typography"}
       Typography
-      %hr
       %h1.giant
         H1 Giant
       %h1.page-title
@@ -100,10 +112,10 @@
         H4 Subtle Emphasis
       %h5.diagrammatic-title
         H5 Diagrammatic Title
-      %hr
       Example Body
       %p
         This could be, or perhaps one cannot separate ghanas from clastic horses. Authors often misinterpret the broccoli as an unposed bedroom, when in actuality it feels more like a coarsest wall. They were lost without the pocky cod that composed their wing. A risk is a baseball's lightning.
+    %hr
     %h2{:id=> "buttons"}
       Buttons
     %a{:type=> "button",:class=>"btn btn-primary", :href=>"#"}
@@ -115,12 +127,11 @@
     %a{:type=> "button",:class=>"btn btn-link", :href=>"#"}
       Link
     %hr
-
     %h2{:id=> "icons"}
       Icons
     %i.fab.fa-linkedin
     %i.fas.fa-envelope-square
-
+    %hr
     %h2{:id=> "forms"}
       Forms
     %form
@@ -128,7 +139,7 @@
       %input{:type=>"email", :class=>"form-control", :id=>"emailInput", :aria=>{:describedby=>"emailHelp"}}
       %div{:id=>"emailHelp", :class=>"form-text"}
         Sorry
-      %label{:for=>"commentInput", :class=> "form-label"}Comment
+      %label{:for=>"commentInput", :class=> "form-label"} Comment
       %input{:type=>"text", :class=>"form-control", :id=>"commentInput", :aria=>{:describedby=>"inputHelp"}}
       %div{:id=>"inputHelp", :class=>"form-text"}
         Sorry
