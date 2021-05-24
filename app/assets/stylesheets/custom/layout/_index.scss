@@ -1,0 +1,8 @@
+
+main{
+  @include make-container();
+  @include media-breakpoint-up(md) {
+    padding: 5rem;
+  }
+  padding: .05rem;
+}

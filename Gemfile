@@ -18,7 +18,6 @@ gem 'activeadmin'
 gem 'devise'
 gem 'cloudinary'
 gem 'dotenv'
-gem "fastruby-styleguide", github: "fastruby/styleguide", branch: "gh-pages"
 gem 'shoulda-matchers'
 gem 'inline_svg'
 gem 'activeadmin_froala_editor'
