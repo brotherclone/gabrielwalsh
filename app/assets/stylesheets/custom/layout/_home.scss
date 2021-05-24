@@ -1,0 +1,23 @@
+section.home{
+ .latest-projects-heading{
+   margin-top: 2rem;
+   .latest-projects{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     .title{
+       width: 100%;
+       h2{
+         text-align: center;
+       }
+     }
+     .see-more{
+       padding: 0.5rem;
+       min-width: 4rem;
+     }
+   }
+   hr{
+     margin-bottom: 2rem;
+   }
+ }
+}

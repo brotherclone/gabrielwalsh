@@ -36,10 +36,10 @@ default: &default
   extensions:
     - .mjs
     - .js
-    - .sass
+    - .custom
     - .scss
     - .css
-    - .module.sass
+    - .module.custom
     - .module.scss
     - .module.css
     - .png

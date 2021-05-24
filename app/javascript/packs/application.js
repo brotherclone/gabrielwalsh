@@ -9,7 +9,7 @@ require("@rails/activestorage").start()
 require("channels")
 import "bootstrap"
 import "isotope-layout"
-import "@fortawesome/fontawesome-free/css/all"
+import "@fortawesome/fontawesome-free/js/all"
 require("custom/index")
 
 

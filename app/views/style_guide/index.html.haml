@@ -1,0 +1,147 @@
+.style-guide
+  .style-guide-menu
+    %nav.sticky-top{:id=>"style-guide-menu"}
+      .list-group-item-heading
+        Style Guide Elements
+      %a{:class=>'list-group-item list-group-item-action', :href=>"#colors"}
+        Colors
+      %a{:class=>'list-group-item list-group-item-action', :href=>"#typography"}
+        Typography
+      %a{:class=>'list-group-item list-group-item-action', :href=>"#buttons"}
+        Buttons
+      %a{:class=>'list-group-item list-group-item-action', :href=>"#icons"}
+        Icons
+      %a{:class=>'list-group-item list-group-item-action', :href=>"#forms"}
+        Forms
+  %section{:data=>{:bs=>{:spy=>"scrolls", :target=>"style-guide-menu", :offset=>"0"}}, :class=>"scrollspy", :tab=>{:index=>0}}
+    %h1
+      Style Guide
+    %hr
+    %h2{:id=> "colors"}
+      Colors
+      .color-cards
+        .row
+          .color-card.card
+            .color-area.midnite.card-img-top
+            .card-body
+              %h4.card-title
+                Midnite
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $midnite
+                %li.list-group-item
+                  \#3d3d3d
+          .color-card.card
+            .color-area.faded-white.card-img-top
+            .card-body
+              %h4.card-title
+                Faded White
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $faded-white
+                %li.list-group-item
+                  \#F0F2EB
+          .color-card.card
+            .color-area.rock-tumble.card-img-top
+            .card-body
+              %h4.card-title
+                Rock Tumble
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $rock-tumble
+                %li.list-group-item
+                  \#E1EDB9
+        .row
+          .color-card.card
+            .color-area.wasabi.card-img-top
+            .card-body
+              %h4.card-title
+                Wasabi
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $wasabi
+                %li.list-group-item
+                  \#D4EE5E
+          .color-card.card
+            .color-area.macha.card-img-top
+            .card-body
+              %h4.card-title
+                Macha
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $macha
+                %li.list-group-item
+                  \#F4FAD2
+          .color-card.card
+            .color-area.faded-red.card-img-top
+            .card-body
+              %h4.card-title
+                Faded Red
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $faded-red
+                %li.list-group-item
+                  \#FF4242
+        .row
+          .color-card.card
+            .color-area.faded-blue.card-img-top
+            .card-body
+              %h4.card-title
+                Faded Blue
+              %ul.list-group.list-group-flush
+                %li.list-group-item
+                  $faded-blue
+                %li.list-group-item
+                  \#34a0a4
+    %hr
+    %h2{:id=> "typography"}
+      Typography
+      %h1.giant
+        H1 Giant
+      %h1.page-title
+        H1 Page title
+      %h2.secondary-title
+        H2 Secondary title
+      %h2.section-title
+        H2 Section title
+      %h3.sub-section-title
+        H3 Sub-Section title
+      %h4.emphasis-title
+        H4 Emphasis tile
+      %h4.emphasis-title-subtle
+        H4 Subtle Emphasis
+      %h5.diagrammatic-title
+        H5 Diagrammatic Title
+      Example Body
+      %p
+        This could be, or perhaps one cannot separate ghanas from clastic horses. Authors often misinterpret the broccoli as an unposed bedroom, when in actuality it feels more like a coarsest wall. They were lost without the pocky cod that composed their wing. A risk is a baseball's lightning.
+    %hr
+    %h2{:id=> "buttons"}
+      Buttons
+    %a{:type=> "button",:class=>"btn btn-primary", :href=>"#"}
+      Primary
+    %a{:type=> "button",:class=>"btn btn-secondary", :href=>"#"}
+      Secondary
+    %a{:type=> "button",:class=>"btn btn-danger", :href=>"#"}
+      Danger
+    %a{:type=> "button",:class=>"btn btn-link", :href=>"#"}
+      Link
+    %hr
+    %h2{:id=> "icons"}
+      Icons
+    %i.fab.fa-linkedin
+    %i.fas.fa-envelope-square
+    %hr
+    %h2{:id=> "forms"}
+      Forms
+    %form
+      %label{:for=>"emailInput", :class=> "form-label"}Email
+      %input{:type=>"email", :class=>"form-control", :id=>"emailInput", :aria=>{:describedby=>"emailHelp"}}
+      %div{:id=>"emailHelp", :class=>"form-text"}
+        Sorry
+      %label{:for=>"commentInput", :class=> "form-label"} Comment
+      %input{:type=>"text", :class=>"form-control", :id=>"commentInput", :aria=>{:describedby=>"inputHelp"}}
+      %div{:id=>"inputHelp", :class=>"form-text"}
+        Sorry
+      %a{:type=> "submit", :class=> "btn btn-primary", :href=>"#"}
+        Submit

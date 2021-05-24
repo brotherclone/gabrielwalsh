@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   get 'resume' => 'resume#index'
   get 'prototyping' => 'prototyping#index'
   get 'portfolio' => 'case_studies#index'
+  get 'style' => 'style_guide#index'
 end

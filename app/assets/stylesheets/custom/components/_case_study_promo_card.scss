@@ -1,0 +1,24 @@
+
+.case-study-promo-card{
+  @include make-row();
+  margin-bottom: 2rem;
+  .card-left{
+    @include make-col(2);
+    img{
+      @include img-fluid();
+    }
+  }
+  .card-right{
+    @include make-col-offset(1);
+    @include make-col(9);
+    h3{
+
+    }
+    h4{
+
+    }
+    p{
+
+    }
+  }
+}

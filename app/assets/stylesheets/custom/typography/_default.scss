@@ -1,0 +1,306 @@
+
+$full-noble-stack:  -apple-system, nobel, Nobel, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$noble: nobel, sans-serif;
+$noble-condensed: nobel-condensed, sans-serif;
+
+@mixin giant-header{
+  font-family: $noble-condensed;
+  font-weight: 800;
+  font-size: 10rem;
+  color: $midnite;
+  line-height: 12rem;
+}
+
+@mixin page-title{
+  font-family: $noble;
+  font-weight: 400;
+  font-size: 4rem;
+  color: $midnite;
+  line-height: 5rem;
+}
+
+@mixin reading{
+  font-family: $noble;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: $gray-800;
+  line-height: 1.5rem;
+}
+
+@mixin icons{
+  font-size: 3rem;
+  color: $gray-800;
+}
+
+@mixin secondary-title{
+  font-family: $noble;
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: $gray-900;
+  font-style: italic;
+}
+
+@mixin section-title{
+  font-family: $noble-condensed;
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: $gray-800;
+}
+
+@mixin sub-section-title{
+  font-family: $noble-condensed;
+  font-weight: 200;
+  font-size: 2rem;
+  color: $gray-700;
+}
+
+@mixin smaller-titles{
+  font-family: $noble-condensed;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: $gray-500;
+}
+
+@mixin emphasis{
+  text-emphasis: filled $faded-red;
+  -webkit-text-emphasis: filled $faded-red;
+}
+
+@mixin subtle-emphasis{
+  text-emphasis: filled circle $rock-tumble;
+  -webkit-text-emphasis: filled circle $rock-tumble;
+}
+
+@mixin diagrammatic-title{
+  @include smaller-titles();
+  text-transform: uppercase;
+  color: $midnite !important;
+}
+
+@mixin emphasis-title{
+  font-family: $noble-condensed;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  @include emphasis();
+}
+
+@mixin subtle-emphasis-title{
+  font-family: $noble-condensed;
+  font-weight: 100;
+  letter-spacing: 0.25rem;
+  font-size: 1.75rem;
+  @include subtle-emphasis();
+}
+
+h1{
+  &.giant{
+    @include giant-header();
+  }
+  @include page-title();
+}
+
+h2{
+  &.secondary-title{
+    @include secondary-title();
+  }
+  @include section-title();
+}
+h3{
+  @include sub-section-title();
+}
+
+h4{
+  &.emphasis-title{
+    @include emphasis-title();
+  }
+  &.emphasis-title-subtle{
+    @include subtle-emphasis-title();
+  }
+}
+
+h5{
+  &.diagrammatic-title{
+    @include diagrammatic-title();
+  }
+}
+p, li, dd, dl{
+  @include reading();
+}
+
+.form-label{
+  @include diagrammatic-title();
+}
+.form-text{
+  font-family: $noble;
+  font-weight: 200;
+  font-size: 1rem;
+  color: $gray-700;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+}
+
+.svg-inline--fa{
+ @include icons();
+}
+
+//Fonts added:
+//Nobel ExtraLight
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 100;
+//
+//font-style: normal;
+//
+//
+//Nobel ExtraLightItalic
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 100;
+//
+//font-style: italic;
+//
+//
+//Nobel Light
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 200;
+//
+//font-style: normal;
+//
+//
+//Nobel LightItalic
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 200;
+//
+//font-style: italic;
+//
+//
+//Nobel Book
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 300;
+//
+//font-style: normal;
+//
+//
+//Nobel BookItalic
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 300;
+//
+//font-style: italic;
+//
+//
+//Nobel Regular
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 400;
+//
+//font-style: normal;
+//
+//
+//Nobel RegularItalic
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 400;
+//
+//font-style: italic;
+//
+//
+//Nobel Bold
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 700;
+//
+//font-style: normal;
+//
+//
+//Nobel BoldItalic
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 700;
+//
+//font-style: italic;
+//
+//
+//Nobel Black
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 800;
+//
+//font-style: normal;
+//
+//
+//Nobel BlackItalic
+//
+//font-family: nobel, sans-serif;
+//
+//font-weight: 800;
+//
+//font-style: italic;
+//
+//
+//Nobel ExtraLightCondensed
+//
+//font-family: nobel-condensed, sans-serif;
+//
+//font-weight: 100;
+//
+//font-style: normal;
+//
+//
+//Nobel LightCondensed
+//
+//font-family: nobel-condensed, sans-serif;
+//
+//font-weight: 200;
+//
+//font-style: normal;
+//
+//
+//Nobel BookCondensed
+//
+//font-family: nobel-condensed, sans-serif;
+//
+//font-weight: 300;
+//
+//font-style: normal;
+//
+//
+//Nobel RegularCondensed
+//
+//font-family: nobel-condensed, sans-serif;
+//
+//font-weight: 400;
+//
+//font-style: normal;
+//
+//
+//Nobel BoldCondensed
+//
+//font-family: nobel-condensed, sans-serif;
+//
+//font-weight: 700;
+//
+//font-style: normal;
+//
+//
+//Nobel BlackCondensed
+//
+//font-family: nobel-condensed, sans-serif;
+//
+//font-weight: 800;
+//
+//font-style: normal;
