@@ -13,6 +13,8 @@
         Icons
       %a{:class=>'list-group-item list-group-item-action', :href=>"#forms"}
         Forms
+      %a{:class=>'list-group-item list-group-item-action', :href=>"#textures"}
+        Textures
   %section{:data=>{:bs=>{:spy=>"scrolls", :target=>"style-guide-menu", :offset=>"0"}}, :class=>"scrollspy", :tab=>{:index=>0}}
     %h1
       Style Guide
@@ -145,3 +147,16 @@
         Sorry
       %a{:type=> "submit", :class=> "btn btn-primary", :href=>"#"}
         Submit
+    %hr
+    %h2{:id=>"textures"}
+      Textures
+    .texture-cards
+      .row
+        .texture-card.card
+          .texture-area.black-lines.card-img-top
+          .card-body
+            %h4.card-title
+              Black Lines
+            %ul.list-group.list-group-flush
+              %li.list-group-item
+                @include texture($midnite, 1);
