@@ -1,8 +1,8 @@
-
-main{
+.wrapper-outer{
   @include make-container();
-  @include media-breakpoint-up(md) {
-    padding: 5rem;
+  .wrapper-inner{
+    @include make-row();
+    display: flex;
+    flex-wrap: nowrap;
   }
-  padding: .05rem;
 }
