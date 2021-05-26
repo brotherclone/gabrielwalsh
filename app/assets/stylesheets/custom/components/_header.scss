@@ -37,6 +37,10 @@ nav{
       list-style: none;
       margin: 0.5rem 0 0 0;
       padding: 0;
+      @media (min-width: 768px) {
+        visibility: visible;
+      }
+      visibility: hidden;
       li{
         font-weight: 200;
         font-size: 1.5rem;
@@ -46,14 +50,22 @@ nav{
         }
       }
     }
-    .portrait{
+    .header-right{
       @include make-col(2);
-      visibility: visible;
-      img{
-        @include img-fluid();
-      }
-      @media (max-width: 768px) {
+      .portrait{
+        img{
+          @include img-fluid();
+        }
+        @media (min-width: 768px) {
+          visibility: visible;
+        }
         visibility: hidden;
+      }
+      a.side-nav-toggle{
+        visibility: visible;
+        @media (min-width: 768px) {
+          visibility: hidden;
+        }
       }
     }
   }

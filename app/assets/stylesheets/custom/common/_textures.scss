@@ -1,4 +1,4 @@
-@mixin texture($bg-color, $texture-number, $repeating-horizontal:0){
+@mixin texture($bg-color, $texture-number, $repeating-horizontal:1){
   $textures: "menu-open-bg.png";
   @if ($repeating-horizontal == 1){
     background: $bg-color image_url("textures/#{nth($textures, $texture-number)}") repeat;

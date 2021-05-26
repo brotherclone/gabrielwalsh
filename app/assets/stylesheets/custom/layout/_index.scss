@@ -6,3 +6,7 @@
     flex-wrap: nowrap;
   }
 }
+
+main{
+  @include make-container();
+}

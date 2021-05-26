@@ -1,19 +1,24 @@
+$open-duration: 0.25s;
+$close-duration: 0.5s;
+
 .side-nav{
+  @include texture($midnite, 1);
   min-height: 100vh;
-  &.collapse{
+  @include make-col(2);
+  &.collapse.width{
     width: 0;
     max-width: 0;
     height: 100%;
-    transition: right 0.3s linear, max-width 0.3s linear;
     position: relative;
     top: 0;
     right: 100%;
     left: 0;
     display: block;
     overflow: hidden;
+    transition: right $open-duration ease, max-width $open-duration ease;
   }
-  &.collapsing{
-    transition: right 0.3s linear, max-width 0.7s linear;
+  &.collapsing.width{
+    transition: right $close-duration ease, max-width $close-duration ease;
     width: 0 !important;
     height: 100%;
     max-width: 0 !important;
@@ -22,12 +27,12 @@
     position: relative;
     display: block;
   }
-  &.show{
-    transition: right 0.3s linear, max-width 0.3s linear;
-    width: 100%;
+  &.show.width{
+    transition: right $open-duration ease, max-width $open-duration ease;
+    width: 25%;
     height: 100%;
-    max-width: 100%;
-    min-width: 50px;
+    max-width: 25%;
+    min-width: 100px;
     right: 0;
     position: relative;
     display: block;

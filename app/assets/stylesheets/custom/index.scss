@@ -4,8 +4,13 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 //Common
+@import "common/animations";
+@import "common/clear-fix";
+@import "common/hidden";
 @import "common/palette";
-@import "common/texture";
+@import "common/textures";
+@import "common/transforms";
+@import "common/transitions";
 
 //Layout
 @import "layout/case_study";
