@@ -1,0 +1,60 @@
+
+$open-duration: 0.25s;
+$close-duration: 0.5s;
+
+.side-nav{
+  @include texture($midnite, 1);
+  min-height:  calc(100vh + 125px); // calc not working with vars
+  @include make-col(3);
+  @include box-shadowy(0.5rem, 0, 1rem, 0, black, 0.95, inset);
+  .side-nav-menu{
+    min-height: 10rem;
+    margin-top: 2rem;
+    list-style: none;
+    padding-inline-start: 2rem;
+    li{
+      margin: 1rem 0 1rem 0;
+      font-family: $noble-condensed;
+      text-transform: uppercase;
+      a{
+        color: $faded-white;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  &.collapse.width{
+    width: 0;
+    max-width: 0;
+    height: 100%;
+    position: relative;
+    top: 0;
+    right: 100%;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    transition: right $open-duration ease, max-width $open-duration ease;
+  }
+  &.collapsing.width{
+    transition: right $close-duration ease, max-width $close-duration ease;
+    width: 0 !important;
+    height: 100%;
+    max-width: 0 !important;
+    min-width: 0;
+    right: 0;
+    position: relative;
+    display: block;
+  }
+  &.show.width{
+    transition: right $open-duration ease, max-width $open-duration ease;
+    width: 35%;
+    height: 100%;
+    max-width: 35%;
+    min-width: 100px;
+    right: 0;
+    position: relative;
+    display: block;
+  }
+}
