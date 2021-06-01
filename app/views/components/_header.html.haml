@@ -2,7 +2,7 @@
   .navigation-inner
     .candidate
       %h1.name{:property => 'name'}
-        %a{:href=> home_path}
+        %a{:href=> home_path, :tabindex=> '0'}
           Gabriel Walsh
       %h2.occupation{:property => 'hasOccupation'}
         UX Architect | Creative Technologist
@@ -21,4 +21,4 @@
       .portrait
         %img{:src=> 'https://via.placeholder.com/180.jpg?Portrait', :alt=> "Portrait of Gabriel Walsh."}
       %a.side-nav-toggle{:href=> '#', :data=>{:target=>'.side-nav', :toggle=>'collapse'}}
-        %i.fa.fa-bars
+        %i.menu-icon.fas.fa-ellipsis-v

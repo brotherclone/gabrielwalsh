@@ -18,13 +18,17 @@ nav{
     .candidate{
       @include make-col(10);
       h1.name{
-        font-size: 3rem;
-        font-weight: 200;
-        margin: 0;
-        padding: 0;
+        font-size: 2.5rem;
+        font-weight: 100;
+        margin: 2rem 0 1.5rem 0;
+        line-height: 0;
+        a{
+          color: $midnite;
+        }
       }
       h2.occupation {
-        font-size: 2rem;
+        font-size: 1.188rem;
+        font-family: $noble-condensed;
         font-weight: 600;
         margin: 0;
         padding: 0;
@@ -52,6 +56,8 @@ nav{
     }
     .header-right{
       @include make-col(2);
+      display: flex;
+      padding: 1rem 0 1rem 0;
       .portrait{
         img{
           @include img-fluid();
@@ -62,7 +68,18 @@ nav{
         visibility: hidden;
       }
       a.side-nav-toggle{
+        &[aria-expanded="true"]{
+          .menu-icon{
+           color: $midnite !important;
+          }
+        }
+        padding: 0;
+        margin: 0;
         visibility: visible;
+        .menu-icon{
+          @include transition(color 0.5s ease);
+          color: $faded-blue;
+        }
         @media (min-width: 768px) {
           visibility: hidden;
         }

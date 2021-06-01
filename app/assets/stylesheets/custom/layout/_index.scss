@@ -1,7 +1,9 @@
 .wrapper-outer{
   @include make-container();
+  min-height: 100vh;
   .wrapper-inner{
     @include make-row();
+    min-height: 100vh;
     display: flex;
     flex-wrap: nowrap;
   }
@@ -10,3 +12,4 @@
 main{
   @include make-container();
 }
+
