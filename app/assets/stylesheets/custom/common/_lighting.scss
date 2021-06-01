@@ -1,0 +1,7 @@
+@mixin box-shadowy($horizontal-shadow-length, $vertical-shadow-length,
+ $blur-radius, $spread-radius, $color, $opacity, $inset:""){
+  $shadow-color: rgba($color, $opacity);
+  box-shadow: $horizontal-shadow-length $vertical-shadow-length $blur-radius $spread-radius $shadow-color #{$inset};
+  -webkit-box-shadow: $horizontal-shadow-length $vertical-shadow-length $blur-radius $spread-radius $shadow-color #{$inset};
+  -moz-box-shadow: $horizontal-shadow-length $vertical-shadow-length $blur-radius $spread-radius $shadow-color #{$inset};
+}

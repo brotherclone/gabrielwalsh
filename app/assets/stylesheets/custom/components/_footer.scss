@@ -1,6 +1,6 @@
-
 footer.also-have-a-look-at{
-  height: 100px;
+  height: $footer-height;
+  max-height: $footer-height;
   @include make-row();
   .privacy{
     @include make-col(1);
@@ -29,7 +29,4 @@ footer.also-have-a-look-at{
       }
     }
   }
-
-
-
 }

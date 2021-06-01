@@ -1,4 +1,5 @@
 @import "../common/palette";
+@import "../common/textures";
 
 .style-guide {
   @include make-container();
@@ -17,11 +18,11 @@
   section {
     @include make-col-offset(1);
     @include make-col(9);
-    .color-cards {
+    .color-cards, .texture-cards {
       @include make-container();
-      .color-card {
+      .color-card, .texture-card {
         @include make-col(3);
-        .color-area {
+        .color-area, .texture-area {
           &.midnite {
             background-color: $midnite;
           }
@@ -42,6 +43,9 @@
           }
           &.faded-blue {
             background-color: $faded-blue;
+          }
+          &.black-lines{
+            @include texture($midnite, 1);
           }
           width: auto;
           height: 10rem;

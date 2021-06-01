@@ -1,16 +1,13 @@
-%a.skip-navigation{ :tabindex => 0, :href=> "#skip"} Skip Navigation
 %nav{:vocab => 'https://schema.org/', :typeof=> 'person'}
   .navigation-inner
     .candidate
       %h1.name{:property => 'name'}
-        Gabriel Walsh
+        %a{:href=> home_path, :tabindex=> '0'}
+          Gabriel Walsh
       %h2.occupation{:property => 'hasOccupation'}
         UX Architect | Creative Technologist
       %span{ :property=> 'hasOfferCatalog'}
       %ul.about{:vocab=>'https://schema.org/', :typeof=>'Service'}
-        %li
-          %a{ :href=> home_path,:tabindex => 0}
-            Home
         %li{:property=> 'serviceType', :content=> 'Prototyping'}
           %a{ :href=> prototyping_path,:tabindex => 0}
             Prototyping
@@ -20,6 +17,8 @@
         %li{:property=> 'serviceType', :content=> 'Creative Technology'}
           %a{ :href=> resume_path,:tabindex => 0}
             Résumé
-    .portrait
-      %img{:src=> 'https://via.placeholder.com/180.jpg?Portrait', :alt=> "Portrait of Gabriel Walsh."}
-%div{:id=>"skip"}
+    .header-right
+      .portrait
+        %img{:src=> 'https://via.placeholder.com/180.jpg?Portrait', :alt=> "Portrait of Gabriel Walsh."}
+      %a.side-nav-toggle{:href=> '#', :data=>{:target=>'.side-nav', :toggle=>'collapse'}}
+        %i.menu-icon.fas.fa-ellipsis-v

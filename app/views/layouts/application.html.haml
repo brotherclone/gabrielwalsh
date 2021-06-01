@@ -9,10 +9,14 @@
     %link{:rel=>"stylesheet", :href=>"https://use.typekit.net/end4pnn.css"}
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    %main
-      - if @show_nav
-        = render :partial => "components/nav";
-        = yield
-        = render :partial => "components/footer";
-      - else
-        = yield
+    .wrapper-outer
+      .wrapper-inner
+        - if @show_nav
+          %main
+            = render :partial => "components/header";
+            = yield
+            = render :partial => "components/footer";
+          = render :partial => "components/side-nav";
+        - else
+          %main
+            = yield

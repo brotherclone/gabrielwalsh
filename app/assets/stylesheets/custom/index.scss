@@ -4,7 +4,15 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 //Common
+@import "common/animations";
+@import "common/clear-fix";
+@import "common/hidden";
+@import "common/lighting";
 @import "common/palette";
+@import "common/shared-vars";
+@import "common/textures";
+@import "common/transforms";
+@import "common/transitions";
 
 //Layout
 @import "layout/case_study";
@@ -23,6 +31,7 @@
 // Components
 @import "components/case_study_promo_card";
 @import "components/footer";
+@import "components/header";
 @import "components/main_visual";
-@import "components/nav";
 @import "components/prototyping";
+@import "components/side-nav";
