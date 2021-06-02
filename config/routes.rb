@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :sayings
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   resources :case_studies, path:'/portfolio'

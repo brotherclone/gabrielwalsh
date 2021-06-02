@@ -1,0 +1,19 @@
+%h1 Listing sayings
+
+%table
+  %thead
+    %tr
+      %th
+      %th
+      %th
+
+  %tbody
+    - @sayings.each do |saying|
+      %tr
+        %td= link_to 'Show', saying
+        %td= link_to 'Edit', edit_saying_path(saying)
+        %td= link_to 'Destroy', saying, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Saying', new_saying_path
