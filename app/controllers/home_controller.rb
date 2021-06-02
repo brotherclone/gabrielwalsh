@@ -6,6 +6,8 @@ class HomeController < ApplicationController
 
     @case_study_cards = []
 
+    @sayings = Saying.all
+
     # case_studies = CaseStudy.last(2)
     # case_studies.each do |case_study|
     #   @case_study_cards << CaseStudyCardItem.new( case_study.id, 'img.png', 'My Thing', 'description')

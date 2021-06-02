@@ -1,1 +1,7 @@
+-@sayings.shuffle
+-@sayings = @sayings.take(1)
+
 .main-visual
+  - @sayings.each do |saying|
+    %h1.saying
+      = saying.text
