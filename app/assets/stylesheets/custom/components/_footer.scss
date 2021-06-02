@@ -1,4 +1,5 @@
-footer.also-have-a-look-at{
+footer{
+  padding: 2rem;
   height: $footer-height;
   max-height: $footer-height;
   @include make-row();

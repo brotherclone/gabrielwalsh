@@ -1,0 +1,13 @@
+article.privacy{
+  padding: 0 2rem 1rem 2rem;
+  @include make-col(8);
+  h1{
+    @include section-title();
+  }
+  h2{
+    @include sub-section-title();
+  }
+  p,ol,ul{
+    @include reading();
+  }
+}

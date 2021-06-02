@@ -6,7 +6,6 @@ describe 'Validating the global navigation' do
     visit home_path
     expect(page).to have_css('h1.name')
     expect(page).to have_css('h2.occupation')
-    expect(page).to have_content('Home')
     expect(page).to have_content('Prototyping')
     expect(page).to have_content('Portfolio')
     expect(page).to have_content('Résumé')
