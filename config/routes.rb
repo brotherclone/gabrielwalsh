@@ -18,4 +18,5 @@ Rails.application.routes.draw do
   get 'prototyping' => 'prototyping#index'
   get 'portfolio' => 'case_studies#index'
   get 'style' => 'style_guide#index'
+  get 'privacy' => 'privacy#index'
 end
