@@ -1,0 +1,35 @@
+section{
+  @include make-container();
+  .job{
+    padding: 2rem;
+    @include make-row();
+    .logo{
+      @include make-col(2);
+      img{
+        @include img-fluid();
+      }
+    }
+    .info{
+      @include make-col-offset(1);
+      @include make-col(4);
+      .job-role{
+        .title{
+
+        }
+        .organization{
+
+        }
+      }
+      .location{
+        &:after{
+          content: "|";
+        }
+      }
+      .start-date{
+        &:after{
+          content: "-";
+        }
+      }
+    }
+  }
+}
