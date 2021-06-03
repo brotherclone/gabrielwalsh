@@ -15,7 +15,7 @@ class CaseStudiesController < ApplicationController
     # end
 
     (0...3).each do |case_study|
-      @case_study_cards << CaseStudyCardItem.new( 1, 'https://via.placeholder.com/200', 'My Thing', 'description')
+      @case_study_cards << CaseStudyCardItem.new( 1, 'https://via.placeholder.com/600', 'My Thing', 'description')
     end
   end
 
