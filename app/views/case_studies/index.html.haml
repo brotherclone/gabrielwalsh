@@ -1,6 +1,10 @@
--#.filters
--#  %a
--#    Sort / Filter
+- if @case_study_cards.count > 1
+  .filters
+    %span.btn
+    Sort by: &nbsp;
+    = sortable 'AZ', 'name', 'asc'
+    = sortable 'Date', 'created_at', 'asc'
+
 .case-studies
   - @case_study_cards.each do |card|
     = render :partial => "components/case-study-card", :locals => {:card => card}
