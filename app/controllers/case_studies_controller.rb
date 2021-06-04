@@ -6,7 +6,7 @@ class CaseStudiesController < ApplicationController
 
   def index
     @show_nav = true
-
+    @sort = params[:sort]
     if params[:sort] == 'name'
       @case_studies = CaseStudy.all.order("sub_title #{sort_direction}")
     elsif params[:sort] == 'created_at'
@@ -53,7 +53,7 @@ class CaseStudiesController < ApplicationController
   end
 
   def case_study_params
-    params.require(:case_study).permit(:project_id, :sub_title, :description, :large_visual)
+    params.require(:case_study).permit(:project_id, :sub_title, :description, :large_visual, :direction, :sort)
   end
 
   def sort_direction
