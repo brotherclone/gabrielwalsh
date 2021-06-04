@@ -1,6 +1,10 @@
--#.filters
--#  %a
--#    Sort / Filter
+- if @case_study_cards.count > 1
+  .filters
+    .btn-toolbar{:role=>'toolbar', :aria=>{:label=>'Listing Options'}}
+      .btn-group{:role=>'group', :aria=>{:label=>'Sorting'}}
+        = sortable 'AZ', 'name', 'asc', @sort
+        = sortable 'Date', 'created_at', 'asc', @sort
+
 .case-studies
   - @case_study_cards.each do |card|
     = render :partial => "components/case-study-card", :locals => {:card => card}
