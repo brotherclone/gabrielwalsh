@@ -1,9 +1,9 @@
 @mixin texture($bg-color, $texture-number, $repeating-horizontal:1){
-  $textures: "menu-open-bg.png";
+  $textures: "menu-open-bg.png", "notebook_@2X.png";
   @if ($repeating-horizontal == 1){
-    background: $bg-color image_url("textures/#{nth($textures, $texture-number)}") repeat;
+    background: transparentize($bg-color, 0.5) image_url("textures/#{nth($textures, $texture-number)}") repeat;
   }
   @else{
-    background: $bg-color image_url("textures/#{nth($textures, $texture-number)}") repeat-y;
+    background: transparentize($bg-color, 0.5) image_url("textures/#{nth($textures, $texture-number)}") repeat-y;
   }
 }

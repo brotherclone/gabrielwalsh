@@ -5,6 +5,9 @@
     @include img-fluid();
   }
 }
+.filter-sort{
+  font-size: 1rem;
+}
 .case-study-item{
   @include make-container();
   img{

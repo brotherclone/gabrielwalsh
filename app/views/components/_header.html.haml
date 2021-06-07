@@ -1,3 +1,5 @@
+%a.skip-navigation{:href=>"#SkipNavigation"}
+  Skip Navigation
 %nav{:vocab => 'https://schema.org/', :typeof=> 'person'}
   .navigation-inner
     .candidate
@@ -8,9 +10,9 @@
         UX Architect | Creative Technologist
       %span{ :property=> 'hasOfferCatalog'}
       %ul.about{:vocab=>'https://schema.org/', :typeof=>'Service'}
-        %li{:property=> 'serviceType', :content=> 'Prototyping'}
-          %a{ :href=> prototyping_path,:tabindex => 0}
-            Prototyping
+        -#%li{:property=> 'serviceType', :content=> 'Prototyping'}
+        -#  %a{ :href=> prototyping_path,:tabindex => 0}
+        -#    Prototyping
         %li{:property=> 'serviceType', :content=> 'User Centric Design'}
           %a{ :href=> portfolio_path,:tabindex => 0}
             Portfolio
@@ -22,3 +24,4 @@
         %img{:src=> 'https://via.placeholder.com/180.jpg?Portrait', :alt=> "Portrait of Gabriel Walsh."}
       %a.side-nav-toggle{:href=> '#', :data=>{:target=>'.side-nav', :toggle=>'collapse'}}
         %i.menu-icon.fas.fa-ellipsis-v
+%span{:id=>"SkipNavigation"}

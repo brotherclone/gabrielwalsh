@@ -1,2 +1,7 @@
+-@sayings.shuffle
+-@sayings = @sayings.take(1)
+
 .main-visual
-  %img{ :src=>'https://via.placeholder.com/1920x600.jpg?Main', :alt=>'ToDo'}
+  - @sayings.each do |saying|
+    %h1.saying
+      = saying.text

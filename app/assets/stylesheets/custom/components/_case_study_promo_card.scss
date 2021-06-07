@@ -1,24 +1,34 @@
 
 .case-study-promo-card{
-  @include make-row();
-  margin-bottom: 2rem;
+  @include make-container();
+  display: flex;
+  @media (min-width: 632px) {
+    flex-direction: row;
+    margin-bottom: 2rem;
+    .card-left{
+
+        img{
+          @include img-fluid();
+          max-height: 300px;
+        }
+      border-bottom: none !important;
+    }
+    .card-right{
+        padding-right: 1rem;
+        max-height: 300px;
+    }
+  }
+  flex-direction: column;
+  padding: 0;
   .card-left{
-    @include make-col(2);
     img{
       @include img-fluid();
     }
+    border-bottom: 2px solid transparentize($midnite, 0.9);
   }
   .card-right{
-    @include make-col-offset(1);
-    @include make-col(9);
-    h3{
-
-    }
-    h4{
-
-    }
-    p{
-
-    }
+    @include make-container();
+    padding: 1rem;
   }
+
 }

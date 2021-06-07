@@ -3,6 +3,11 @@
 @import "twbs_override";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// Typography
+@import "typography/default";
+
+//Utilities
+@import "utility/svg-helper";
 //Common
 @import "common/animations";
 @import "common/clear-fix";
@@ -14,20 +19,6 @@
 @import "common/transforms";
 @import "common/transitions";
 
-//Layout
-@import "layout/case_study";
-@import "layout/index";
-@import "layout/home";
-@import "layout/portfolio";
-@import "layout/prototyping";
-@import "layout/style_guide";
-
-// Typography
-@import "typography/default";
-
-//Utilities
-@import "utility/svg-helper";
-
 // Components
 @import "components/case_study_promo_card";
 @import "components/footer";
@@ -35,3 +26,13 @@
 @import "components/main_visual";
 @import "components/prototyping";
 @import "components/side-nav";
+
+//Layout
+@import "layout/case_study";
+@import "layout/index";
+@import "layout/home";
+@import "layout/portfolio";
+@import "layout/privacy";
+@import "layout/prototyping";
+@import "layout/resume";
+@import "layout/style_guide";

@@ -1,26 +1,31 @@
 %h1
-  Resume
-%h2
-  Experience
-  - @jobs.each do |job|
-    .job{:itemscope=>true, :itemtype=>'https://schema.org/Organization'}
-      %h3{:itemprop=> "member", :itemscope=> true, :itemtype=>"https://schema.org/OrganizationRole"}
-        %span{:itemprop=> "roleName"}
-          =job.title
-        %span{:itemprop=> "name"}
-          =job.organization.name
-      %h3
-        %span{:itemprop=> "location"}
-          =job.organization.location
-        %span{:itemprop=> "startDate"}
-          =job.start_date
-        %span{:itemprop=> "endDate"}
-          =job.end_date
-      %p
-        %span{:itemprop=> "potentialAction"}
-          =job.responsibilities.html_safe
-        %span{:itemprop=> "description"}
-          =job.accomplishments.html_safe
+  Résumé
+%section
+  %h2
+    Experience
+    - @jobs.each do |job|
+      .job{:itemscope=>true, :itemtype=>'https://schema.org/Organization'}
+        .logo
+          %img{:src=> job.organization.logo, :alt=> job.organization.name + " logo" }
+        .info
+          %h3.job-role{:itemprop=> "member", :itemscope=> true, :itemtype=>"https://schema.org/OrganizationRole"}
+            %span.title{:itemprop=> "roleName"}
+              = succeed ',' do
+                =job.title
+            %span.organization{:itemprop=> "name"}
+              =job.organization.name
+          %h3
+            %span.location{:itemprop=> "location"}
+              =job.organization.location
+            %span.start-date{:itemprop=> "startDate"}
+              = job.start_date.strftime("%Y")
+            %span.end-date{:itemprop=> "endDate"}
+              =job.end_date.strftime("%Y")
+          %p.description
+            %span.responsibilities{:itemprop=> "potentialAction"}
+              =job.responsibilities.html_safe
+            %span.description{:itemprop=> "description"}
+              =job.accomplishments.html_safe
 %section{:itemscope=> true, :itemtype=> "https://schema.org/JobPosting"}
   %h2
     Skills

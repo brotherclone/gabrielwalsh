@@ -6,13 +6,15 @@ class HomeController < ApplicationController
 
     @case_study_cards = []
 
+    @sayings = Saying.all
+
     # case_studies = CaseStudy.last(2)
     # case_studies.each do |case_study|
     #   @case_study_cards << CaseStudyCardItem.new( case_study.id, 'img.png', 'My Thing', 'description')
     # end
 
     (0...3).each do |case_study|
-       @case_study_cards << CaseStudyCardItem.new( 1, 'https://via.placeholder.com/200', 'My Thing', 'description')
+       @case_study_cards << CaseStudyCardItem.new( 1, 'https://via.placeholder.com/600', 'My Thing', 'description')
     end
 
   end

@@ -5,6 +5,7 @@ section.home{
      display: flex;
      justify-content: space-between;
      align-items: center;
+     margin: 1rem $master-right 0 $master-left;
      .title{
        width: 100%;
        h2{
