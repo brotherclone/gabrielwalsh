@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   get 'home' => 'home#index'
   get 'soon' => 'coming_soon#index'
   get 'resume' => 'resume#index'
-  get 'prototyping' => 'prototyping#index'
+  # get 'prototyping' => 'prototyping#index'
   get 'portfolio' => 'case_studies#index'
   get 'style' => 'style_guide#index'
   get 'privacy' => 'privacy#index'
