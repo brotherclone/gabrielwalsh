@@ -1,0 +1,11 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  .example{
+    display: flex;
+    flex-direction: column;
+    .exampleImage{
+      border: 1px solid red;
+    }
+  }
+}
