@@ -1,4 +1,7 @@
 {
+  "name": "gabrielwalsh",
+  "license": "MIT",
+  "private": true,
   "dependencies": {
     "dotenv": "^16.0.3",
     "eslint": "8.22.0",
