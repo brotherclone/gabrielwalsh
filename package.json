@@ -14,7 +14,7 @@
     "test": "jest --watch",
     "prepare": "husky install",
     "check-types": "tsc",
-    "check-format": "yarn prettier -- --list-different",
+    "check-format": "yarn prettier --list-different",
     "pre-commit-lint": "yarn check-types && yarn lint-staged"
   },
   "devDependencies": {
