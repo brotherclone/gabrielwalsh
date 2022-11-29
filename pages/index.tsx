@@ -1,21 +1,9 @@
-import Layout from "../components/layout";
-import { GetStaticProps } from "next";
+import Layout from '../components/layout'
 
-export default function Home({data}){
-    console.log("data", data)
-    return(
-        <Layout>
-            <div>gabriel walsh</div>
-        </Layout>
-    )
-}
-
-export const getStaticProps: GetStaticProps = async ()=>{
-    return{
-        props:{
-            data: {
-                msg: "hi mom"
-            }
-        }
-    }
+export default function Home () {
+  return (
+    <Layout>
+      <div>gabriel walsh</div>
+    </Layout>
+  )
 }
