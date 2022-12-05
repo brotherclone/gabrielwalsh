@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import LayoutMain from '../components/layouts/main/layout-main'
 import NavigationMain from '../components/navigation/main/navigation-main'
+import Test from './test.mdx'
 import Footer from '../components/footer/footer'
 
-export default function Home () {
+export default function Testing () {
   return (
     <>
       <Head>
@@ -13,6 +14,7 @@ export default function Home () {
       </Head>
       <LayoutMain>
         <NavigationMain/>
+        <Test/>
       </LayoutMain>
       <Footer/>
     </>
