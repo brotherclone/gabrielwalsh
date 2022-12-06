@@ -1,3 +1,27 @@
-.container{
+@import "styles/break-points.module";
+main.container{
+  @include breakpoint('lg'){
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
+article.reading{
+  @include breakpoint('lg'){
+    max-width: 50%;
+    h1{
+      font-size: 4rem;
+      margin: 0 0 0 1rem;
+      padding: 0;
+    }
+    p{
+      padding: 1rem;
+      font-family: nobel, sans-serif;
+      font-weight: 200;
+      font-size: 1.5rem;
+      font-style: normal;
+    }
+  }
 }

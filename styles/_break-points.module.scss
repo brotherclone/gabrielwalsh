@@ -1,0 +1,55 @@
+$breakpoint-max-xs: 47.938rem;
+$breakpoint-min-sm: $breakpoint-max-xs + 0.063rem;
+$breakpoint-min-md: 62rem;
+$breakpoint-max-sm: $breakpoint-min-md - 0.063rem;
+$breakpoint-min-lg: 75rem;
+$breakpoint-max-md: $breakpoint-min-lg - 0.063rem;
+$breakpoint-min-xl: 120rem;
+$breakpoint-max-lg: $breakpoint-min-xl - 0.063rem;
+
+@mixin breakpoint($min:0,$max:0){
+  $type: type_of($min);
+  @if $type == "string"{
+    @if $min == xs{
+      @media (max-width: $breakpoint-max-xs) { @content };
+    }@else if $min == sm{
+      @media (min-width: $breakpoint-min-sm) { @content };
+    }@else if $min == md{
+      @media (min-width: $breakpoint-min-md) { @content };
+    }@else if $min == lg{
+      @media (min-width: $breakpoint-min-lg) { @content };
+    }@else if $min == xl{
+      @media (min-width: $breakpoint-min-xl) { @content };
+    }
+  }@else if $type == number {
+    $query: "all" !default;
+    @if $min != 0 and $max != 0 {
+      $query: "(min-width: #{$min}) and (max-width: #{$max})";
+    } @else if $min != 0 and $max == 0 {
+      $query: "(min-width: #{$min})";
+    } @else if $min == 0 and $max != 0 {
+      $query: "(max-width: #{$max})";
+    }
+    @media #{$query} {
+      @content;
+    }
+  }
+}
+
+@mixin max-widths-for-breakpoints{
+  @include breakpoint("xs"){
+    max-width: $breakpoint-max-xs;
+  }
+  @include breakpoint("sm"){
+    max-width: $breakpoint-max-sm;
+  }
+  @include breakpoint("md"){
+    max-width: $breakpoint-max-md;
+  }
+  @include breakpoint("lg"){
+    max-width: $breakpoint-max-lg;
+  }
+  @include breakpoint("xl"){
+    max-width: unset;
+  }
+}

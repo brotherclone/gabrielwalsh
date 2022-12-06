@@ -1,0 +1,38 @@
+@import "break-points.module";
+
+@mixin heading-type ($lvl:1){
+  font-family: "meno-display", serif;
+  color: var(--foreground-color);
+  $base-heading-size: 10rem;
+  @if($lvl:1){
+    font-size: $base-heading-size;
+    line-height: 1.65;
+  }@else if($lvl:2){
+    font-size: $base-heading-size * 0.8;
+    line-height: 1.5;
+  }@else if($lvl:3){
+    font-size: $base-heading-size * 0.75;
+    line-height: 1.5;
+  }@else if($lvl:4){
+    font-size: $base-heading-size * 0.5;
+    line-height: 1.35;
+  }@else {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@mixin body-type(){
+  font-family: "nobel", sans-serif;
+  line-height: 1.5;
+  color: var(--foreground-color);
+}
+
+@mixin link-type(){
+  color: var(--secondary-color);
+  transition: color 500ms ease-in-out;
+  &:hover{
+    cursor: pointer;
+    color: var(--secondary-color-lighter);
+  }
+}
