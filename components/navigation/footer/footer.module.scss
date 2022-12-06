@@ -1,0 +1,15 @@
+footer.outer{
+  width: 100%;
+  background-color: black;
+  .inner{
+      min-height: 3rem;
+    ul{
+      list-style: none;
+      li{
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
