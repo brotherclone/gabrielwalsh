@@ -1,4 +1,4 @@
-$col: red;
 .container{
-  border: 10px solid $col;
+ display: flex;
+  flex-direction: column;
 }

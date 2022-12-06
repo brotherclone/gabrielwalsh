@@ -1,7 +1,8 @@
 import Head from 'next/head'
-import LayoutMain from '../components/layouts/main/layout-main'
-import NavigationMain from '../components/navigation/main/navigation-main'
-import Footer from '../components/footer/footer'
+import LayoutMain from '../components/layouts/main/LayoutMain'
+import NavigationMain from '../components/navigation/main/NavigationMain'
+import Statement from '../components/statement/Statement'
+import FooterMain from '../components/footer/FooterMain'
 
 export default function Home () {
   return (
@@ -13,8 +14,9 @@ export default function Home () {
       </Head>
       <LayoutMain>
         <NavigationMain/>
+        <Statement/>
       </LayoutMain>
-      <Footer/>
+      <FooterMain/>
     </>
   )
 }
