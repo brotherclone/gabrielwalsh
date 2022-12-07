@@ -9,7 +9,8 @@ module.exports = {
       files: ['*.jsx', '*.tsx'],
       rules: {
         '@typescript-eslint/explicit-module-boundary-types': ['off'],
-        '@typescript-eslint/explicit-function-return-type': 'off'
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/space-before-function-paren': ['error', 'never']
       }
     }
   ],
@@ -19,5 +20,7 @@ module.exports = {
     project: 'tsconfig.json'
   },
   plugins: ['react', 'prettier'],
-  rules: {}
+  rules: {
+    'space-before-function-paren': ['error', 'never']
+  }
 }

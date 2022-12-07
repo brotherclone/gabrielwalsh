@@ -4,7 +4,7 @@ import NavigationMain from '../components/navigation/main/NavigationMain'
 import Statement from '../components/statement/Statement'
 import FooterMain from '../components/footer/FooterMain'
 
-export default function Home () {
+export default function Home() {
   return (
     <>
       <Head>
@@ -12,11 +12,11 @@ export default function Home () {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <NavigationMain/>
+      <NavigationMain />
       <LayoutMain>
-        <Statement/>
+        <Statement />
       </LayoutMain>
-      <FooterMain/>
+      <FooterMain />
     </>
   )
 }

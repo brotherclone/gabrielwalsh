@@ -5,20 +5,22 @@ import FooterMain from '../../components/footer/FooterMain'
 import Biography from './../../content/about/Biography.mdx'
 import Contact from './../../content/about/Contact.mdx'
 
-export default function About () {
+export default function About() {
   return (
     <>
       <Head>
-        <title>Gabriel Walsh: Creative Technologist, Experience Designer | About </title>
+        <title>
+          Gabriel Walsh: Creative Technologist, Experience Designer | About{' '}
+        </title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <NavigationMain/>
+      <NavigationMain />
       <LayoutAbout>
-        <Biography/>
-        <Contact/>
+        <Biography />
+        <Contact />
       </LayoutAbout>
-      <FooterMain/>
+      <FooterMain />
     </>
   )
 }

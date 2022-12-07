@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import footerStyle from './footer.module.scss'
-export default function NavigationFooter () {
+export default function NavigationFooter() {
   return (
     <footer className={footerStyle.outer}>
       <div className={footerStyle.inner}>

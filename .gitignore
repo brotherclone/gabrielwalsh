@@ -285,3 +285,6 @@ fabric.properties
 .vscode
 /__tests__/__snapshots__/
 /.swc/
+/test-results/
+/playwright-report/
+/playwright/.cache/
