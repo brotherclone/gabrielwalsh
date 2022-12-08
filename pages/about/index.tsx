@@ -2,8 +2,8 @@ import Head from 'next/head'
 import LayoutAbout from '../../components/layouts/about/LayoutAbout'
 import NavigationMain from '../../components/navigation/main/NavigationMain'
 import FooterMain from '../../components/footer/FooterMain'
-import Biography from './../../content/about/Biography.mdx'
-import Contact from './../../content/about/Contact.mdx'
+import Biography from '../../components/layouts/about/Biography.mdx'
+import Contact from '../../components/layouts/about/Contact.mdx'
 
 export default function About() {
   const title = 'Gabriel Walsh: Creative Technologist, Experience Designer | About'

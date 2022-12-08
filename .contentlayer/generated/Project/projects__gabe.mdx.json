@@ -1,0 +1,17 @@
+{
+  "title": "This is about gabey",
+  "body": {
+    "raw": "\n# This is a file\n\nabout you",
+    "html": "<h1>This is a file</h1>\n<p>about you</p>"
+  },
+  "_id": "projects/gabe.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/gabe.mdx",
+    "sourceFileName": "gabe.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/gabe"
+  },
+  "type": "Project",
+  "slug": "gabe"
+}

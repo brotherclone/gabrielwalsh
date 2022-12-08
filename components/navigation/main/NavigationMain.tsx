@@ -8,9 +8,10 @@ export default function NavigationMain() {
       <div>
         <div>Gabriel Walsh</div>
         <NavButtonGroup>
-          <NavButton />
-          <NavButton />
-          <NavButton />
+          <NavButton text={'Home'} href={'/'} />
+          <NavButton text={'Portfolio'} href={'/portfolio'}/>
+          <NavButton text={'About'} href={'/about'}/>
+          <NavButton text={'Resume'} href={'/resume'}/>
         </NavButtonGroup>
       </div>
     </nav>

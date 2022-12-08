@@ -6,12 +6,16 @@
     "@mdx-js/loader": "^2.1.5",
     "@mdx-js/react": "^2.1.5",
     "@next/mdx": "^13.0.5",
+    "contentlayer": "^0.2.9",
     "dotenv": "^16.0.3",
     "eslint": "8.22.0",
     "lax.js": "^2.0.3",
     "next": "^13.0.1",
+    "next-contentlayer": "^0.2.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rehype-code-titles": "^1.1.0",
+    "remark-gfm": "^3.0.1",
     "use-lax": "^4.0.4"
   },
   "scripts": {
