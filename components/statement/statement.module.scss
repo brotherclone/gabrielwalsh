@@ -1,3 +1,5 @@
+@import "./styles/typography.module";
+
 h1.statement {
-  font-size: 8rem;
+  @include heading-type(1);
 }

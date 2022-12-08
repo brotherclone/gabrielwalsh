@@ -51,7 +51,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   background-color: var(--background-color);
   @include body-type();
 }
@@ -74,6 +74,10 @@ h4{
 
 h5,h6{
   @include heading-type();
+}
+
+p{
+  @include reading();
 }
 
 * {

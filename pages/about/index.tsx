@@ -6,12 +6,11 @@ import Biography from './../../content/about/Biography.mdx'
 import Contact from './../../content/about/Contact.mdx'
 
 export default function About() {
+  const title = 'Gabriel Walsh: Creative Technologist, Experience Designer | About'
   return (
     <>
       <Head>
-        <title>
-          Gabriel Walsh: Creative Technologist, Experience Designer | About{' '}
-        </title>
+        <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
