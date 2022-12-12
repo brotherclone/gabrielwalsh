@@ -1,0 +1,20 @@
+{
+  "institution": "Johns Hopkins",
+  "institutionLocation": "Washington, DC",
+  "roleName": "Adjunct Faculty",
+  "startDate": 2012,
+  "endDate": 2016,
+  "body": {
+    "raw": "Multimedia Authoring, Graduate Communications Program\n",
+    "html": "<p>Multimedia Authoring, Graduate Communications Program</p>"
+  },
+  "_id": "academics/JohnsHopkins.mdx",
+  "_raw": {
+    "sourceFilePath": "academics/JohnsHopkins.mdx",
+    "sourceFileName": "JohnsHopkins.mdx",
+    "sourceFileDir": "academics",
+    "contentType": "mdx",
+    "flattenedPath": "academics/JohnsHopkins"
+  },
+  "type": "Academic"
+}

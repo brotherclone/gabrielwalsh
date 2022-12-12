@@ -1,0 +1,21 @@
+{
+  "roleName": "Product Architect",
+  "startYear": 2021,
+  "endYear": 0,
+  "company": "Oracle, Energy & Water",
+  "companyLocations": "Austin, TX",
+  "wasRemote": true,
+  "body": {
+    "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n### Assoc. Producer\n#### Pacific Street Films Hastings-on-Hudson, NY\n#### 1997-1998\nAssociate Producer for Lifetime’s Intimate Portraits series. Production on the History Channel’s Warrior Series\n",
+    "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Assoc. Producer</h3>\n<h4>Pacific Street Films Hastings-on-Hudson, NY</h4>\n<h4>1997-1998</h4>\n<p>Associate Producer for Lifetime’s Intimate Portraits series. Production on the History Channel’s Warrior Series</p>"
+  },
+  "_id": "roles/PacificStreetFilms.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/PacificStreetFilms.mdx",
+    "sourceFileName": "PacificStreetFilms.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/PacificStreetFilms"
+  },
+  "type": "Role"
+}

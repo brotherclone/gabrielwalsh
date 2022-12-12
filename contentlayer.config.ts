@@ -1,24 +1,27 @@
-import { defineDocumentType, makeSource } from 'contentlayer/source-files'
+import { makeSource } from 'contentlayer/source-files'
 import remarkGfm from 'remark-gfm'
 import rehypeCodeTitles from 'rehype-code-titles'
-export const Project = defineDocumentType(() => ({
-  name: 'Project',
-  filePathPattern: 'projects/*.mdx',
-  bodyType: 'mdx',
-  fields: {
-    title: { type: 'string', required: true }
-  },
-  computedFields: {
-    slug: {
-      type: 'string',
-      resolve: (doc) => doc._raw.sourceFileName.replace(/\.mdx/, '')
-    }
-  }
-}))
+import { Academic } from './content/definitions/Academic'
+import { Eductation } from './content/definitions/Eductation'
+import { Project } from './content/definitions/Project'
+import { Role } from './content/definitions/Role'
+import { Skill } from './content/definitions/Skills'
+import { Statement } from './content/definitions/Statement'
+import { Subject } from './content/definitions/Subject'
+import { UseCase } from './content/definitions/UseCase'
 
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Project],
+  documentTypes: [
+    Academic,
+    Eductation,
+    Project,
+    Role,
+    Skill,
+    Statement,
+    Subject,
+    UseCase
+  ],
   mdx: {
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypeCodeTitles]

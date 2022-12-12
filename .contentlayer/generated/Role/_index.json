@@ -1,0 +1,191 @@
+[
+  {
+    "roleName": "Sr. UX Architect",
+    "startYear": 2014,
+    "endYear": 2017,
+    "company": "Adobe",
+    "companyLocations": "McLean, VA",
+    "wasRemote": false,
+    "body": {
+      "raw": "Providing guidance for clients and Adobe Partners executing projects in Adobe Marketing Cloud within the US Intelligence Community. Maintained Secret Clearance.\n",
+      "html": "<p>Providing guidance for clients and Adobe Partners executing projects in Adobe Marketing Cloud within the US Intelligence Community. Maintained Secret Clearance.</p>"
+    },
+    "_id": "roles/Adobe.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Adobe.mdx",
+      "sourceFileName": "Adobe.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Adobe"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Product Architect",
+    "startYear": 2021,
+    "endYear": 0,
+    "company": "Oracle, Energy & Water",
+    "companyLocations": "Austin, TX",
+    "wasRemote": true,
+    "body": {
+      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n",
+      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>"
+    },
+    "_id": "roles/Huge.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Huge.mdx",
+      "sourceFileName": "Huge.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Huge"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Product Architect",
+    "startYear": 2021,
+    "endYear": 0,
+    "company": "Oracle, Energy & Water",
+    "companyLocations": "Austin, TX",
+    "wasRemote": true,
+    "body": {
+      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n### Experience Integration Architect\n#### LEGO, NYC/London/Denmark(Remote)\n#### 2000-2010\nLead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.\n\n",
+      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Experience Integration Architect</h3>\n<h4>LEGO, NYC/London/Denmark(Remote)</h4>\n<h4>2000-2010</h4>\n<p>Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.</p>"
+    },
+    "_id": "roles/LEGO.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/LEGO.mdx",
+      "sourceFileName": "LEGO.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/LEGO"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Sr. Application Designer",
+    "startYear": 2012,
+    "endYear": 2013,
+    "company": "Laureate",
+    "companyLocations": "Baltimore, MD",
+    "wasRemote": false,
+    "body": {
+      "raw": "Experience design for international, online classroom initiative.",
+      "html": "<p>Experience design for international, online classroom initiative.</p>"
+    },
+    "_id": "roles/Laureate.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Laureate.mdx",
+      "sourceFileName": "Laureate.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Laureate"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Sr. UX Architect",
+    "startYear": 2017,
+    "endYear": 2021,
+    "company": "Moleskine",
+    "companyLocations": "Milan, Italy",
+    "wasRemote": true,
+    "body": {
+      "raw": "UX Design and Product Development on Digital-Physical consumer products with a focus on bringing cognitive computing into the creative process.",
+      "html": "<p>UX Design and Product Development on Digital-Physical consumer products with a focus on bringing cognitive computing into the creative process.</p>"
+    },
+    "_id": "roles/Moleskine.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Moleskine.mdx",
+      "sourceFileName": "Moleskine.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Moleskine"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Product Architect",
+    "startYear": 2021,
+    "endYear": 0,
+    "company": "Oracle, Energy & Water",
+    "companyLocations": "Austin, TX",
+    "wasRemote": true,
+    "body": {
+      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n### Producer\n#### News Digital NYC\n#### 1998-2000\nDevelopment, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",
+      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Producer</h3>\n<h4>News Digital NYC</h4>\n<h4>1998-2000</h4>\n<p>Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.</p>"
+    },
+    "_id": "roles/NewsDigital.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/NewsDigital.mdx",
+      "sourceFileName": "NewsDigital.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/NewsDigital"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Product Architect",
+    "startYear": 2021,
+    "endYear": 0,
+    "company": "Oracle, Energy & Water",
+    "companyLocations": "Austin, TX",
+    "wasRemote": true,
+    "body": {
+      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n",
+      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>"
+    },
+    "_id": "roles/Oracle.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Oracle.mdx",
+      "sourceFileName": "Oracle.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Oracle"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Product Architect",
+    "startYear": 2021,
+    "endYear": 0,
+    "company": "Oracle, Energy & Water",
+    "companyLocations": "Austin, TX",
+    "wasRemote": true,
+    "body": {
+      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n### Assoc. Producer\n#### Pacific Street Films Hastings-on-Hudson, NY\n#### 1997-1998\nAssociate Producer for Lifetime’s Intimate Portraits series. Production on the History Channel’s Warrior Series\n",
+      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Assoc. Producer</h3>\n<h4>Pacific Street Films Hastings-on-Hudson, NY</h4>\n<h4>1997-1998</h4>\n<p>Associate Producer for Lifetime’s Intimate Portraits series. Production on the History Channel’s Warrior Series</p>"
+    },
+    "_id": "roles/PacificStreetFilms.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/PacificStreetFilms.mdx",
+      "sourceFileName": "PacificStreetFilms.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/PacificStreetFilms"
+    },
+    "type": "Role"
+  },
+  {
+    "roleName": "Product Architect",
+    "startYear": 2021,
+    "endYear": 0,
+    "company": "Oracle, Energy & Water",
+    "companyLocations": "Austin, TX",
+    "wasRemote": true,
+    "body": {
+      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n### Sr. UX Lead\n#### Threespot, Washington, DC\n#### 2010-2012\nUser Experience Designer for large scale, non-profit web sites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.\n",
+      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Sr. UX Lead</h3>\n<h4>Threespot, Washington, DC</h4>\n<h4>2010-2012</h4>\n<p>User Experience Designer for large scale, non-profit web sites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.</p>"
+    },
+    "_id": "roles/Threespot.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Threespot.mdx",
+      "sourceFileName": "Threespot.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Threespot"
+    },
+    "type": "Role"
+  }
+]

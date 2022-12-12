@@ -8,6 +8,36 @@ export { isType } from 'contentlayer/client'
 export type { Markdown, MDX, ImageFieldData, IsoDateTimeString }
 
 /** Document types */
+export type Academic = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Academic'
+  institution: string
+  institutionLocation: string
+  roleName?: string | undefined
+  startDate: number
+  endDate?: number | undefined
+  /** Markdown file body */
+  body: Markdown
+
+}
+
+export type Educational = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Educational'
+  institution: string
+  degree?: string | undefined
+  honorariums: number
+  startDate: number
+  endDate?: number | undefined
+  /** Markdown file body */
+  body: Markdown
+
+}
+
 export type Project = {
   /** File path relative to `contentDirPath` */
   _id: string
@@ -17,6 +47,68 @@ export type Project = {
   /** Markdown file body */
   body: Markdown
   slug: string
+}
+
+export type Role = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Role'
+  roleName: string
+  startYear: number
+  endYear?: number | undefined
+  company: string
+  companyLocations: string
+  wasRemote?: boolean | undefined
+  /** Markdown file body */
+  body: Markdown
+
+}
+
+export type Skill = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Skill'
+  skillName: string
+  startDate: number
+  endDate?: number | undefined
+  /** Markdown file body */
+  body: Markdown
+
+}
+
+export type Statement = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Statement'
+  statement: string
+  /** Markdown file body */
+  body: Markdown
+
+}
+
+export type Subject = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Subject'
+  subjectName: string
+  /** Markdown file body */
+  body: Markdown
+
+}
+
+export type UseCase = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'UseCase'
+  title: string
+  /** Markdown file body */
+  body: Markdown
+
 }  
 
 /** Nested types */
@@ -27,8 +119,8 @@ export type Project = {
 export type AllTypes = DocumentTypes | NestedTypes
 export type AllTypeNames = DocumentTypeNames | NestedTypeNames
 
-export type DocumentTypes = Project
-export type DocumentTypeNames = 'Project'
+export type DocumentTypes = Academic | Educational | Project | Role | Skill | Statement | Subject | UseCase
+export type DocumentTypeNames = 'Academic' | 'Educational' | 'Project' | 'Role' | 'Skill' | 'Statement' | 'Subject' | 'UseCase'
 
 export type NestedTypes = never
 export type NestedTypeNames = never
@@ -49,7 +141,14 @@ declare global {
 }
 
 export type DocumentTypeMap = {
+  Academic: Academic
+  Educational: Educational
   Project: Project
+  Role: Role
+  Skill: Skill
+  Statement: Statement
+  Subject: Subject
+  UseCase: UseCase
 }
 
 export type NestedTypeMap = {

@@ -1,0 +1,19 @@
+{
+  "institution": "Maryland Institute of Art College",
+  "roleName": "Adjunct Faculty",
+  "startDate": 2031,
+  "endDate": 1234,
+  "body": {
+    "raw": "\nsome info about the classes",
+    "html": "<p>some info about the classes</p>"
+  },
+  "_id": "academics/MICA.mdx",
+  "_raw": {
+    "sourceFilePath": "academics/MICA.mdx",
+    "sourceFileName": "MICA.mdx",
+    "sourceFileDir": "academics",
+    "contentType": "mdx",
+    "flattenedPath": "academics/MICA"
+  },
+  "type": "Academic"
+}

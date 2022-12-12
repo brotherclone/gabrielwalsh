@@ -1,0 +1,21 @@
+{
+  "roleName": "Sr. Application Designer",
+  "startYear": 2012,
+  "endYear": 2013,
+  "company": "Laureate",
+  "companyLocations": "Baltimore, MD",
+  "wasRemote": false,
+  "body": {
+    "raw": "Experience design for international, online classroom initiative.",
+    "html": "<p>Experience design for international, online classroom initiative.</p>"
+  },
+  "_id": "roles/Laureate.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/Laureate.mdx",
+    "sourceFileName": "Laureate.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/Laureate"
+  },
+  "type": "Role"
+}
