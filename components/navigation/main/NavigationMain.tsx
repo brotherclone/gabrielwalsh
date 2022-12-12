@@ -5,15 +5,13 @@ import NavButtonGroup from '../buttons/NavButtonGroup'
 export default function NavigationMain() {
   return (
     <nav className={mainNavigationStyle.outer}>
-      <div>
-        <div>Gabriel Walsh</div>
-        <NavButtonGroup>
-          <NavButton text={'Home'} href={'/'} />
-          <NavButton text={'Portfolio'} href={'/portfolio'}/>
-          <NavButton text={'About'} href={'/about'}/>
-          <NavButton text={'Resume'} href={'/resume'}/>
-        </NavButtonGroup>
-      </div>
+      <div className={mainNavigationStyle.title}>Gabriel Walsh</div>
+      <NavButtonGroup>
+        <NavButton text={'Home'} href={'/'} />
+        <NavButton text={'Portfolio'} href={'/portfolio'} />
+        <NavButton text={'About'} href={'/about'} />
+        <NavButton text={'Resume'} href={'/resume'} />
+      </NavButtonGroup>
     </nav>
   )
 }

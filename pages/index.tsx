@@ -3,7 +3,7 @@ import LayoutMain from '../components/layouts/main/LayoutMain'
 import NavigationMain from '../components/navigation/main/NavigationMain'
 import Statement from '../components/statement/Statement'
 import FooterMain from '../components/footer/FooterMain'
-
+import PortfolioCards from '../components/portfolioCards/PortfolioCards'
 export default function Home() {
   const title = 'Gabriel Walsh: Creative Technologist, Experience Designer'
   return (
@@ -16,6 +16,7 @@ export default function Home() {
       <NavigationMain />
       <LayoutMain>
         <Statement />
+        <PortfolioCards />
       </LayoutMain>
       <FooterMain />
     </>

@@ -1,7 +1,7 @@
 import layoutStyle from './layout-resume.module.scss'
 import React from 'react'
 
-export default function LayoutAbout({
+export default function LayoutResume({
   children
 }: {
   children: React.ReactNode

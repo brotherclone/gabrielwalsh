@@ -6,7 +6,6 @@ interface ProjectProps {
 }
 
 export default function ProjectDisplay({ project }: ProjectProps) {
-  // ToDo: figure out why some examples return body.code that doesn't require dangerfields
   function getHTML(project) {
     return {
       __html: project.body.html

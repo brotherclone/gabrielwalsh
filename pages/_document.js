@@ -8,7 +8,7 @@ export default function Document() {
         <link rel="stylesheet" href="https://use.typekit.net/end4pnn.css" />
       </Head>
       <body>
-        <Main />
+        <Main className={'main-wrap'}/>
         <NextScript />
       </body>
     </Html>

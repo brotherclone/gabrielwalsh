@@ -27,7 +27,7 @@
   :root {
     --background-color: #202323;
     --background-color-lighter: #0A0A0A;
-    --background-color-darker: #3D3D3D;
+    --background-color-darker: #000000;
     --foreground-color: #FCFCFC;
     --foreground-darker: #707070;
     --foreground-lighter: #FCFCFC;
@@ -52,8 +52,15 @@ body {
   padding: 0;
   margin: 0;
   font-size: 20px;
+  min-height: 100vh;
+  height: 100%;
   background-color: var(--background-color);
   @include body-type();
+}
+
+body{
+  display: flex;
+  flex-direction: column;
 }
 
 h1{
@@ -86,4 +93,8 @@ p{
 
 a{
   @include link-type();
+}
+
+#__next{
+  height: 100%;
 }
