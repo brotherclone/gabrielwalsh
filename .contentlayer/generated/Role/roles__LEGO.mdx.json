@@ -1,13 +1,13 @@
 {
-  "roleName": "Product Architect",
-  "startYear": 2021,
-  "endYear": 0,
-  "company": "Oracle, Energy & Water",
-  "companyLocations": "Austin, TX",
+  "roleName": "Experience Integration Architect",
+  "startYear": 2000,
+  "endYear": 2010,
+  "company": "LEGO",
+  "companyLocations": "NYC/London/Denmark",
   "wasRemote": true,
   "body": {
-    "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n### Experience Integration Architect\n#### LEGO, NYC/London/Denmark(Remote)\n#### 2000-2010\nLead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.\n\n",
-    "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Experience Integration Architect</h3>\n<h4>LEGO, NYC/London/Denmark(Remote)</h4>\n<h4>2000-2010</h4>\n<p>Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.</p>"
+    "raw": "Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.\n\n",
+    "html": "<p>Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.</p>"
   },
   "_id": "roles/LEGO.mdx",
   "_raw": {

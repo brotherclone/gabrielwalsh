@@ -1,13 +1,13 @@
 {
-  "roleName": "Product Architect",
-  "startYear": 2021,
-  "endYear": 0,
-  "company": "Oracle, Energy & Water",
-  "companyLocations": "Austin, TX",
-  "wasRemote": true,
+  "roleName": "Sr. UX Lead",
+  "startYear": 2010,
+  "endYear": 2012,
+  "company": "Threespot",
+  "companyLocations": "Washington, DC",
+  "wasRemote": false,
   "body": {
-    "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n### Sr. UX Lead\n#### Threespot, Washington, DC\n#### 2010-2012\nUser Experience Designer for large scale, non-profit web sites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.\n",
-    "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Sr. UX Lead</h3>\n<h4>Threespot, Washington, DC</h4>\n<h4>2010-2012</h4>\n<p>User Experience Designer for large scale, non-profit web sites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.</p>"
+    "raw": "User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.\n",
+    "html": "<p>User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.</p>"
   },
   "_id": "roles/Threespot.mdx",
   "_raw": {

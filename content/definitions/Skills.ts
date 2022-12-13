@@ -1,4 +1,10 @@
 import { defineDocumentType } from 'contentlayer/source-files'
+export enum SkillCategories {
+  Development,
+  Design,
+  Strategy
+}
+
 export const Skill = defineDocumentType(() => ({
   name: 'Skill',
   filePathPattern: 'skills/*.mdx',
@@ -6,6 +12,7 @@ export const Skill = defineDocumentType(() => ({
   fields: {
     skillName: { type: 'string', required: true },
     startDate: { type: 'number', required: true },
-    endDate: { type: 'number', required: false }
+    endDate: { type: 'number', required: false },
+    skillCategory: { type: 'number', required: true }
   }
 }))

@@ -1,12 +1,13 @@
 import portfolioCardsStyle from './portfolio-cards.module.scss'
 import React from 'react'
 import { allProjects } from '.contentlayer/generated'
+import { Project as ProjectType } from '.contentlayer/generated/types'
 import PortfolioCard from './PortfolioCard'
 
 export default function PortfolioCards() {
-  const projectPromos = allProjects.map((projectPromo, index) => {
+  const projectPromos = allProjects.map((projectPromo: ProjectType, index) => {
     return (
-    <PortfolioCard/>
+    <PortfolioCard key={index}/>
     )
   })
   return (

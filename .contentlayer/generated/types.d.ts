@@ -16,8 +16,8 @@ export type Academic = {
   institution: string
   institutionLocation: string
   roleName?: string | undefined
-  startDate: number
-  endDate?: number | undefined
+  startYear: number
+  endYear?: number | undefined
   /** Markdown file body */
   body: Markdown
 
@@ -73,6 +73,7 @@ export type Skill = {
   skillName: string
   startDate: number
   endDate?: number | undefined
+  skillCategory: number
   /** Markdown file body */
   body: Markdown
 

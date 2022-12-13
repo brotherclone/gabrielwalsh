@@ -21,15 +21,15 @@
     "type": "Role"
   },
   {
-    "roleName": "Product Architect",
-    "startYear": 2021,
-    "endYear": 0,
-    "company": "Oracle, Energy & Water",
-    "companyLocations": "Austin, TX",
-    "wasRemote": true,
+    "roleName": "UX Lead",
+    "startYear": 2013,
+    "endYear": 2014,
+    "company": "Huge",
+    "companyLocations": "Washington, DC",
+    "wasRemote": false,
     "body": {
-      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n",
-      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>"
+      "raw": "Management of Interaction Designers, Cross department leadership, account lead on projects for the Dept. of Energy, Stantec, and AXA.",
+      "html": "<p>Management of Interaction Designers, Cross department leadership, account lead on projects for the Dept. of Energy, Stantec, and AXA.</p>"
     },
     "_id": "roles/Huge.mdx",
     "_raw": {
@@ -42,15 +42,15 @@
     "type": "Role"
   },
   {
-    "roleName": "Product Architect",
-    "startYear": 2021,
-    "endYear": 0,
-    "company": "Oracle, Energy & Water",
-    "companyLocations": "Austin, TX",
+    "roleName": "Experience Integration Architect",
+    "startYear": 2000,
+    "endYear": 2010,
+    "company": "LEGO",
+    "companyLocations": "NYC/London/Denmark",
     "wasRemote": true,
     "body": {
-      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n### Experience Integration Architect\n#### LEGO, NYC/London/Denmark(Remote)\n#### 2000-2010\nLead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.\n\n",
-      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Experience Integration Architect</h3>\n<h4>LEGO, NYC/London/Denmark(Remote)</h4>\n<h4>2000-2010</h4>\n<p>Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.</p>"
+      "raw": "Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.\n\n",
+      "html": "<p>Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.</p>"
     },
     "_id": "roles/LEGO.mdx",
     "_raw": {
@@ -106,14 +106,14 @@
   },
   {
     "roleName": "Product Architect",
-    "startYear": 2021,
-    "endYear": 0,
-    "company": "Oracle, Energy & Water",
-    "companyLocations": "Austin, TX",
-    "wasRemote": true,
+    "startYear": 1998,
+    "endYear": 2000,
+    "company": "News Digital",
+    "companyLocations": "NYC, NY",
+    "wasRemote": false,
     "body": {
-      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n### Producer\n#### News Digital NYC\n#### 1998-2000\nDevelopment, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",
-      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Producer</h3>\n<h4>News Digital NYC</h4>\n<h4>1998-2000</h4>\n<p>Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.</p>"
+      "raw": "Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",
+      "html": "<p>Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.</p>"
     },
     "_id": "roles/NewsDigital.mdx",
     "_raw": {
@@ -147,15 +147,15 @@
     "type": "Role"
   },
   {
-    "roleName": "Product Architect",
-    "startYear": 2021,
-    "endYear": 0,
-    "company": "Oracle, Energy & Water",
-    "companyLocations": "Austin, TX",
-    "wasRemote": true,
+    "roleName": "Assoc. Producer",
+    "startYear": 1997,
+    "endYear": 1998,
+    "company": "Pacific Street Films",
+    "companyLocations": "Hastings-on-Hudson, NY",
+    "wasRemote": false,
     "body": {
-      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n### Assoc. Producer\n#### Pacific Street Films Hastings-on-Hudson, NY\n#### 1997-1998\nAssociate Producer for Lifetime’s Intimate Portraits series. Production on the History Channel’s Warrior Series\n",
-      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Assoc. Producer</h3>\n<h4>Pacific Street Films Hastings-on-Hudson, NY</h4>\n<h4>1997-1998</h4>\n<p>Associate Producer for Lifetime’s Intimate Portraits series. Production on the History Channel’s Warrior Series</p>"
+      "raw": "Associate Producer for Lifetime's Intimate Portraits series. Production on the History Channel's Warrior Series\n",
+      "html": "<p>Associate Producer for Lifetime's Intimate Portraits series. Production on the History Channel's Warrior Series</p>"
     },
     "_id": "roles/PacificStreetFilms.mdx",
     "_raw": {
@@ -168,15 +168,15 @@
     "type": "Role"
   },
   {
-    "roleName": "Product Architect",
-    "startYear": 2021,
-    "endYear": 0,
-    "company": "Oracle, Energy & Water",
-    "companyLocations": "Austin, TX",
-    "wasRemote": true,
+    "roleName": "Sr. UX Lead",
+    "startYear": 2010,
+    "endYear": 2012,
+    "company": "Threespot",
+    "companyLocations": "Washington, DC",
+    "wasRemote": false,
     "body": {
-      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n### Sr. UX Lead\n#### Threespot, Washington, DC\n#### 2010-2012\nUser Experience Designer for large scale, non-profit web sites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.\n",
-      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Sr. UX Lead</h3>\n<h4>Threespot, Washington, DC</h4>\n<h4>2010-2012</h4>\n<p>User Experience Designer for large scale, non-profit web sites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.</p>"
+      "raw": "User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.\n",
+      "html": "<p>User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.</p>"
     },
     "_id": "roles/Threespot.mdx",
     "_raw": {

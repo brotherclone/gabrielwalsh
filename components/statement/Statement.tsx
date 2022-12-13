@@ -1,9 +1,16 @@
 import statementStyle from './statement.module.scss'
-// ToDo: There's a directory of statements in markdown. Crawl this directory and display a random one.
+import { Statement as StatementType } from '.contentlayer/generated/types'
+import { allStatements } from '.contentlayer/generated'
+
 export default function Statement() {
-  return (
-    <h1 className={statementStyle.statement}>
-      Introduction statement goes here
-    </h1>
+  const statementGroup = allStatements.map(
+    (statement: StatementType, index) => {
+      return (
+        <h1 className={statementStyle.statement} key={index}>
+          {statement.statement}
+        </h1>
+      )
+    }
   )
+  return <>{statementGroup}</>
 }

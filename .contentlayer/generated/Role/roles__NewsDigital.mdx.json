@@ -1,13 +1,13 @@
 {
   "roleName": "Product Architect",
-  "startYear": 2021,
-  "endYear": 0,
-  "company": "Oracle, Energy & Water",
-  "companyLocations": "Austin, TX",
-  "wasRemote": true,
+  "startYear": 1998,
+  "endYear": 2000,
+  "company": "News Digital",
+  "companyLocations": "NYC, NY",
+  "wasRemote": false,
   "body": {
-    "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n### Producer\n#### News Digital NYC\n#### 1998-2000\nDevelopment, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",
-    "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>\n<h3>Producer</h3>\n<h4>News Digital NYC</h4>\n<h4>1998-2000</h4>\n<p>Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.</p>"
+    "raw": "Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",
+    "html": "<p>Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.</p>"
   },
   "_id": "roles/NewsDigital.mdx",
   "_raw": {

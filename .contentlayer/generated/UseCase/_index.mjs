@@ -2,4 +2,4 @@
 
 
 
-export const allAcademics = []
+export const allUseCases = []
