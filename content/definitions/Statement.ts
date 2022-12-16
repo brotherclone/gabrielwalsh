@@ -1,7 +1,7 @@
 import { defineDocumentType } from 'contentlayer/source-files'
 export const Statement = defineDocumentType(() => ({
   name: 'Statement',
-  filePathPattern: 'skills/*.mdx',
+  filePathPattern: 'statements/*.mdx',
   bodyType: 'mdx',
   fields: {
     statement: { type: 'string', required: true }

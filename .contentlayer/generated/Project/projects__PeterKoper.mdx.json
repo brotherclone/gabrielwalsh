@@ -1,0 +1,17 @@
+{
+  "title": "Peter Koper",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/PeterKoper.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/PeterKoper.mdx",
+    "sourceFileName": "PeterKoper.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/PeterKoper"
+  },
+  "type": "Project",
+  "slug": "PeterKoper"
+}

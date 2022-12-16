@@ -1,0 +1,17 @@
+{
+  "title": "Codename Crimson",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/Crimson.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/Crimson.mdx",
+    "sourceFileName": "Crimson.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/Crimson"
+  },
+  "type": "Project",
+  "slug": "Crimson"
+}

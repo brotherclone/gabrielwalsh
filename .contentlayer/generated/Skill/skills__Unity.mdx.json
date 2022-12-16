@@ -1,0 +1,22 @@
+{
+  "skillName": "Unity",
+  "startDate": 2012,
+  "skillCategory": 0,
+  "skillLevel": 2,
+  "body": {
+    "raw": "Games, VR, and Creativity applications",
+    "html": "<p>Games, VR, and Creativity applications</p>"
+  },
+  "_id": "skills/Unity.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Unity.mdx",
+    "sourceFileName": "Unity.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Unity"
+  },
+  "type": "Skill",
+  "yearsInPractice": 10,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Skilled"
+}

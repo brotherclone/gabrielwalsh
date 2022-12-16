@@ -1,0 +1,22 @@
+{
+  "skillName": "Product Management",
+  "startDate": 2002,
+  "skillCategory": 2,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/ProductManagement.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/ProductManagement.mdx",
+    "sourceFileName": "ProductManagement.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/ProductManagement"
+  },
+  "type": "Skill",
+  "yearsInPractice": 20,
+  "skillCategoryName": "Strategy",
+  "skillLevelName": "Advanced"
+}

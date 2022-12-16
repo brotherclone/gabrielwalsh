@@ -1,0 +1,17 @@
+{
+  "title": "Cufflink",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/CuffLink.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/CuffLink.mdx",
+    "sourceFileName": "CuffLink.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/CuffLink"
+  },
+  "type": "Project",
+  "slug": "CuffLink"
+}

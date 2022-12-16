@@ -1,0 +1,16 @@
+{
+  "subjectName": "Educational Applications",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "subjects/Education.mdx",
+  "_raw": {
+    "sourceFilePath": "subjects/Education.mdx",
+    "sourceFileName": "Education.mdx",
+    "sourceFileDir": "subjects",
+    "contentType": "mdx",
+    "flattenedPath": "subjects/Education"
+  },
+  "type": "Subject"
+}

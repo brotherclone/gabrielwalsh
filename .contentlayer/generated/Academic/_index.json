@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "institution": "Johns Hopkins",
+    "institutionLocation": "Washington, DC",
+    "roleName": "Adjunct Faculty",
+    "startYear": 2012,
+    "endYear": 2016,
+    "body": {
+      "raw": "Multimedia Authoring, Graduate Communications Program\n",
+      "html": "<p>Multimedia Authoring, Graduate Communications Program</p>"
+    },
+    "_id": "academics/JohnsHopkins.mdx",
+    "_raw": {
+      "sourceFilePath": "academics/JohnsHopkins.mdx",
+      "sourceFileName": "JohnsHopkins.mdx",
+      "sourceFileDir": "academics",
+      "contentType": "mdx",
+      "flattenedPath": "academics/JohnsHopkins"
+    },
+    "type": "Academic"
+  },
+  {
+    "institution": "Maryland Institute College of Art",
+    "institutionLocation": "Baltimore, MD",
+    "roleName": "Adjunct Faculty",
+    "startYear": 2016,
+    "endYear": 2019,
+    "body": {
+      "raw": "Application Utility, Graduate UX Program",
+      "html": "<p>Application Utility, Graduate UX Program</p>"
+    },
+    "_id": "academics/MICA.mdx",
+    "_raw": {
+      "sourceFilePath": "academics/MICA.mdx",
+      "sourceFileName": "MICA.mdx",
+      "sourceFileDir": "academics",
+      "contentType": "mdx",
+      "flattenedPath": "academics/MICA"
+    },
+    "type": "Academic"
+  }
+]

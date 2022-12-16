@@ -1,0 +1,16 @@
+{
+  "subjectName": "Creativity Applications",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "subjects/CreativityApps.mdx",
+  "_raw": {
+    "sourceFilePath": "subjects/CreativityApps.mdx",
+    "sourceFileName": "CreativityApps.mdx",
+    "sourceFileDir": "subjects",
+    "contentType": "mdx",
+    "flattenedPath": "subjects/CreativityApps"
+  },
+  "type": "Subject"
+}

@@ -1,0 +1,22 @@
+{
+  "skillName": "Machine Learning",
+  "startDate": 2016,
+  "skillCategory": 0,
+  "skillLevel": 1,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/ML.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/ML.mdx",
+    "sourceFileName": "ML.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/ML"
+  },
+  "type": "Skill",
+  "yearsInPractice": 6,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Intermediate"
+}

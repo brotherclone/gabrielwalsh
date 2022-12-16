@@ -1,0 +1,22 @@
+{
+  "skillName": "JavaScript",
+  "startDate": 1998,
+  "skillCategory": 0,
+  "skillLevel": 4,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/JavaScript.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/JavaScript.mdx",
+    "sourceFileName": "JavaScript.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/JavaScript"
+  },
+  "type": "Skill",
+  "yearsInPractice": 24,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Expert"
+}

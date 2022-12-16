@@ -1,0 +1,16 @@
+{
+  "subjectName": "Interactive Video",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "subjects/InteractiveVideo.mdx",
+  "_raw": {
+    "sourceFilePath": "subjects/InteractiveVideo.mdx",
+    "sourceFileName": "InteractiveVideo.mdx",
+    "sourceFileDir": "subjects",
+    "contentType": "mdx",
+    "flattenedPath": "subjects/InteractiveVideo"
+  },
+  "type": "Subject"
+}

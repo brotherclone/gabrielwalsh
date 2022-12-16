@@ -1,0 +1,22 @@
+{
+  "skillName": "Focus Groups",
+  "startDate": 2002,
+  "skillCategory": 2,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/FocusGroups.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/FocusGroups.mdx",
+    "sourceFileName": "FocusGroups.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/FocusGroups"
+  },
+  "type": "Skill",
+  "yearsInPractice": 20,
+  "skillCategoryName": "Strategy",
+  "skillLevelName": "Skilled"
+}

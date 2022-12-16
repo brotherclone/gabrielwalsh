@@ -30,9 +30,9 @@ export type Educational = {
   type: 'Educational'
   institution: string
   degree?: string | undefined
-  honorariums: number
-  startDate: number
-  endDate?: number | undefined
+  honorariums?: string | undefined
+  startYear: number
+  endYear?: number | undefined
   /** Markdown file body */
   body: Markdown
 
@@ -72,11 +72,13 @@ export type Skill = {
   type: 'Skill'
   skillName: string
   startDate: number
-  endDate?: number | undefined
   skillCategory: number
+  skillLevel: number
   /** Markdown file body */
   body: Markdown
-
+  yearsInPractice: number
+  skillCategoryName: string
+  skillLevelName: string
 }
 
 export type Statement = {

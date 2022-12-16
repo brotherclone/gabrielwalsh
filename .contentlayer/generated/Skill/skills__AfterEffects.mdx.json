@@ -1,0 +1,22 @@
+{
+  "skillName": "AfterEffects",
+  "startDate": 1998,
+  "skillCategory": 1,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/AfterEffects.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/AfterEffects.mdx",
+    "sourceFileName": "AfterEffects.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/AfterEffects"
+  },
+  "type": "Skill",
+  "yearsInPractice": 24,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Skilled"
+}

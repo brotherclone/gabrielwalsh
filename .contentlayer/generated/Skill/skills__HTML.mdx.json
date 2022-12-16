@@ -1,0 +1,22 @@
+{
+  "skillName": "HTML/MarkUp",
+  "startDate": 1995,
+  "skillCategory": 0,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/HTML.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/HTML.mdx",
+    "sourceFileName": "HTML.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/HTML"
+  },
+  "type": "Skill",
+  "yearsInPractice": 27,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Advanced"
+}

@@ -1,0 +1,16 @@
+{
+  "subjectName": "Children's Media",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "subjects/ChildrensMedia.mdx",
+  "_raw": {
+    "sourceFilePath": "subjects/ChildrensMedia.mdx",
+    "sourceFileName": "ChildrensMedia.mdx",
+    "sourceFileDir": "subjects",
+    "contentType": "mdx",
+    "flattenedPath": "subjects/ChildrensMedia"
+  },
+  "type": "Subject"
+}

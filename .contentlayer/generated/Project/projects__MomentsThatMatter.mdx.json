@@ -1,0 +1,17 @@
+{
+  "title": "Moments that Matter",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/MomentsThatMatter.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/MomentsThatMatter.mdx",
+    "sourceFileName": "MomentsThatMatter.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/MomentsThatMatter"
+  },
+  "type": "Project",
+  "slug": "MomentsThatMatter"
+}

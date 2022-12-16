@@ -1,0 +1,22 @@
+{
+  "skillName": "Python",
+  "startDate": 2015,
+  "skillCategory": 0,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Python.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Python.mdx",
+    "sourceFileName": "Python.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Python"
+  },
+  "type": "Skill",
+  "yearsInPractice": 7,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Skilled"
+}

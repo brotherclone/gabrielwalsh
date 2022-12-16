@@ -1,0 +1,22 @@
+{
+  "skillName": "Analytics",
+  "startDate": 2005,
+  "skillCategory": 2,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Analytics.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Analytics.mdx",
+    "sourceFileName": "Analytics.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Analytics"
+  },
+  "type": "Skill",
+  "yearsInPractice": 17,
+  "skillCategoryName": "Strategy",
+  "skillLevelName": "Skilled"
+}

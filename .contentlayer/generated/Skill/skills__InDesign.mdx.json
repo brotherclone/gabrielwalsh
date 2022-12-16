@@ -1,0 +1,22 @@
+{
+  "skillName": "InDesign",
+  "startDate": 2010,
+  "skillCategory": 1,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/InDesign.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/InDesign.mdx",
+    "sourceFileName": "InDesign.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/InDesign"
+  },
+  "type": "Skill",
+  "yearsInPractice": 12,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Skilled"
+}

@@ -1,0 +1,22 @@
+{
+  "skillName": "User Testing",
+  "startDate": 2002,
+  "skillCategory": 2,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/UserTesting.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/UserTesting.mdx",
+    "sourceFileName": "UserTesting.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/UserTesting"
+  },
+  "type": "Skill",
+  "yearsInPractice": 20,
+  "skillCategoryName": "Strategy",
+  "skillLevelName": "Advanced"
+}

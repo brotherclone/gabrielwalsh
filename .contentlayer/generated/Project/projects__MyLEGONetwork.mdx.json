@@ -1,0 +1,17 @@
+{
+  "title": "My LEGO Network",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/MyLEGONetwork.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/MyLEGONetwork.mdx",
+    "sourceFileName": "MyLEGONetwork.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/MyLEGONetwork"
+  },
+  "type": "Project",
+  "slug": "MyLEGONetwork"
+}

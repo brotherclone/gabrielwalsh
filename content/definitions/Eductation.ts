@@ -6,8 +6,8 @@ export const Eductation = defineDocumentType(() => ({
   fields: {
     institution: { type: 'string', required: true },
     degree: { type: 'string', required: false },
-    honorariums: { type: 'number', required: true },
-    startDate: { type: 'number', required: true },
-    endDate: { type: 'number', required: false }
+    honorariums: { type: 'string', required: false },
+    startYear: { type: 'number', required: true },
+    endYear: { type: 'number', required: false }
   }
 }))

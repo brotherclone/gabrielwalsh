@@ -1,11 +1,12 @@
 {
-  "institution": "Maryland Institute of Art College",
+  "institution": "Maryland Institute College of Art",
+  "institutionLocation": "Baltimore, MD",
   "roleName": "Adjunct Faculty",
-  "startDate": 2031,
-  "endDate": 1234,
+  "startYear": 2016,
+  "endYear": 2019,
   "body": {
-    "raw": "\nsome info about the classes",
-    "html": "<p>some info about the classes</p>"
+    "raw": "Application Utility, Graduate UX Program",
+    "html": "<p>Application Utility, Graduate UX Program</p>"
   },
   "_id": "academics/MICA.mdx",
   "_raw": {

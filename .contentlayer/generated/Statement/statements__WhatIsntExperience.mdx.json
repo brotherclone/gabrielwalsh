@@ -1,0 +1,16 @@
+{
+  "statement": "What isn't experience?",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "statements/WhatIsntExperience.mdx",
+  "_raw": {
+    "sourceFilePath": "statements/WhatIsntExperience.mdx",
+    "sourceFileName": "WhatIsntExperience.mdx",
+    "sourceFileDir": "statements",
+    "contentType": "mdx",
+    "flattenedPath": "statements/WhatIsntExperience"
+  },
+  "type": "Statement"
+}

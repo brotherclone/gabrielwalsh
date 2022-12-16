@@ -1,0 +1,22 @@
+{
+  "skillName": "Digital Transformation",
+  "startDate": 2005,
+  "skillCategory": 2,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/DigitalTransformation.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/DigitalTransformation.mdx",
+    "sourceFileName": "DigitalTransformation.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/DigitalTransformation"
+  },
+  "type": "Skill",
+  "yearsInPractice": 17,
+  "skillCategoryName": "Strategy",
+  "skillLevelName": "Skilled"
+}

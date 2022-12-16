@@ -1,0 +1,22 @@
+{
+  "skillName": "Content Modeling",
+  "startDate": 2010,
+  "skillCategory": 2,
+  "skillLevel": 4,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/ContentModeling.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/ContentModeling.mdx",
+    "sourceFileName": "ContentModeling.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/ContentModeling"
+  },
+  "type": "Skill",
+  "yearsInPractice": 12,
+  "skillCategoryName": "Strategy",
+  "skillLevelName": "Expert"
+}

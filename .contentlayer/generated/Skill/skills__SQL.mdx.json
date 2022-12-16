@@ -1,0 +1,22 @@
+{
+  "skillName": "MySQL/Postgresql",
+  "startDate": 1998,
+  "skillCategory": 0,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/SQL.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/SQL.mdx",
+    "sourceFileName": "SQL.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/SQL"
+  },
+  "type": "Skill",
+  "yearsInPractice": 24,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Skilled"
+}

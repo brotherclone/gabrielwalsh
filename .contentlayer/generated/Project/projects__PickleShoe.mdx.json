@@ -1,0 +1,17 @@
+{
+  "title": "One, Two, Pickleshoe!",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/PickleShoe.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/PickleShoe.mdx",
+    "sourceFileName": "PickleShoe.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/PickleShoe"
+  },
+  "type": "Project",
+  "slug": "PickleShoe"
+}
