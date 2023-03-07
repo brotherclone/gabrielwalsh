@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import NavigationMain from '../../components/navigation/main/NavigationMain'
+import BeginContent from '../../components/navigation/univsersal/BeginContent'
 import FooterMain from '../../components/footer/FooterMain'
 import LayoutResume from '../../components/layouts/resume/LayoutResume'
 import {
@@ -49,6 +50,7 @@ export default function Resume() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <NavigationMain />
+      <BeginContent />
       <LayoutResume>
         <h2>Experience</h2>
         {roles}

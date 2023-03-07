@@ -1,5 +1,11 @@
 @import "./styles/typography.module";
 
+.statementContainer{
+  background-color: var(--secondary-color-darker);
+  border: 2px solid saddlebrown;
+  width: 100%;
+}
+
 h1.statement {
   @include heading-type(1);
 }
