@@ -3,6 +3,6 @@ import navButtonStyle from './nav-buttons.module.scss'
 
 export default function NavButton({ href, text }) {
   return (
-    <Link href={href} className={navButtonStyle.navButton}>{text}</Link>
+    <Link tabIndex={0} href={href} className={navButtonStyle.navButton}>{text}</Link>
   )
 }

@@ -16,11 +16,11 @@ export const Role = defineDocumentType(() => ({
       type: 'number',
       required: false
     },
-    company: {
+    organization: {
       type: 'string',
       required: true
     },
-    companyLocations: {
+    organizationLocations: {
       type: 'string',
       required: true
     },

@@ -2,8 +2,8 @@
   "roleName": "Product Architect",
   "startYear": 1998,
   "endYear": 2000,
-  "company": "News Digital",
-  "companyLocations": "NYC, NY",
+  "organization": "News Digital",
+  "organizationLocations": "NYC, NY",
   "wasRemote": false,
   "body": {
     "raw": "Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",

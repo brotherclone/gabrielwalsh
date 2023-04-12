@@ -1,5 +1,5 @@
 import { defineDocumentType } from 'contentlayer/source-files'
-export const Eductation = defineDocumentType(() => ({
+export const Education = defineDocumentType(() => ({
   name: 'Educational',
   filePathPattern: 'education/*.mdx',
   bodyType: 'mdx',

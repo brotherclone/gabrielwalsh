@@ -57,8 +57,8 @@ export type Role = {
   roleName: string
   startYear: number
   endYear?: number | undefined
-  company: string
-  companyLocations: string
+  organization: string
+  organizationLocations: string
   wasRemote?: boolean | undefined
   /** Markdown file body */
   body: Markdown

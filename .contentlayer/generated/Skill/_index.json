@@ -17,7 +17,7 @@
       "flattenedPath": "skills/2D"
     },
     "type": "Skill",
-    "yearsInPractice": 19,
+    "yearsInPractice": 20,
     "skillCategoryName": "Design",
     "skillLevelName": "Intermediate"
   },
@@ -39,7 +39,7 @@
       "flattenedPath": "skills/3D"
     },
     "type": "Skill",
-    "yearsInPractice": 26,
+    "yearsInPractice": 27,
     "skillCategoryName": "Design",
     "skillLevelName": "Intermediate"
   },
@@ -61,7 +61,7 @@
       "flattenedPath": "skills/AfterEffects"
     },
     "type": "Skill",
-    "yearsInPractice": 24,
+    "yearsInPractice": 25,
     "skillCategoryName": "Design",
     "skillLevelName": "Skilled"
   },
@@ -83,7 +83,7 @@
       "flattenedPath": "skills/Analytics"
     },
     "type": "Skill",
-    "yearsInPractice": 17,
+    "yearsInPractice": 18,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Skilled"
   },
@@ -105,7 +105,7 @@
       "flattenedPath": "skills/Arduino"
     },
     "type": "Skill",
-    "yearsInPractice": 17,
+    "yearsInPractice": 18,
     "skillCategoryName": "Development",
     "skillLevelName": "Intermediate"
   },
@@ -127,7 +127,7 @@
       "flattenedPath": "skills/CSS"
     },
     "type": "Skill",
-    "yearsInPractice": 11,
+    "yearsInPractice": 12,
     "skillCategoryName": "Development",
     "skillLevelName": "Advanced"
   },
@@ -149,7 +149,7 @@
       "flattenedPath": "skills/ConceptDevelopment"
     },
     "type": "Skill",
-    "yearsInPractice": 17,
+    "yearsInPractice": 18,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Advanced"
   },
@@ -171,7 +171,7 @@
       "flattenedPath": "skills/ContentModeling"
     },
     "type": "Skill",
-    "yearsInPractice": 12,
+    "yearsInPractice": 13,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Expert"
   },
@@ -193,7 +193,7 @@
       "flattenedPath": "skills/DesignThinking"
     },
     "type": "Skill",
-    "yearsInPractice": 16,
+    "yearsInPractice": 17,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Advanced"
   },
@@ -215,7 +215,7 @@
       "flattenedPath": "skills/DigitalTransformation"
     },
     "type": "Skill",
-    "yearsInPractice": 17,
+    "yearsInPractice": 18,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Skilled"
   },
@@ -237,7 +237,7 @@
       "flattenedPath": "skills/FinalCut"
     },
     "type": "Skill",
-    "yearsInPractice": 17,
+    "yearsInPractice": 18,
     "skillCategoryName": "Design",
     "skillLevelName": "Skilled"
   },
@@ -259,7 +259,7 @@
       "flattenedPath": "skills/FocusGroups"
     },
     "type": "Skill",
-    "yearsInPractice": 20,
+    "yearsInPractice": 21,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Skilled"
   },
@@ -281,7 +281,7 @@
       "flattenedPath": "skills/GraphDB"
     },
     "type": "Skill",
-    "yearsInPractice": 6,
+    "yearsInPractice": 7,
     "skillCategoryName": "Development",
     "skillLevelName": "Skilled"
   },
@@ -303,7 +303,7 @@
       "flattenedPath": "skills/HTML"
     },
     "type": "Skill",
-    "yearsInPractice": 27,
+    "yearsInPractice": 28,
     "skillCategoryName": "Development",
     "skillLevelName": "Advanced"
   },
@@ -325,7 +325,7 @@
       "flattenedPath": "skills/Illustrator"
     },
     "type": "Skill",
-    "yearsInPractice": 24,
+    "yearsInPractice": 25,
     "skillCategoryName": "Design",
     "skillLevelName": "Expert"
   },
@@ -347,7 +347,7 @@
       "flattenedPath": "skills/InDesign"
     },
     "type": "Skill",
-    "yearsInPractice": 12,
+    "yearsInPractice": 13,
     "skillCategoryName": "Design",
     "skillLevelName": "Skilled"
   },
@@ -369,7 +369,7 @@
       "flattenedPath": "skills/JavaScript"
     },
     "type": "Skill",
-    "yearsInPractice": 24,
+    "yearsInPractice": 25,
     "skillCategoryName": "Development",
     "skillLevelName": "Expert"
   },
@@ -391,7 +391,7 @@
       "flattenedPath": "skills/Logic"
     },
     "type": "Skill",
-    "yearsInPractice": 17,
+    "yearsInPractice": 18,
     "skillCategoryName": "Design",
     "skillLevelName": "Expert"
   },
@@ -413,7 +413,7 @@
       "flattenedPath": "skills/ML"
     },
     "type": "Skill",
-    "yearsInPractice": 6,
+    "yearsInPractice": 7,
     "skillCategoryName": "Development",
     "skillLevelName": "Intermediate"
   },
@@ -435,7 +435,7 @@
       "flattenedPath": "skills/Photoshop"
     },
     "type": "Skill",
-    "yearsInPractice": 27,
+    "yearsInPractice": 28,
     "skillCategoryName": "Design",
     "skillLevelName": "Advanced"
   },
@@ -457,7 +457,7 @@
       "flattenedPath": "skills/ProductManagement"
     },
     "type": "Skill",
-    "yearsInPractice": 20,
+    "yearsInPractice": 21,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Advanced"
   },
@@ -479,7 +479,7 @@
       "flattenedPath": "skills/Python"
     },
     "type": "Skill",
-    "yearsInPractice": 7,
+    "yearsInPractice": 8,
     "skillCategoryName": "Development",
     "skillLevelName": "Skilled"
   },
@@ -501,7 +501,7 @@
       "flattenedPath": "skills/React"
     },
     "type": "Skill",
-    "yearsInPractice": 6,
+    "yearsInPractice": 7,
     "skillCategoryName": "Development",
     "skillLevelName": "Advanced"
   },
@@ -523,7 +523,7 @@
       "flattenedPath": "skills/Ruby"
     },
     "type": "Skill",
-    "yearsInPractice": 8,
+    "yearsInPractice": 9,
     "skillCategoryName": "Development",
     "skillLevelName": "Advanced"
   },
@@ -545,7 +545,7 @@
       "flattenedPath": "skills/SQL"
     },
     "type": "Skill",
-    "yearsInPractice": 24,
+    "yearsInPractice": 25,
     "skillCategoryName": "Development",
     "skillLevelName": "Skilled"
   },
@@ -567,7 +567,7 @@
       "flattenedPath": "skills/Swift"
     },
     "type": "Skill",
-    "yearsInPractice": 5,
+    "yearsInPractice": 6,
     "skillCategoryName": "Development",
     "skillLevelName": "Skilled"
   },
@@ -589,7 +589,7 @@
       "flattenedPath": "skills/Unity"
     },
     "type": "Skill",
-    "yearsInPractice": 10,
+    "yearsInPractice": 11,
     "skillCategoryName": "Development",
     "skillLevelName": "Skilled"
   },
@@ -611,7 +611,7 @@
       "flattenedPath": "skills/UserCentricDesign"
     },
     "type": "Skill",
-    "yearsInPractice": 17,
+    "yearsInPractice": 18,
     "skillCategoryName": "Design",
     "skillLevelName": "Expert"
   },
@@ -633,7 +633,7 @@
       "flattenedPath": "skills/UserTesting"
     },
     "type": "Skill",
-    "yearsInPractice": 20,
+    "yearsInPractice": 21,
     "skillCategoryName": "Strategy",
     "skillLevelName": "Advanced"
   },
@@ -655,7 +655,7 @@
       "flattenedPath": "skills/XD"
     },
     "type": "Skill",
-    "yearsInPractice": 5,
+    "yearsInPractice": 6,
     "skillCategoryName": "Design",
     "skillLevelName": "Expert"
   }

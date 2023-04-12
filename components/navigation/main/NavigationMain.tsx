@@ -10,7 +10,7 @@ export default function NavigationMain() {
         <NavButton text={'Home'} href={'/'} />
         <NavButton text={'Portfolio'} href={'/portfolio'} />
         <NavButton text={'About'} href={'/about'} />
-        <NavButton text={'Resume'} href={'/resume'} />
+        <NavButton text={'Résumé'} href={'/resume'} />
       </NavButtonGroup>
     </nav>
   )

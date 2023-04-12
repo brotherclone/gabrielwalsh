@@ -17,8 +17,10 @@ import {
 } from '.contentlayer/generated/types'
 import RoleDisplay from '../../components/roles/RoleDisplay'
 import SkillDisplay from '../../components/skills/SkillDisplay'
-import AcademicExperienceDisplay from '../../components/layouts/academics/AcademicExperienceDisplay'
+import AcademicDisplay from '../../components/academicExperiences/AcademicDisplay'
 import EducationalDisplay from '../../components/educationalExperiences/EducationDisplay'
+import resumePageStyle from './resume.module.scss'
+
 export default function Resume() {
   const title =
     'Gabriel Walsh: Creative Technologist, Experience Designer | Résumé'
@@ -29,7 +31,7 @@ export default function Resume() {
   })
   const academics = allAcademics.map((academic: AcademicType, index) => {
     return (
-      <AcademicExperienceDisplay academic={academic} key={index}/>
+      <AcademicDisplay academic={academic} key={index}/>
     )
   })
   const skills = allSkills.map((skill: SkillType, index) => {
@@ -52,13 +54,13 @@ export default function Resume() {
       <NavigationMain />
       <BeginContent />
       <LayoutResume>
-        <h2>Experience</h2>
+        <h2 className={resumePageStyle.sectionTitles}>Experience</h2>
         {roles}
-        <h2>Academic</h2>
+        <h2 className={resumePageStyle.sectionTitles}>Academic</h2>
         {academics}
-        <h2>Skills</h2>
+        <h2 className={resumePageStyle.sectionTitles}>Skills</h2>
         {skills}
-        <h2>Education</h2>
+        <h2 className={resumePageStyle.sectionTitles}>Education</h2>
         {educationals}
       </LayoutResume>
       <FooterMain />

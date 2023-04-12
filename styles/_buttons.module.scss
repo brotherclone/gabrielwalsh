@@ -2,15 +2,16 @@
 @import "typography.module";
 
 
-@mixin portfolio-buttons($btn-font-color: var(--foreground-color), $btn-bg-color: var(--background-color)){
+@mixin portfolio-buttons($btn-font-color: var(--foreground-color), $btn-bg-color: var(--background-color), $btn-hover-color:var(--secondary-color)){
   display: inline-block;
   padding: 0.5rem 1rem 0.5rem 1rem;
   color: $btn-font-color;
   background-color: $btn-bg-color;
   text-decoration: none;
   @include body-type();
-  border: 1px solid $btn-font-color;
+  text-transform: lowercase;
   &:hover{
+    color: $btn-hover-color;
     cursor: pointer;
   }
 }

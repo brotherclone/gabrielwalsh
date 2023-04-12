@@ -1,11 +1,19 @@
 .footerNav{
   width: 100%;
   min-height: 10rem;
+  display: flex;
+  justify-content: flex-end;
   .inner{
       min-height: 3rem;
+      margin-right: 2rem;
     ul{
       list-style: none;
+      display: flex;
+      flex-direction: column;
+      font-weight: 100;
+      text-transform: lowercase;
       li{
+        text-align: right;
         a{
           text-decoration: none;
         }

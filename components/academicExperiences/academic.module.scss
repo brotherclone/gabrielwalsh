@@ -1,0 +1,24 @@
+.academicContainer{
+  border: 1px solid brown;
+  .academicInstitution{
+    border: 1px solid brown;
+  }
+  .academicInstitutionLocation{
+    border: 1px solid brown;
+  }
+  .academicRoleName{
+    border: 1px solid brown;
+  }
+  .academicDuration{
+    border: 1px solid brown;
+    .startYear{
+      border: 1px solid forestgreen;
+    }
+    .endYear{
+      border: 1px solid forestgreen;
+    }
+  }
+  .academicDescription{
+    border: 1px solid brown;
+  }
+}
