@@ -4,6 +4,7 @@ export const Academic = defineDocumentType(() => ({
   filePathPattern: 'academics/*.mdx',
   bodyType: 'mdx',
   fields: {
+    logoPath: { type: 'string', required: false },
     institution: { type: 'string', required: true },
     institutionLocation: { type: 'string', required: true },
     roleName: { type: 'string', required: false },

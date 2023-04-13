@@ -5,9 +5,10 @@ import BeginContent from '../../components/navigation/univsersal/BeginContent'
 import FooterMain from '../../components/footer/FooterMain'
 import Biography from '../../components/layouts/about/Biography.mdx'
 import Contact from '../../components/layouts/about/Contact.mdx'
+import { PageTitleHelper } from '../../helpers/PageTitleHelper'
 
 export default function About() {
-  const title = 'Gabriel Walsh: Creative Technologist, Experience Designer | About'
+  const title = PageTitleHelper.pageTitle(true, true, 'About')
   return (
     <>
       <Head>

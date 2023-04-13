@@ -19,13 +19,13 @@ import RoleDisplay from '../../components/roles/RoleDisplay'
 import SkillDisplay from '../../components/skills/SkillDisplay'
 import AcademicDisplay from '../../components/academicExperiences/AcademicDisplay'
 import EducationalDisplay from '../../components/educationalExperiences/EducationDisplay'
+import { PageTitleHelper } from '../../helpers/PageTitleHelper'
 import resumePageStyle from './resume.module.scss'
 
 export default function Resume() {
-  const title =
-    'Gabriel Walsh: Creative Technologist, Experience Designer | Résumé'
-  allRoles.sort((a, b) => a.startYear.toString().localeCompare(b.startYear.toString()))
-  allAcademics.sort((a, b) => a.startYear.toString().localeCompare(b.startYear.toString()))
+  const title = PageTitleHelper.pageTitle(true, true, 'Résumé')
+  allRoles.sort((b, a) => a.startYear.toString().localeCompare(b.startYear.toString()))
+  allAcademics.sort((b, a) => a.startYear.toString().localeCompare(b.startYear.toString()))
   const roles = allRoles.map((role: RoleType, index) => {
     return <RoleDisplay role={role} key={index}/>
   })

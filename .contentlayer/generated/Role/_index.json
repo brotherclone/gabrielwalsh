@@ -1,5 +1,6 @@
 [
   {
+    "logoPath": "/images/logos/adobe.png",
     "roleName": "Sr. UX Architect",
     "startYear": 2014,
     "endYear": 2017,
@@ -21,6 +22,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/huge.webp",
     "roleName": "UX Lead",
     "startYear": 2013,
     "endYear": 2014,
@@ -42,6 +44,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/LEGO.png",
     "roleName": "Experience Integration Architect",
     "startYear": 2000,
     "endYear": 2010,
@@ -63,6 +66,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/laureate.webp",
     "roleName": "Sr. Application Designer",
     "startYear": 2012,
     "endYear": 2013,
@@ -84,6 +88,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/moleskine.png",
     "roleName": "Sr. UX Architect",
     "startYear": 2017,
     "endYear": 2021,
@@ -105,6 +110,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/newscorp.jpeg",
     "roleName": "Product Architect",
     "startYear": 1998,
     "endYear": 2000,
@@ -126,6 +132,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/oracle.jpg",
     "roleName": "Product Architect",
     "startYear": 2021,
     "endYear": 0,
@@ -147,6 +154,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/psf.png",
     "roleName": "Assoc. Producer",
     "startYear": 1997,
     "endYear": 1998,
@@ -168,6 +176,7 @@
     "type": "Role"
   },
   {
+    "logoPath": "/images/logos/threespot.jpeg",
     "roleName": "Sr. UX Lead",
     "startYear": 2010,
     "endYear": 2012,

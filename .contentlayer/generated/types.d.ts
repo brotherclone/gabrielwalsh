@@ -13,6 +13,7 @@ export type Academic = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Academic'
+  logoPath?: string | undefined
   institution: string
   institutionLocation: string
   roleName?: string | undefined
@@ -28,6 +29,7 @@ export type Educational = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Educational'
+  logoPath?: string | undefined
   institution: string
   degree?: string | undefined
   honorariums?: string | undefined
@@ -54,6 +56,7 @@ export type Role = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Role'
+  logoPath?: string | undefined
   roleName: string
   startYear: number
   endYear?: number | undefined

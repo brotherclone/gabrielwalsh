@@ -2,9 +2,10 @@ import Head from 'next/head'
 import NavigationMain from '../../components/navigation/main/NavigationMain'
 import BeginContent from '../../components/navigation/univsersal/BeginContent'
 import FooterMain from '../../components/footer/FooterMain'
+import { PageTitleHelper } from '../../helpers/PageTitleHelper'
+
 export default function Portfolio() {
-  const title =
-    'Gabriel Walsh: Creative Technologist, Experience Designer | Portfolio'
+  const title = PageTitleHelper.pageTitle(true, true, 'Portfolio')
   return (
     <>
       <Head>

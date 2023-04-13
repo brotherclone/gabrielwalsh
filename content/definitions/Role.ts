@@ -4,6 +4,10 @@ export const Role = defineDocumentType(() => ({
   filePathPattern: 'roles/*.mdx',
   bodyType: 'mdx',
   fields: {
+    logoPath: {
+      type: 'string',
+      required: false
+    },
     roleName: {
       type: 'string',
       required: true

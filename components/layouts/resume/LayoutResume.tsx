@@ -6,5 +6,5 @@ export default function LayoutResume({
 }: {
   children: React.ReactNode
 }) {
-  return <div className={layoutStyle.container}>{children}</div>
+  return <div className={layoutStyle.resumeContainer}>{children}</div>
 }
