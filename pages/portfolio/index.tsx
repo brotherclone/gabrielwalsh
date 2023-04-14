@@ -13,9 +13,17 @@ export default function Portfolio() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <NavigationMain/>
+      <NavigationMain />
       <BeginContent />
-      <FooterMain/>
+      <form action={'/api/portfolio-access'} method={'post'}>
+        <div>
+          <div>
+            <input type={'text'} name={'password'} />
+            <button>Log In</button>
+          </div>
+        </div>
+      </form>
+      <FooterMain />
     </>
   )
 }

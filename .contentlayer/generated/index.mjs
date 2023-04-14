@@ -4,14 +4,14 @@ export { isType } from 'contentlayer/client'
 
 // NOTE During development Contentlayer imports from `.mjs` files to improve HMR speeds.
 // During (production) builds Contentlayer it imports from `.json` files to improve build performance.
-import allAcademics from './Academic/_index.json' assert { type: 'json' }
-import allEducationals from './Educational/_index.json' assert { type: 'json' }
-import allProjects from './Project/_index.json' assert { type: 'json' }
-import allRoles from './Role/_index.json' assert { type: 'json' }
-import allSkills from './Skill/_index.json' assert { type: 'json' }
-import allStatements from './Statement/_index.json' assert { type: 'json' }
-import allSubjects from './Subject/_index.json' assert { type: 'json' }
-import allUseCases from './UseCase/_index.json' assert { type: 'json' }
+import { allAcademics } from './Academic/_index.mjs'
+import { allEducationals } from './Educational/_index.mjs'
+import { allProjects } from './Project/_index.mjs'
+import { allRoles } from './Role/_index.mjs'
+import { allSkills } from './Skill/_index.mjs'
+import { allStatements } from './Statement/_index.mjs'
+import { allSubjects } from './Subject/_index.mjs'
+import { allUseCases } from './UseCase/_index.mjs'
 
 export { allAcademics, allEducationals, allProjects, allRoles, allSkills, allStatements, allSubjects, allUseCases }
 
