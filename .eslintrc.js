@@ -3,7 +3,11 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['plugin:@next/next/recommended', 'standard-with-typescript'],
+  extends: [
+    'plugin:@next/next/recommended',
+    'standard-with-typescript',
+    'prettier'
+  ],
   overrides: [
     {
       files: ['*.jsx', '*.tsx'],

@@ -1,5 +1,6 @@
 [
   {
+    "logoPath": "/images/logos/johnshopkins.png",
     "institution": "Johns Hopkins",
     "institutionLocation": "Washington, DC",
     "roleName": "Adjunct Faculty",
@@ -20,6 +21,7 @@
     "type": "Academic"
   },
   {
+    "logoPath": "/images/logos/MICA.png",
     "institution": "Maryland Institute College of Art",
     "institutionLocation": "Baltimore, MD",
     "roleName": "Adjunct Faculty",
