@@ -1,0 +1,22 @@
+{
+  "skillName": "Arduino & Electronics",
+  "startDate": 2005,
+  "skillCategory": 0,
+  "skillLevel": 1,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Arduino.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Arduino.mdx",
+    "sourceFileName": "Arduino.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Arduino"
+  },
+  "type": "Skill",
+  "yearsInPractice": 18,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Intermediate"
+}

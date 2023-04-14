@@ -1,0 +1,16 @@
+{
+  "subjectName": "Energy",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "subjects/Energy.mdx",
+  "_raw": {
+    "sourceFilePath": "subjects/Energy.mdx",
+    "sourceFileName": "Energy.mdx",
+    "sourceFileDir": "subjects",
+    "contentType": "mdx",
+    "flattenedPath": "subjects/Energy"
+  },
+  "type": "Subject"
+}

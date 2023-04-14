@@ -1,0 +1,22 @@
+{
+  "skillName": "User Centric Design",
+  "startDate": 2005,
+  "skillCategory": 1,
+  "skillLevel": 4,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/UserCentricDesign.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/UserCentricDesign.mdx",
+    "sourceFileName": "UserCentricDesign.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/UserCentricDesign"
+  },
+  "type": "Skill",
+  "yearsInPractice": 18,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Expert"
+}

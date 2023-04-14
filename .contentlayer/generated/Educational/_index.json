@@ -1,0 +1,23 @@
+[
+  {
+    "logoPath": "/images/logos/purchase.png",
+    "institution": "State University of New York at Purchase",
+    "degree": "BFA, Film",
+    "honorariums": "Summa Cum Laude",
+    "startYear": 1993,
+    "endYear": 1997,
+    "body": {
+      "raw": "King Scholarship for Film Studies, Tara Wyme Technicolor Award, Torrell Post-Production Award, Film Department Achievement Award\n",
+      "html": "<p>King Scholarship for Film Studies, Tara Wyme Technicolor Award, Torrell Post-Production Award, Film Department Achievement Award</p>"
+    },
+    "_id": "education/Purchase.mdx",
+    "_raw": {
+      "sourceFilePath": "education/Purchase.mdx",
+      "sourceFileName": "Purchase.mdx",
+      "sourceFileDir": "education",
+      "contentType": "mdx",
+      "flattenedPath": "education/Purchase"
+    },
+    "type": "Educational"
+  }
+]

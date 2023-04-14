@@ -1,0 +1,22 @@
+{
+  "skillName": "Final Cut Pro",
+  "startDate": 2005,
+  "skillCategory": 1,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/FinalCut.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/FinalCut.mdx",
+    "sourceFileName": "FinalCut.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/FinalCut"
+  },
+  "type": "Skill",
+  "yearsInPractice": 18,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Skilled"
+}

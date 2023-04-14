@@ -1,0 +1,22 @@
+{
+  "skillName": "Traditional Animation",
+  "startDate": 2003,
+  "skillCategory": 1,
+  "skillLevel": 1,
+  "body": {
+    "raw": "SVA Introduction to Animation I && II",
+    "html": "<p>SVA Introduction to Animation I &#x26;&#x26; II</p>"
+  },
+  "_id": "skills/2D.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/2D.mdx",
+    "sourceFileName": "2D.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/2D"
+  },
+  "type": "Skill",
+  "yearsInPractice": 20,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Intermediate"
+}

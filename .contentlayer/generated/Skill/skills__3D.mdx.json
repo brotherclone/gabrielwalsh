@@ -1,0 +1,22 @@
+{
+  "skillName": "3D Modeling & Animation",
+  "startDate": 1996,
+  "skillCategory": 1,
+  "skillLevel": 1,
+  "body": {
+    "raw": "Modeling, Painting and Rendering for video, games, vr, and web applications",
+    "html": "<p>Modeling, Painting and Rendering for video, games, vr, and web applications</p>"
+  },
+  "_id": "skills/3D.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/3D.mdx",
+    "sourceFileName": "3D.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/3D"
+  },
+  "type": "Skill",
+  "yearsInPractice": 27,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Intermediate"
+}

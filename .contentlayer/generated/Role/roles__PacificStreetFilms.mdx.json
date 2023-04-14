@@ -1,0 +1,22 @@
+{
+  "logoPath": "/images/logos/psf.png",
+  "roleName": "Assoc. Producer",
+  "startYear": 1997,
+  "endYear": 1998,
+  "organization": "Pacific Street Films",
+  "organizationLocations": "Hastings-on-Hudson, NY",
+  "wasRemote": false,
+  "body": {
+    "raw": "Associate Producer for Lifetime's Intimate Portraits series. Production on the History Channel's Warrior Series\n",
+    "html": "<p>Associate Producer for Lifetime's Intimate Portraits series. Production on the History Channel's Warrior Series</p>"
+  },
+  "_id": "roles/PacificStreetFilms.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/PacificStreetFilms.mdx",
+    "sourceFileName": "PacificStreetFilms.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/PacificStreetFilms"
+  },
+  "type": "Role"
+}

@@ -1,0 +1,22 @@
+{
+  "logoPath": "/images/logos/adobe.png",
+  "roleName": "Sr. UX Architect",
+  "startYear": 2014,
+  "endYear": 2017,
+  "organization": "Adobe",
+  "organizationLocations": "McLean, VA",
+  "wasRemote": false,
+  "body": {
+    "raw": "Providing guidance for clients and Adobe Partners executing projects in Adobe Marketing Cloud within the US Intelligence Community. Maintained Secret Clearance.\n",
+    "html": "<p>Providing guidance for clients and Adobe Partners executing projects in Adobe Marketing Cloud within the US Intelligence Community. Maintained Secret Clearance.</p>"
+  },
+  "_id": "roles/Adobe.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/Adobe.mdx",
+    "sourceFileName": "Adobe.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/Adobe"
+  },
+  "type": "Role"
+}

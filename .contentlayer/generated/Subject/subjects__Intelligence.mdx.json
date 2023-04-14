@@ -1,0 +1,16 @@
+{
+  "subjectName": "Intilligence",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "subjects/Intelligence.mdx",
+  "_raw": {
+    "sourceFilePath": "subjects/Intelligence.mdx",
+    "sourceFileName": "Intelligence.mdx",
+    "sourceFileDir": "subjects",
+    "contentType": "mdx",
+    "flattenedPath": "subjects/Intelligence"
+  },
+  "type": "Subject"
+}

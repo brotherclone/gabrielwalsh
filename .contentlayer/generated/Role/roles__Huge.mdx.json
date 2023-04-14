@@ -1,0 +1,22 @@
+{
+  "logoPath": "/images/logos/huge.webp",
+  "roleName": "UX Lead",
+  "startYear": 2013,
+  "endYear": 2014,
+  "organization": "Huge",
+  "organizationLocations": "Washington, DC",
+  "wasRemote": false,
+  "body": {
+    "raw": "Management of Interaction Designers, Cross department leadership, account lead on projects for the Dept. of Energy, Stantec, and AXA.",
+    "html": "<p>Management of Interaction Designers, Cross department leadership, account lead on projects for the Dept. of Energy, Stantec, and AXA.</p>"
+  },
+  "_id": "roles/Huge.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/Huge.mdx",
+    "sourceFileName": "Huge.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/Huge"
+  },
+  "type": "Role"
+}

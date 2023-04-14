@@ -1,0 +1,16 @@
+{
+  "title": "Title",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "useCases/MyLEGONetwork.mdx",
+  "_raw": {
+    "sourceFilePath": "useCases/MyLEGONetwork.mdx",
+    "sourceFileName": "MyLEGONetwork.mdx",
+    "sourceFileDir": "useCases",
+    "contentType": "mdx",
+    "flattenedPath": "useCases/MyLEGONetwork"
+  },
+  "type": "UseCase"
+}

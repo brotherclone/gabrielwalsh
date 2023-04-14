@@ -1,0 +1,22 @@
+{
+  "skillName": "Swift",
+  "startDate": 2017,
+  "skillCategory": 0,
+  "skillLevel": 2,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Swift.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Swift.mdx",
+    "sourceFileName": "Swift.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Swift"
+  },
+  "type": "Skill",
+  "yearsInPractice": 6,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Skilled"
+}

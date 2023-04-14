@@ -1,0 +1,22 @@
+{
+  "skillName": "CSS/SCSS",
+  "startDate": 2011,
+  "skillCategory": 0,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/CSS.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/CSS.mdx",
+    "sourceFileName": "CSS.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/CSS"
+  },
+  "type": "Skill",
+  "yearsInPractice": 12,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Advanced"
+}

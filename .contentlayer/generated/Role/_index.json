@@ -1,0 +1,200 @@
+[
+  {
+    "logoPath": "/images/logos/adobe.png",
+    "roleName": "Sr. UX Architect",
+    "startYear": 2014,
+    "endYear": 2017,
+    "organization": "Adobe",
+    "organizationLocations": "McLean, VA",
+    "wasRemote": false,
+    "body": {
+      "raw": "Providing guidance for clients and Adobe Partners executing projects in Adobe Marketing Cloud within the US Intelligence Community. Maintained Secret Clearance.\n",
+      "html": "<p>Providing guidance for clients and Adobe Partners executing projects in Adobe Marketing Cloud within the US Intelligence Community. Maintained Secret Clearance.</p>"
+    },
+    "_id": "roles/Adobe.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Adobe.mdx",
+      "sourceFileName": "Adobe.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Adobe"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/huge.webp",
+    "roleName": "UX Lead",
+    "startYear": 2013,
+    "endYear": 2014,
+    "organization": "Huge",
+    "organizationLocations": "Washington, DC",
+    "wasRemote": false,
+    "body": {
+      "raw": "Management of Interaction Designers, Cross department leadership, account lead on projects for the Dept. of Energy, Stantec, and AXA.",
+      "html": "<p>Management of Interaction Designers, Cross department leadership, account lead on projects for the Dept. of Energy, Stantec, and AXA.</p>"
+    },
+    "_id": "roles/Huge.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Huge.mdx",
+      "sourceFileName": "Huge.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Huge"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/LEGO.png",
+    "roleName": "Experience Integration Architect",
+    "startYear": 2000,
+    "endYear": 2010,
+    "organization": "LEGO",
+    "organizationLocations": "NYC/London/Denmark",
+    "wasRemote": true,
+    "body": {
+      "raw": "Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.\n\n",
+      "html": "<p>Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.</p>"
+    },
+    "_id": "roles/LEGO.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/LEGO.mdx",
+      "sourceFileName": "LEGO.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/LEGO"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/laureate.webp",
+    "roleName": "Sr. Application Designer",
+    "startYear": 2012,
+    "endYear": 2013,
+    "organization": "Laureate",
+    "organizationLocations": "Baltimore, MD",
+    "wasRemote": false,
+    "body": {
+      "raw": "Experience design for international, online classroom initiative.",
+      "html": "<p>Experience design for international, online classroom initiative.</p>"
+    },
+    "_id": "roles/Laureate.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Laureate.mdx",
+      "sourceFileName": "Laureate.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Laureate"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/moleskine.png",
+    "roleName": "Sr. UX Architect",
+    "startYear": 2017,
+    "endYear": 2021,
+    "organization": "Moleskine",
+    "organizationLocations": "Milan, Italy",
+    "wasRemote": true,
+    "body": {
+      "raw": "UX Design and Product Development on Digital-Physical consumer products with a focus on bringing cognitive computing into the creative process.",
+      "html": "<p>UX Design and Product Development on Digital-Physical consumer products with a focus on bringing cognitive computing into the creative process.</p>"
+    },
+    "_id": "roles/Moleskine.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Moleskine.mdx",
+      "sourceFileName": "Moleskine.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Moleskine"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/newscorp.jpeg",
+    "roleName": "Product Architect",
+    "startYear": 1998,
+    "endYear": 2000,
+    "organization": "News Digital",
+    "organizationLocations": "NYC, NY",
+    "wasRemote": false,
+    "body": {
+      "raw": "Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",
+      "html": "<p>Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.</p>"
+    },
+    "_id": "roles/NewsDigital.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/NewsDigital.mdx",
+      "sourceFileName": "NewsDigital.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/NewsDigital"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/oracle.jpg",
+    "roleName": "Product Architect",
+    "startYear": 2021,
+    "endYear": 0,
+    "organization": "Oracle, Energy & Water",
+    "organizationLocations": "Austin, TX",
+    "wasRemote": true,
+    "body": {
+      "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n",
+      "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>"
+    },
+    "_id": "roles/Oracle.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Oracle.mdx",
+      "sourceFileName": "Oracle.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Oracle"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/psf.png",
+    "roleName": "Assoc. Producer",
+    "startYear": 1997,
+    "endYear": 1998,
+    "organization": "Pacific Street Films",
+    "organizationLocations": "Hastings-on-Hudson, NY",
+    "wasRemote": false,
+    "body": {
+      "raw": "Associate Producer for Lifetime's Intimate Portraits series. Production on the History Channel's Warrior Series\n",
+      "html": "<p>Associate Producer for Lifetime's Intimate Portraits series. Production on the History Channel's Warrior Series</p>"
+    },
+    "_id": "roles/PacificStreetFilms.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/PacificStreetFilms.mdx",
+      "sourceFileName": "PacificStreetFilms.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/PacificStreetFilms"
+    },
+    "type": "Role"
+  },
+  {
+    "logoPath": "/images/logos/threespot.jpeg",
+    "roleName": "Sr. UX Lead",
+    "startYear": 2010,
+    "endYear": 2012,
+    "organization": "Threespot",
+    "organizationLocations": "Washington, DC",
+    "wasRemote": false,
+    "body": {
+      "raw": "User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.\n",
+      "html": "<p>User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.</p>"
+    },
+    "_id": "roles/Threespot.mdx",
+    "_raw": {
+      "sourceFilePath": "roles/Threespot.mdx",
+      "sourceFileName": "Threespot.mdx",
+      "sourceFileDir": "roles",
+      "contentType": "mdx",
+      "flattenedPath": "roles/Threespot"
+    },
+    "type": "Role"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "title": "Title",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "useCases/DataExchange.mdx",
+  "_raw": {
+    "sourceFilePath": "useCases/DataExchange.mdx",
+    "sourceFileName": "DataExchange.mdx",
+    "sourceFileDir": "useCases",
+    "contentType": "mdx",
+    "flattenedPath": "useCases/DataExchange"
+  },
+  "type": "UseCase"
+}

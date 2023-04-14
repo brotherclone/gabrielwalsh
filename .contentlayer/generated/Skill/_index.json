@@ -1,0 +1,662 @@
+[
+  {
+    "skillName": "Traditional Animation",
+    "startDate": 2003,
+    "skillCategory": 1,
+    "skillLevel": 1,
+    "body": {
+      "raw": "SVA Introduction to Animation I && II",
+      "html": "<p>SVA Introduction to Animation I &#x26;&#x26; II</p>"
+    },
+    "_id": "skills/2D.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/2D.mdx",
+      "sourceFileName": "2D.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/2D"
+    },
+    "type": "Skill",
+    "yearsInPractice": 20,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Intermediate"
+  },
+  {
+    "skillName": "3D Modeling & Animation",
+    "startDate": 1996,
+    "skillCategory": 1,
+    "skillLevel": 1,
+    "body": {
+      "raw": "Modeling, Painting and Rendering for video, games, vr, and web applications",
+      "html": "<p>Modeling, Painting and Rendering for video, games, vr, and web applications</p>"
+    },
+    "_id": "skills/3D.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/3D.mdx",
+      "sourceFileName": "3D.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/3D"
+    },
+    "type": "Skill",
+    "yearsInPractice": 27,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Intermediate"
+  },
+  {
+    "skillName": "AfterEffects",
+    "startDate": 1998,
+    "skillCategory": 1,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/AfterEffects.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/AfterEffects.mdx",
+      "sourceFileName": "AfterEffects.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/AfterEffects"
+    },
+    "type": "Skill",
+    "yearsInPractice": 25,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "Analytics",
+    "startDate": 2005,
+    "skillCategory": 2,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Analytics.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Analytics.mdx",
+      "sourceFileName": "Analytics.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Analytics"
+    },
+    "type": "Skill",
+    "yearsInPractice": 18,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "Arduino & Electronics",
+    "startDate": 2005,
+    "skillCategory": 0,
+    "skillLevel": 1,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Arduino.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Arduino.mdx",
+      "sourceFileName": "Arduino.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Arduino"
+    },
+    "type": "Skill",
+    "yearsInPractice": 18,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Intermediate"
+  },
+  {
+    "skillName": "CSS/SCSS",
+    "startDate": 2011,
+    "skillCategory": 0,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/CSS.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/CSS.mdx",
+      "sourceFileName": "CSS.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/CSS"
+    },
+    "type": "Skill",
+    "yearsInPractice": 12,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "Concept Development",
+    "startDate": 2005,
+    "skillCategory": 2,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/ConceptDevelopment.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/ConceptDevelopment.mdx",
+      "sourceFileName": "ConceptDevelopment.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/ConceptDevelopment"
+    },
+    "type": "Skill",
+    "yearsInPractice": 18,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "Content Modeling",
+    "startDate": 2010,
+    "skillCategory": 2,
+    "skillLevel": 4,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/ContentModeling.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/ContentModeling.mdx",
+      "sourceFileName": "ContentModeling.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/ContentModeling"
+    },
+    "type": "Skill",
+    "yearsInPractice": 13,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Expert"
+  },
+  {
+    "skillName": "Design Thinking",
+    "startDate": 2006,
+    "skillCategory": 2,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/DesignThinking.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/DesignThinking.mdx",
+      "sourceFileName": "DesignThinking.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/DesignThinking"
+    },
+    "type": "Skill",
+    "yearsInPractice": 17,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "Digital Transformation",
+    "startDate": 2005,
+    "skillCategory": 2,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/DigitalTransformation.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/DigitalTransformation.mdx",
+      "sourceFileName": "DigitalTransformation.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/DigitalTransformation"
+    },
+    "type": "Skill",
+    "yearsInPractice": 18,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "Final Cut Pro",
+    "startDate": 2005,
+    "skillCategory": 1,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/FinalCut.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/FinalCut.mdx",
+      "sourceFileName": "FinalCut.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/FinalCut"
+    },
+    "type": "Skill",
+    "yearsInPractice": 18,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "Focus Groups",
+    "startDate": 2002,
+    "skillCategory": 2,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/FocusGroups.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/FocusGroups.mdx",
+      "sourceFileName": "FocusGroups.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/FocusGroups"
+    },
+    "type": "Skill",
+    "yearsInPractice": 21,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "GraphDB",
+    "startDate": 2016,
+    "skillCategory": 0,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/GraphDB.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/GraphDB.mdx",
+      "sourceFileName": "GraphDB.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/GraphDB"
+    },
+    "type": "Skill",
+    "yearsInPractice": 7,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "HTML/MarkUp",
+    "startDate": 1995,
+    "skillCategory": 0,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/HTML.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/HTML.mdx",
+      "sourceFileName": "HTML.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/HTML"
+    },
+    "type": "Skill",
+    "yearsInPractice": 28,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "Illustrator",
+    "startDate": 1998,
+    "skillCategory": 1,
+    "skillLevel": 4,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Illustrator.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Illustrator.mdx",
+      "sourceFileName": "Illustrator.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Illustrator"
+    },
+    "type": "Skill",
+    "yearsInPractice": 25,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Expert"
+  },
+  {
+    "skillName": "InDesign",
+    "startDate": 2010,
+    "skillCategory": 1,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/InDesign.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/InDesign.mdx",
+      "sourceFileName": "InDesign.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/InDesign"
+    },
+    "type": "Skill",
+    "yearsInPractice": 13,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "JavaScript",
+    "startDate": 1998,
+    "skillCategory": 0,
+    "skillLevel": 4,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/JavaScript.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/JavaScript.mdx",
+      "sourceFileName": "JavaScript.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/JavaScript"
+    },
+    "type": "Skill",
+    "yearsInPractice": 25,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Expert"
+  },
+  {
+    "skillName": "Logic / Audio Production",
+    "startDate": 2005,
+    "skillCategory": 1,
+    "skillLevel": 4,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Logic.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Logic.mdx",
+      "sourceFileName": "Logic.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Logic"
+    },
+    "type": "Skill",
+    "yearsInPractice": 18,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Expert"
+  },
+  {
+    "skillName": "Machine Learning",
+    "startDate": 2016,
+    "skillCategory": 0,
+    "skillLevel": 1,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/ML.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/ML.mdx",
+      "sourceFileName": "ML.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/ML"
+    },
+    "type": "Skill",
+    "yearsInPractice": 7,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Intermediate"
+  },
+  {
+    "skillName": "Photoshop",
+    "startDate": 1995,
+    "skillCategory": 1,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Photoshop.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Photoshop.mdx",
+      "sourceFileName": "Photoshop.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Photoshop"
+    },
+    "type": "Skill",
+    "yearsInPractice": 28,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "Product Management",
+    "startDate": 2002,
+    "skillCategory": 2,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/ProductManagement.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/ProductManagement.mdx",
+      "sourceFileName": "ProductManagement.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/ProductManagement"
+    },
+    "type": "Skill",
+    "yearsInPractice": 21,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "Python",
+    "startDate": 2015,
+    "skillCategory": 0,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Python.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Python.mdx",
+      "sourceFileName": "Python.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Python"
+    },
+    "type": "Skill",
+    "yearsInPractice": 8,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "React",
+    "startDate": 2016,
+    "skillCategory": 0,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/React.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/React.mdx",
+      "sourceFileName": "React.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/React"
+    },
+    "type": "Skill",
+    "yearsInPractice": 7,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "Ruby",
+    "startDate": 2014,
+    "skillCategory": 0,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Ruby.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Ruby.mdx",
+      "sourceFileName": "Ruby.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Ruby"
+    },
+    "type": "Skill",
+    "yearsInPractice": 9,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "MySQL/Postgresql",
+    "startDate": 1998,
+    "skillCategory": 0,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/SQL.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/SQL.mdx",
+      "sourceFileName": "SQL.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/SQL"
+    },
+    "type": "Skill",
+    "yearsInPractice": 25,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "Swift",
+    "startDate": 2017,
+    "skillCategory": 0,
+    "skillLevel": 2,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/Swift.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Swift.mdx",
+      "sourceFileName": "Swift.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Swift"
+    },
+    "type": "Skill",
+    "yearsInPractice": 6,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "Unity",
+    "startDate": 2012,
+    "skillCategory": 0,
+    "skillLevel": 2,
+    "body": {
+      "raw": "Games, VR, and Creativity applications",
+      "html": "<p>Games, VR, and Creativity applications</p>"
+    },
+    "_id": "skills/Unity.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/Unity.mdx",
+      "sourceFileName": "Unity.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/Unity"
+    },
+    "type": "Skill",
+    "yearsInPractice": 11,
+    "skillCategoryName": "Development",
+    "skillLevelName": "Skilled"
+  },
+  {
+    "skillName": "User Centric Design",
+    "startDate": 2005,
+    "skillCategory": 1,
+    "skillLevel": 4,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/UserCentricDesign.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/UserCentricDesign.mdx",
+      "sourceFileName": "UserCentricDesign.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/UserCentricDesign"
+    },
+    "type": "Skill",
+    "yearsInPractice": 18,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Expert"
+  },
+  {
+    "skillName": "User Testing",
+    "startDate": 2002,
+    "skillCategory": 2,
+    "skillLevel": 3,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/UserTesting.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/UserTesting.mdx",
+      "sourceFileName": "UserTesting.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/UserTesting"
+    },
+    "type": "Skill",
+    "yearsInPractice": 21,
+    "skillCategoryName": "Strategy",
+    "skillLevelName": "Advanced"
+  },
+  {
+    "skillName": "XD/Figma",
+    "startDate": 2017,
+    "skillCategory": 1,
+    "skillLevel": 4,
+    "body": {
+      "raw": "",
+      "html": ""
+    },
+    "_id": "skills/XD.mdx",
+    "_raw": {
+      "sourceFilePath": "skills/XD.mdx",
+      "sourceFileName": "XD.mdx",
+      "sourceFileDir": "skills",
+      "contentType": "mdx",
+      "flattenedPath": "skills/XD"
+    },
+    "type": "Skill",
+    "yearsInPractice": 6,
+    "skillCategoryName": "Design",
+    "skillLevelName": "Expert"
+  }
+]

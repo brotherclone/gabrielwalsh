@@ -1,0 +1,17 @@
+{
+  "title": "Mix Plan",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/MixPlan.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/MixPlan.mdx",
+    "sourceFileName": "MixPlan.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/MixPlan"
+  },
+  "type": "Project",
+  "slug": "MixPlan"
+}

@@ -1,0 +1,22 @@
+{
+  "logoPath": "/images/logos/threespot.jpeg",
+  "roleName": "Sr. UX Lead",
+  "startYear": 2010,
+  "endYear": 2012,
+  "organization": "Threespot",
+  "organizationLocations": "Washington, DC",
+  "wasRemote": false,
+  "body": {
+    "raw": "User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.\n",
+    "html": "<p>User Experience Designer for large scale, non-profit websites. Responsible for information architecture, online branding presence, and strategy. Clients include MacArthur Foundation, Nuclear Threat Initiative, Knight Foundation, FINRA, and the Robert Wood Johnson Foundation.</p>"
+  },
+  "_id": "roles/Threespot.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/Threespot.mdx",
+    "sourceFileName": "Threespot.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/Threespot"
+  },
+  "type": "Role"
+}

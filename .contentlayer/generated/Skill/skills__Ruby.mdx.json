@@ -1,0 +1,22 @@
+{
+  "skillName": "Ruby",
+  "startDate": 2014,
+  "skillCategory": 0,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Ruby.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Ruby.mdx",
+    "sourceFileName": "Ruby.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Ruby"
+  },
+  "type": "Skill",
+  "yearsInPractice": 9,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Advanced"
+}

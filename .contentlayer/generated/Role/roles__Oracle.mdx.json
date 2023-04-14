@@ -1,0 +1,22 @@
+{
+  "logoPath": "/images/logos/oracle.jpg",
+  "roleName": "Product Architect",
+  "startYear": 2021,
+  "endYear": 0,
+  "organization": "Oracle, Energy & Water",
+  "organizationLocations": "Austin, TX",
+  "wasRemote": true,
+  "body": {
+    "raw": "Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.\n\n",
+    "html": "<p>Prototyping, Integration, and Innovation work with in Oracle’s Energy and Water division.</p>"
+  },
+  "_id": "roles/Oracle.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/Oracle.mdx",
+    "sourceFileName": "Oracle.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/Oracle"
+  },
+  "type": "Role"
+}

@@ -1,0 +1,22 @@
+{
+  "skillName": "React",
+  "startDate": 2016,
+  "skillCategory": 0,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/React.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/React.mdx",
+    "sourceFileName": "React.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/React"
+  },
+  "type": "Skill",
+  "yearsInPractice": 7,
+  "skillCategoryName": "Development",
+  "skillLevelName": "Advanced"
+}

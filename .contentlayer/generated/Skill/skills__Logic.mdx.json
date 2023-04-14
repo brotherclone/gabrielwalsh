@@ -1,0 +1,22 @@
+{
+  "skillName": "Logic / Audio Production",
+  "startDate": 2005,
+  "skillCategory": 1,
+  "skillLevel": 4,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Logic.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Logic.mdx",
+    "sourceFileName": "Logic.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Logic"
+  },
+  "type": "Skill",
+  "yearsInPractice": 18,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Expert"
+}

@@ -1,0 +1,22 @@
+{
+  "skillName": "XD/Figma",
+  "startDate": 2017,
+  "skillCategory": 1,
+  "skillLevel": 4,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/XD.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/XD.mdx",
+    "sourceFileName": "XD.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/XD"
+  },
+  "type": "Skill",
+  "yearsInPractice": 6,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Expert"
+}

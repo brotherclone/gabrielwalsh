@@ -1,0 +1,22 @@
+{
+  "logoPath": "/images/logos/newscorp.jpeg",
+  "roleName": "Product Architect",
+  "startYear": 1998,
+  "endYear": 2000,
+  "organization": "News Digital",
+  "organizationLocations": "NYC, NY",
+  "wasRemote": false,
+  "body": {
+    "raw": "Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.\n",
+    "html": "<p>Development, production, and design of FOX broadcast products using interactive video elements and immersive supplemental content.</p>"
+  },
+  "_id": "roles/NewsDigital.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/NewsDigital.mdx",
+    "sourceFileName": "NewsDigital.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/NewsDigital"
+  },
+  "type": "Role"
+}

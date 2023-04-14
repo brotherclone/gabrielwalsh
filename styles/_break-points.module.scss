@@ -1,0 +1,87 @@
+@use 'sass:math';
+
+$breakpoint-min-sm: 45rem;
+$breakpoint-max-xs: math.floor($breakpoint-min-sm - 0.063rem);
+$breakpoint-min-md: 62rem;
+$breakpoint-max-sm: math.floor($breakpoint-min-md - 0.063rem);
+$breakpoint-min-lg: 75rem;
+$breakpoint-max-md: math.floor($breakpoint-min-lg - 0.063rem);
+$breakpoint-min-xl: 120rem;
+$breakpoint-max-lg: math.floor($breakpoint-min-xl - 0.063rem);
+
+$breakpoint-ratios: (
+  'xl': 1,
+  'lg': $breakpoint-min-lg/$breakpoint-min-xl,
+  'md': $breakpoint-min-md/$breakpoint-max-lg,
+  'sm': $breakpoint-min-sm/$breakpoint-max-md,
+  'xs': $breakpoint-max-xs/$breakpoint-max-sm
+);
+
+@function breakpoint-based-ratios($base-value, $break-point) {
+  $value: $base-value;
+  @each $point, $ratio in $breakpoint-ratios {
+    @if ($point == $break-point) {
+      @return $value * $ratio;
+    } @else {
+      $value: $value * $ratio;
+    }
+  }
+  @return $value;
+}
+
+@mixin breakpoint($min: 0, $max: 0) {
+  $type: type_of($min);
+  @if $type == 'string' {
+    @if $min == xs {
+      @media (max-width: $breakpoint-max-xs) {
+        @content;
+      }
+    } @else if $min == sm {
+      @media (min-width: $breakpoint-min-sm) {
+        @content;
+      }
+    } @else if $min == md {
+      @media (min-width: $breakpoint-min-md) {
+        @content;
+      }
+    } @else if $min == lg {
+      @media (min-width: $breakpoint-min-lg) {
+        @content;
+      }
+    } @else if $min == xl {
+      @media (min-width: $breakpoint-min-xl) {
+        @content;
+      }
+    }
+  } @else if $type == number {
+    $query: 'all' !default;
+    @if $min != 0 and $max != 0 {
+      $query: '(min-width: #{$min}) and (max-width: #{$max})';
+    } @else if $min != 0 and $max == 0 {
+      $query: '(min-width: #{$min})';
+    } @else if $min == 0 and $max != 0 {
+      $query: '(max-width: #{$max})';
+    }
+    @media #{$query} {
+      @content;
+    }
+  }
+}
+
+@mixin max-widths-for-breakpoints {
+  @include breakpoint('xs') {
+    max-width: $breakpoint-max-xs;
+  }
+  @include breakpoint('sm') {
+    max-width: $breakpoint-max-sm;
+  }
+  @include breakpoint('md') {
+    max-width: $breakpoint-max-md;
+  }
+  @include breakpoint('lg') {
+    max-width: $breakpoint-max-lg;
+  }
+  @include breakpoint('xl') {
+    max-width: unset;
+  }
+}

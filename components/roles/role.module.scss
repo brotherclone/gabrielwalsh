@@ -1,0 +1,39 @@
+.roleContainer{
+  border: 1px solid red;
+  .roleName{
+    border: 1px solid red;
+    h5{
+      border: 1px solid blue;
+    }
+  }
+  .roleOrganization{
+    border: 1px solid red;
+    h5{
+      border: 1px solid blue;
+    }
+  }
+  .roleOrganizationLogo{
+    border: 1px solid red;
+  }
+  .roleOrganizationLocation{
+    border: 1px solid red;
+    .wasRemote{
+      border: 1px solid blue;
+    }
+  }
+  .roleDuration{
+    border: 1px solid red;
+    .started{
+      border: 1px solid blue;
+    }
+    .ended{
+      border: 1px solid blue;
+    }
+    .current{
+      border: 1px solid blue;
+    }
+  }
+  .roleDescription{
+    border: 1px solid red;
+  }
+}

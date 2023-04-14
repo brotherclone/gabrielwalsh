@@ -1,6 +1,10 @@
-.navButton{
+@import "styles/buttons.module";
 
+.navButton{
+  @include portfolio-buttons();
 }
 .groupContainer{
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

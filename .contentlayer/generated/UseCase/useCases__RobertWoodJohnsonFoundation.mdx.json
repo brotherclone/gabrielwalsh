@@ -1,0 +1,16 @@
+{
+  "title": "Title",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "useCases/RobertWoodJohnsonFoundation.mdx",
+  "_raw": {
+    "sourceFilePath": "useCases/RobertWoodJohnsonFoundation.mdx",
+    "sourceFileName": "RobertWoodJohnsonFoundation.mdx",
+    "sourceFileDir": "useCases",
+    "contentType": "mdx",
+    "flattenedPath": "useCases/RobertWoodJohnsonFoundation"
+  },
+  "type": "UseCase"
+}

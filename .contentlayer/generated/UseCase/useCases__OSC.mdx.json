@@ -1,0 +1,16 @@
+{
+  "title": "Title",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "useCases/OSC.mdx",
+  "_raw": {
+    "sourceFilePath": "useCases/OSC.mdx",
+    "sourceFileName": "OSC.mdx",
+    "sourceFileDir": "useCases",
+    "contentType": "mdx",
+    "flattenedPath": "useCases/OSC"
+  },
+  "type": "UseCase"
+}

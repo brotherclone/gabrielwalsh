@@ -1,0 +1,56 @@
+@import 'break-points.module';
+
+@mixin ratio-font-size($base-size) {
+  @include breakpoint('xl') {
+    font-size: breakpoint-based-ratios($base-size, 'xl');
+  }
+  @include breakpoint('lg') {
+    font-size: breakpoint-based-ratios($base-size, 'lg');
+  }
+  @include breakpoint('md') {
+    font-size: breakpoint-based-ratios($base-size, 'md');
+  }
+  @include breakpoint('sm') {
+    font-size: breakpoint-based-ratios($base-size, 'sm');
+  }
+  @include breakpoint('xs') {
+    font-size: breakpoint-based-ratios($base-size, 'xs');
+  }
+}
+
+@mixin heading-type($lvl: 1) {
+  font-family: 'meno-display', serif;
+  color: var(--foreground-color);
+  line-height: 1.65;
+  @if ($lvl: 1) {
+    @include ratio-font-size(20rem);
+  } @else if($lvl: 2) {
+    @include ratio-font-size(10rem);
+  } @else if($lvl: 3) {
+    @include ratio-font-size(4rem);
+  } @else if($lvl: 4) {
+    @include ratio-font-size(2.875rem);
+  } @else {
+    font-size: 1rem;
+  }
+}
+
+@mixin body-type() {
+  font-family: 'nobel', sans-serif;
+  line-height: 1.5;
+  color: var(--foreground-color);
+}
+
+@mixin reading() {
+  @include body-type();
+  font-weight: 200;
+}
+
+@mixin link-type() {
+  color: var(--secondary-color);
+  transition: color 500ms ease-in-out;
+  &:hover {
+    cursor: pointer;
+    color: var(--secondary-color-lighter);
+  }
+}

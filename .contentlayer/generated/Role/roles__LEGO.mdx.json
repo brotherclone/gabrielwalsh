@@ -1,0 +1,22 @@
+{
+  "logoPath": "/images/logos/LEGO.png",
+  "roleName": "Experience Integration Architect",
+  "startYear": 2000,
+  "endYear": 2010,
+  "organization": "LEGO",
+  "organizationLocations": "NYC/London/Denmark",
+  "wasRemote": true,
+  "body": {
+    "raw": "Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.\n\n",
+    "html": "<p>Lead adviser on digital cross-platform integration products for LEGO, including the mass customization platform, the massively multiplayer game, and the creative social network system. Experience design for innovative hybrid social media/gaming projects and platforms. Key role in creating LEGO’s digital strategy road map.</p>"
+  },
+  "_id": "roles/LEGO.mdx",
+  "_raw": {
+    "sourceFilePath": "roles/LEGO.mdx",
+    "sourceFileName": "LEGO.mdx",
+    "sourceFileDir": "roles",
+    "contentType": "mdx",
+    "flattenedPath": "roles/LEGO"
+  },
+  "type": "Role"
+}

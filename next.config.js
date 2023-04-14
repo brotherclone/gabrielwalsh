@@ -10,7 +10,9 @@ const withMDX = require('@next/mdx')({
   }
 })
 
-module.exports = withMDX({
+const { withContentlayer } = require('next-contentlayer')
+
+module.exports = withMDX(withContentlayer({
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
   images: {
     formats: ['image/webp'],
@@ -21,4 +23,4 @@ module.exports = withMDX({
       }
     ]
   }
-})
+}))

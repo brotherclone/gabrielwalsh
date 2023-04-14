@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import imgStyles from './img.module.scss'
 
-export default function JPGExample () {
+export default function JPGExample() {
   return (
     <div className={imgStyles.main}>
       <div className={imgStyles.example}>

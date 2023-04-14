@@ -1,0 +1,16 @@
+{
+  "title": "Title",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "useCases/InternetOfCreativity.mdx",
+  "_raw": {
+    "sourceFilePath": "useCases/InternetOfCreativity.mdx",
+    "sourceFileName": "InternetOfCreativity.mdx",
+    "sourceFileDir": "useCases",
+    "contentType": "mdx",
+    "flattenedPath": "useCases/InternetOfCreativity"
+  },
+  "type": "UseCase"
+}

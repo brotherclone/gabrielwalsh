@@ -1,0 +1,16 @@
+{
+  "subjectName": "Philanthropic Institutions",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "subjects/Philanthropic.mdx",
+  "_raw": {
+    "sourceFilePath": "subjects/Philanthropic.mdx",
+    "sourceFileName": "Philanthropic.mdx",
+    "sourceFileDir": "subjects",
+    "contentType": "mdx",
+    "flattenedPath": "subjects/Philanthropic"
+  },
+  "type": "Subject"
+}

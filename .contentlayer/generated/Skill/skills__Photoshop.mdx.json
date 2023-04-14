@@ -1,0 +1,22 @@
+{
+  "skillName": "Photoshop",
+  "startDate": 1995,
+  "skillCategory": 1,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Photoshop.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Photoshop.mdx",
+    "sourceFileName": "Photoshop.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Photoshop"
+  },
+  "type": "Skill",
+  "yearsInPractice": 28,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Advanced"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "subjectName": "Children's Media",
+    "body": {
+      "raw": "TK",
+      "html": "<p>TK</p>"
+    },
+    "_id": "subjects/ChildrensMedia.mdx",
+    "_raw": {
+      "sourceFilePath": "subjects/ChildrensMedia.mdx",
+      "sourceFileName": "ChildrensMedia.mdx",
+      "sourceFileDir": "subjects",
+      "contentType": "mdx",
+      "flattenedPath": "subjects/ChildrensMedia"
+    },
+    "type": "Subject"
+  },
+  {
+    "subjectName": "Creativity Applications",
+    "body": {
+      "raw": "TK",
+      "html": "<p>TK</p>"
+    },
+    "_id": "subjects/CreativityApps.mdx",
+    "_raw": {
+      "sourceFilePath": "subjects/CreativityApps.mdx",
+      "sourceFileName": "CreativityApps.mdx",
+      "sourceFileDir": "subjects",
+      "contentType": "mdx",
+      "flattenedPath": "subjects/CreativityApps"
+    },
+    "type": "Subject"
+  },
+  {
+    "subjectName": "Educational Applications",
+    "body": {
+      "raw": "TK",
+      "html": "<p>TK</p>"
+    },
+    "_id": "subjects/Education.mdx",
+    "_raw": {
+      "sourceFilePath": "subjects/Education.mdx",
+      "sourceFileName": "Education.mdx",
+      "sourceFileDir": "subjects",
+      "contentType": "mdx",
+      "flattenedPath": "subjects/Education"
+    },
+    "type": "Subject"
+  },
+  {
+    "subjectName": "Energy",
+    "body": {
+      "raw": "TK",
+      "html": "<p>TK</p>"
+    },
+    "_id": "subjects/Energy.mdx",
+    "_raw": {
+      "sourceFilePath": "subjects/Energy.mdx",
+      "sourceFileName": "Energy.mdx",
+      "sourceFileDir": "subjects",
+      "contentType": "mdx",
+      "flattenedPath": "subjects/Energy"
+    },
+    "type": "Subject"
+  },
+  {
+    "subjectName": "Intilligence",
+    "body": {
+      "raw": "TK",
+      "html": "<p>TK</p>"
+    },
+    "_id": "subjects/Intelligence.mdx",
+    "_raw": {
+      "sourceFilePath": "subjects/Intelligence.mdx",
+      "sourceFileName": "Intelligence.mdx",
+      "sourceFileDir": "subjects",
+      "contentType": "mdx",
+      "flattenedPath": "subjects/Intelligence"
+    },
+    "type": "Subject"
+  },
+  {
+    "subjectName": "Interactive Video",
+    "body": {
+      "raw": "TK",
+      "html": "<p>TK</p>"
+    },
+    "_id": "subjects/InteractiveVideo.mdx",
+    "_raw": {
+      "sourceFilePath": "subjects/InteractiveVideo.mdx",
+      "sourceFileName": "InteractiveVideo.mdx",
+      "sourceFileDir": "subjects",
+      "contentType": "mdx",
+      "flattenedPath": "subjects/InteractiveVideo"
+    },
+    "type": "Subject"
+  },
+  {
+    "subjectName": "Philanthropic Institutions",
+    "body": {
+      "raw": "TK",
+      "html": "<p>TK</p>"
+    },
+    "_id": "subjects/Philanthropic.mdx",
+    "_raw": {
+      "sourceFilePath": "subjects/Philanthropic.mdx",
+      "sourceFileName": "Philanthropic.mdx",
+      "sourceFileDir": "subjects",
+      "contentType": "mdx",
+      "flattenedPath": "subjects/Philanthropic"
+    },
+    "type": "Subject"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "skillName": "Illustrator",
+  "startDate": 1998,
+  "skillCategory": 1,
+  "skillLevel": 4,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/Illustrator.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/Illustrator.mdx",
+    "sourceFileName": "Illustrator.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/Illustrator"
+  },
+  "type": "Skill",
+  "yearsInPractice": 25,
+  "skillCategoryName": "Design",
+  "skillLevelName": "Expert"
+}

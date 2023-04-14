@@ -1,0 +1,22 @@
+{
+  "skillName": "Design Thinking",
+  "startDate": 2006,
+  "skillCategory": 2,
+  "skillLevel": 3,
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "skills/DesignThinking.mdx",
+  "_raw": {
+    "sourceFilePath": "skills/DesignThinking.mdx",
+    "sourceFileName": "DesignThinking.mdx",
+    "sourceFileDir": "skills",
+    "contentType": "mdx",
+    "flattenedPath": "skills/DesignThinking"
+  },
+  "type": "Skill",
+  "yearsInPractice": 17,
+  "skillCategoryName": "Strategy",
+  "skillLevelName": "Advanced"
+}

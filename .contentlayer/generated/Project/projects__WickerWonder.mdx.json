@@ -1,0 +1,17 @@
+{
+  "title": "Wicker Wonder",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/WickerWonder.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/WickerWonder.mdx",
+    "sourceFileName": "WickerWonder.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/WickerWonder"
+  },
+  "type": "Project",
+  "slug": "WickerWonder"
+}

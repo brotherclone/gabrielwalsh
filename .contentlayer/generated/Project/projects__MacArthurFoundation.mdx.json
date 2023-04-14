@@ -1,0 +1,17 @@
+{
+  "title": "MacArthur Foundation",
+  "body": {
+    "raw": "TK",
+    "html": "<p>TK</p>"
+  },
+  "_id": "projects/MacArthurFoundation.mdx",
+  "_raw": {
+    "sourceFilePath": "projects/MacArthurFoundation.mdx",
+    "sourceFileName": "MacArthurFoundation.mdx",
+    "sourceFileDir": "projects",
+    "contentType": "mdx",
+    "flattenedPath": "projects/MacArthurFoundation"
+  },
+  "type": "Project",
+  "slug": "MacArthurFoundation"
+}
