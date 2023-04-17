@@ -2,19 +2,13 @@ import Head from 'next/head'
 import NavigationMain from '../../components/navigation/main/NavigationMain'
 import BeginContent from '../../components/navigation/univsersal/BeginContent'
 import FooterMain from '../../components/footer/FooterMain'
-import {
-  allProjects,
-  Project as ProjectType
-} from '../../.contentlayer/generated'
 import { PageTitleHelper } from '../../helpers/PageTitleHelper'
-import PortfolioCard from '../../components/portfolioCards/PortfolioCard'
+import LayoutCheck from '../../components/layouts/check/LayoutCheck'
+import WhyTheLogIn from '../../components/layouts/check/WhyTheLogIn.mdx'
+import CheckForm from '../../components/checkForm/CheckForm'
 
-export default function Portfolio() {
-  const title = PageTitleHelper.pageTitle(true, true, 'Portfolio')
-  const projects = allProjects.map((project: ProjectType, index) => {
-    return <PortfolioCard project={project} key={index} />
-  })
-
+export default function Check() {
+  const title = PageTitleHelper.pageTitle(false, true, 'Checking Access')
   return (
     <>
       <Head>
@@ -24,7 +18,10 @@ export default function Portfolio() {
       </Head>
       <NavigationMain />
       <BeginContent />
-      <>{projects}</>
+      <LayoutCheck>
+        <WhyTheLogIn />
+        <CheckForm />
+      </LayoutCheck>
       <FooterMain />
     </>
   )

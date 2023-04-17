@@ -4,7 +4,6 @@ import NavigationMain from '../components/navigation/main/NavigationMain'
 import BeginContent from '../components/navigation/univsersal/BeginContent'
 import Statement from '../components/statement/Statement'
 import FooterMain from '../components/footer/FooterMain'
-import PortfolioCards from '../components/portfolioCards/PortfolioCards'
 import { PageTitleHelper } from '../helpers/PageTitleHelper'
 export default function Home() {
   const title = PageTitleHelper.pageTitle(true, true)
@@ -19,7 +18,6 @@ export default function Home() {
       <BeginContent />
       <LayoutMain>
         <Statement />
-        <PortfolioCards />
       </LayoutMain>
       <FooterMain />
     </>

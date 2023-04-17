@@ -1,6 +1,5 @@
 enum AccessPaths {
-  requiresAccessPath = '/portfolio',
-  accessAPIPath = '/portfolio-access'
+  redirectToCheck = '/check'
 }
 
 enum CookieKeys {

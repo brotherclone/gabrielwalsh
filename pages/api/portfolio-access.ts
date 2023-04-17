@@ -2,11 +2,10 @@ import { NextApiRequest, NextApiResponse } from 'next'
 import { serialize } from 'cookie'
 import { AccessHelper } from '../../helpers/AccessHelper'
 
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 export default async function portfolioAccessor(
   req: NextApiRequest,
   res: NextApiResponse
-) {
+): Promise<any> {
   if (req.method !== 'POST') {
     res.status(405).send('Invalid Method')
   }
@@ -20,7 +19,7 @@ export default async function portfolioAccessor(
     res.redirect(302, '/')
   } else {
     const url = new URL(
-      AccessHelper.AccessPaths.accessAPIPath,
+      AccessHelper.AccessPaths.redirectToCheck,
       req.headers.origin
     )
     url.searchParams.append('error', 'Invalid Access')
