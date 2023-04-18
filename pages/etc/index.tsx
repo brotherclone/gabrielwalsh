@@ -2,19 +2,13 @@ import Head from 'next/head'
 import NavigationMain from '../../components/navigation/main/NavigationMain'
 import BeginContent from '../../components/navigation/univsersal/BeginContent'
 import FooterMain from '../../components/footer/FooterMain'
-import {
-  allProjects,
-  Project as ProjectType
-} from '../../.contentlayer/generated'
 import { PageTitleHelper } from '../../helpers/PageTitleHelper'
-import PortfolioCard from '../../components/portfolioCards/PortfolioCard'
+import LayoutEtc from '../../components/layouts/etc/LayoutEtc'
+import Legal from '../../components/layouts/etc/Legal.mdx'
+import ThisSite from '../../components/layouts/etc/ThisSite.mdx'
 
-export default function Portfolio() {
-  const title = PageTitleHelper.pageTitle(true, true, 'Portfolio')
-  const projects = allProjects.map((project: ProjectType, index) => {
-    return <PortfolioCard project={project} key={index} />
-  })
-
+export default function About() {
+  const title = PageTitleHelper.pageTitle(true, true, 'Etc.')
   return (
     <>
       <Head>
@@ -24,7 +18,10 @@ export default function Portfolio() {
       </Head>
       <NavigationMain />
       <BeginContent />
-      <>{projects}</>
+      <LayoutEtc>
+        <Legal />
+        <ThisSite />
+      </LayoutEtc>
       <FooterMain />
     </>
   )

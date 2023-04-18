@@ -136,23 +136,6 @@
     "slug": "MyLEGONetwork"
   },
   {
-    "title": "Codename Oscar",
-    "body": {
-      "raw": "TK",
-      "html": "<p>TK</p>"
-    },
-    "_id": "projects/OSC.mdx",
-    "_raw": {
-      "sourceFilePath": "projects/OSC.mdx",
-      "sourceFileName": "OSC.mdx",
-      "sourceFileDir": "projects",
-      "contentType": "mdx",
-      "flattenedPath": "projects/OSC"
-    },
-    "type": "Project",
-    "slug": "OSC"
-  },
-  {
     "title": "Peter Koper",
     "body": {
       "raw": "TK",
@@ -187,7 +170,7 @@
     "slug": "PickleShoe"
   },
   {
-    "title": "Wicker Wonder",
+    "title": "Smart Writing Set",
     "body": {
       "raw": "TK",
       "html": "<p>TK</p>"

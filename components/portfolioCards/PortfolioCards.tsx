@@ -6,13 +6,7 @@ import PortfolioCard from './PortfolioCard'
 
 export default function PortfolioCards() {
   const projectPromos = allProjects.map((projectPromo: ProjectType, index) => {
-    return (
-    <PortfolioCard key={index}/>
-    )
+    return <PortfolioCard project={projectPromo} key={index} />
   })
-  return (
-    <div className={portfolioCardsStyle.cardOuter}>
-      {projectPromos}
-    </div>
-  )
+  return <div className={portfolioCardsStyle.cardOuter}>{projectPromos}</div>
 }

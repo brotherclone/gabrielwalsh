@@ -114,7 +114,7 @@ export type UseCase = {
   title: string
   /** Markdown file body */
   body: Markdown
-
+  slug: string
 }  
 
 /** Nested types */
