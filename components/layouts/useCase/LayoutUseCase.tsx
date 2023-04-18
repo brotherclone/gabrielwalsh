@@ -1,7 +1,7 @@
-import layoutStyle from './layout-portfolio.module.scss'
+import layoutStyle from './layout-use-case.module.scss'
 import React from 'react'
 
-export default function LayoutPortfolio({
+export default function LayoutUseCase({
   children
 }: {
   children: React.ReactNode

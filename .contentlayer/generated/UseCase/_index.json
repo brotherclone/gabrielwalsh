@@ -1,9 +1,9 @@
 [
   {
-    "title": "Title",
+    "title": "Data Exchange",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "TK",
+      "html": "<p>TK</p>"
     },
     "_id": "useCases/DataExchange.mdx",
     "_raw": {
@@ -13,13 +13,14 @@
       "contentType": "mdx",
       "flattenedPath": "useCases/DataExchange"
     },
-    "type": "UseCase"
+    "type": "UseCase",
+    "slug": "DataExchange"
   },
   {
-    "title": "Title",
+    "title": "The Internet of Creativity",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "TK",
+      "html": "<p>TK</p>"
     },
     "_id": "useCases/InternetOfCreativity.mdx",
     "_raw": {
@@ -29,13 +30,14 @@
       "contentType": "mdx",
       "flattenedPath": "useCases/InternetOfCreativity"
     },
-    "type": "UseCase"
+    "type": "UseCase",
+    "slug": "InternetOfCreativity"
   },
   {
-    "title": "Title",
+    "title": "My LEGO Network",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "TK",
+      "html": "<p>TK</p>"
     },
     "_id": "useCases/MyLEGONetwork.mdx",
     "_raw": {
@@ -45,13 +47,14 @@
       "contentType": "mdx",
       "flattenedPath": "useCases/MyLEGONetwork"
     },
-    "type": "UseCase"
+    "type": "UseCase",
+    "slug": "MyLEGONetwork"
   },
   {
-    "title": "Title",
+    "title": "Code Name Oscar",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "TK",
+      "html": "<p>TK</p>"
     },
     "_id": "useCases/OSC.mdx",
     "_raw": {
@@ -61,13 +64,14 @@
       "contentType": "mdx",
       "flattenedPath": "useCases/OSC"
     },
-    "type": "UseCase"
+    "type": "UseCase",
+    "slug": "OSC"
   },
   {
-    "title": "Title",
+    "title": "The Robert Wood Johnson Foundation",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "TK",
+      "html": "<p>TK</p>"
     },
     "_id": "useCases/RobertWoodJohnsonFoundation.mdx",
     "_raw": {
@@ -77,6 +81,7 @@
       "contentType": "mdx",
       "flattenedPath": "useCases/RobertWoodJohnsonFoundation"
     },
-    "type": "UseCase"
+    "type": "UseCase",
+    "slug": "RobertWoodJohnsonFoundation"
   }
 ]

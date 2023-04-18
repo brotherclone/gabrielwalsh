@@ -1,8 +1,8 @@
 {
-  "title": "Title",
+  "title": "Data Exchange",
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "TK",
+    "html": "<p>TK</p>"
   },
   "_id": "useCases/DataExchange.mdx",
   "_raw": {
@@ -12,5 +12,6 @@
     "contentType": "mdx",
     "flattenedPath": "useCases/DataExchange"
   },
-  "type": "UseCase"
+  "type": "UseCase",
+  "slug": "DataExchange"
 }

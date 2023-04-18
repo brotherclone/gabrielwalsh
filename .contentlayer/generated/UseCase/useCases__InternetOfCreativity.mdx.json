@@ -1,8 +1,8 @@
 {
-  "title": "Title",
+  "title": "The Internet of Creativity",
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "TK",
+    "html": "<p>TK</p>"
   },
   "_id": "useCases/InternetOfCreativity.mdx",
   "_raw": {
@@ -12,5 +12,6 @@
     "contentType": "mdx",
     "flattenedPath": "useCases/InternetOfCreativity"
   },
-  "type": "UseCase"
+  "type": "UseCase",
+  "slug": "InternetOfCreativity"
 }

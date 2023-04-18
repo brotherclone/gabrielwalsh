@@ -1,8 +1,8 @@
 {
-  "title": "Title",
+  "title": "Code Name Oscar",
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "TK",
+    "html": "<p>TK</p>"
   },
   "_id": "useCases/OSC.mdx",
   "_raw": {
@@ -12,5 +12,6 @@
     "contentType": "mdx",
     "flattenedPath": "useCases/OSC"
   },
-  "type": "UseCase"
+  "type": "UseCase",
+  "slug": "OSC"
 }

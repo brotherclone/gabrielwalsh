@@ -1,6 +1,7 @@
 import { allProjects } from '.contentlayer/generated'
 import { Project as ProjectType } from '.contentlayer/generated/types'
 import LayoutProject from '../../../components/layouts/portfolio/LayoutProject'
+
 interface ProjectProps {
   project: ProjectType
 }
@@ -13,7 +14,7 @@ export default function ProjectDisplay({ project }: ProjectProps) {
   }
   return (
     <LayoutProject {...project}>
-      <div dangerouslySetInnerHTML={getHTML(project)}/>
+      <div dangerouslySetInnerHTML={getHTML(project)} />
     </LayoutProject>
   )
 }
